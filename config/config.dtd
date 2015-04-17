@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : config.dtd
+    Created on : 20.3.2007, 11.20
+    Author     : Piero Dalle Pezze
+    Description:
+        This is the description of the configuration file of Rainbow
+-->
+
+<!ELEMENT configuration ( application_name, max_number_processes, max_number_resources, max_number_accesses, max_activation_time, max_execution_time,
+                    min_priority, max_priority, min_ceiling_priority, max_ceiling_priority, max_multiplicity, max_quantum,
+                    number_levels_MF_policies, language, theme, look_and_feel )>
+<!ELEMENT application_name (#PCDATA)>
+<!ELEMENT max_number_processes (#PCDATA)>
+<!ELEMENT max_number_resources (#PCDATA)>
+<!ELEMENT max_number_accesses (#PCDATA)>
+<!ELEMENT max_activation_time (#PCDATA)>
+<!ELEMENT max_execution_time (#PCDATA)>
+<!ELEMENT min_priority (#PCDATA)>
+<!ELEMENT max_priority (#PCDATA)>
+<!ELEMENT min_ceiling_priority (#PCDATA)>
+<!ELEMENT max_ceiling_priority (#PCDATA)>
+<!ELEMENT max_multiplicity (#PCDATA)>
+<!ELEMENT max_quantum (#PCDATA)>
+<!ELEMENT number_levels_MF_policies (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT theme (#PCDATA)>
+<!ELEMENT look_and_feel (#PCDATA)>
+
+<!-- end config.dtd -->

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : norwegian.xml
+    Created on : 4 May 2007, 9.52
+    Author     : Piero Dalle Pezze
+    Translation: http://ets.freetranslation.com
+    Description:
+        Norwegian dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Tildeling"/>
+    <word averageResponseTime = "Gjennomsnittlig responstid"/>
+    <word averageTurnAround = "Average turn around time"/>
+    <word averageWaitingTime = "Beregner gjennomsnittet av ventingstid"/>
+    <word blockedProcesses = "Stengt bearbeider"/>
+    <word configurationFile = "Konfigurasjonsarkiv (*.xml)"/>
+    <word cpuUsage = "CPUPraksis"/>
+    <word cpuUsagePercentage = "CPUPraksis (%)"/>
+    <word deadlock = "Stans"/>
+    <word deadlockSimulationTerminated = "Stans. Simulering avsluttet"/>
+    <word delay = "Utsetter (tiende av sekunder)"/>
+    <word graphOfResourcesAssignment = "Grafisk fremstilling av ressurstildeling"/>
+    <word graphOfRunningProcesses = "Grafisk fremstilling av å kjøre prosesser"/>
+    <word hideStatistics = "Gjemmer statistikk"/>
+    <word noQueue = "Ingen kø"/>
+    <word process = "Prosess"/>
+    <word processes = "Prosesser"/>
+    <word readyQueue = "Beredt kø"/>
+    <word resource = "Ressurs"/>
+    <word resources = "Ressurser"/>
+    <word responseTime = "Responstid"/>
+    <word showStatistics = "Viser seg statistikk"/>
+    <word simulationAtInitialState = "Simulering på den første stat"/>
+    <word simulationCompleted = "Simulering fullført"/>
+    <word state = "Stat"/>
+    <word statistics = "Statistikk"/>
+    <word statisticsOfProcesses = "Statistikk av prosesser"/>
+    <word statisticsOfTheSimulation = "Statistikk av simuleringen"/>
+    <word terminated = "Avsluttet"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Ventende tid"/>
+    <word blockedState = "Stengt"/>
+    <word executingState = "å Kjøring"/>
+    <word readyState = "Beredt"/>
+    <word terminatedState = "Avsluttet"/>
+    <word toActivateState = "Aktivisere"/>
+    <word about = "Omtrent "/>
+    <word configurationSummary = "Sammendrag av konfigurasjonen"/>
+    <word defaultLayout = "Standardlayout"/>
+    <word exit = "Utgang"/>
+    <word file = "Arkiv"/>
+    <word help = "Hjelp"/>
+    <word modifyConfiguration = "Modifiserer"/>
+    <word newConfiguration = "Ny"/>
+    <word openConfiguration = "åPner"/>
+    <word save = "Untatt"/>
+    <word simulation = "Simulering"/>
+    <word views = "Sikter"/>
+    <word loadSavedConfigurationTT = "Laster en spart konfigurasjon"/>
+    <word modifyConfigurationTT = "åPner konfigurasjonspanelet modifisere den nåværende konfigurasjon"/>
+    <word moveBackwardStepTT = "Flytter baklengs av en trinn"/>
+    <word moveForwardStepTT = "Flytter frem av en trinn"/>
+    <word moveToFinalStateTT = "Flytter til den endelig stat"/>
+    <word moveToInitialStateTT = "Flytter til den første stat"/>
+    <word openConfigurationTT = "åPner konfigurasjonspanelet starte en ny simulering"/>
+    <word openHelpWindowTT = "åPner hjelpevinduet"/>
+    <word playAutomaticAdvancementTT = "Leker den automatisk avansement"/>
+    <word saveConfigurationTT = "Untatt konfigurasjonen"/>
+    <word setDelaySimulationTT = "Setter utsettelsen for den automatisk avansement av simuleringen"/>
+    <word stopAutomaticAdvancementTT = "Stanser den automatisk avansement"/>
+    <word abort = "Aborterer"/>
+    <word no = "Ingen"/>
+    <word saveQ = "Gjør De sparer konfigurasjonen ?"/>
+    <word submit = "Forelegger"/>
+    <word yes = "Ja"/>
+    <word activationTime = "Aktiveringstid"/>
+    <word assignmentPolicy = "Tildelingspolitikk"/>
+    <word basePriority = "Baserer prioritet"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Velger berammelsespolitikken"/>
+    <word executionTime = "Utførelsestid"/>
+    <word multiplicity = "Flerfoldighet"/>
+    <word name = "Navn"/>
+    <word processName = "Navn av prosessen"/>
+    <word preemption = "Preemption"/>
+    <word requestTime = "Tid av anmodning"/>
+    <word schedulingPolicy = "Berammelsespolitikk"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Data tilfører"/>
+    <word accessesToResources = "Adgangtil ressurser"/>
+    <word policies = "Politikker"/>
+    <word defaultName = "Standardnavn"/>
+    <word add = "Add"/>
+    <word modify = "Modifiserer"/>
+    <word remove = "Fjerner"/>
+    <word accept = "Aksepterer"/>
+    <word processParameters = "Parametre av prosesser"/>
+    <word resourceParameters = "Parametre av ressurser"/>
+    <word preemptive = "Preemptive"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Parametre av tilganger"/>
+    <word quantum = "Quantum"/>
+    <word requestDuration = "Varighet av anmodningen"/>
+    <word addNewRowTT = "Tilføyer ny rekke"/>
+    <word removeSelectedRowTT = "Fjerner den valgt ut rekke"/>
+    <word modifySelectedRowTT = "Modifiserer den valgt ut rekke"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Bare for tid deler berammelsespolitikker"/>
+    <word ER000 = "Error000 - Regnbuekonfigurasjonsarkiv ikke funnet eller korrumpert. Begynner standardkonfigurasjon"/>
+    <word ER001 = "Error001 - åPnet arkiv korrumpert"/>
+    <word ER002 = "Error002 - Arkiverer ikke spart"/>
+    <word ER003 = "Error003 - Varighet av simuleringen er større enn 15000 ticks"/>
+    <word ER004 = "Error004 - Prioritet ut av rekkevidde"/>
+    <word ER005 = "Error005 - Utførelsestid ikke positiv"/>
+    <word ER006 = "Error006 - Ressursanmodningstid ikke gyldig"/>
+    <word ER007 = "Error007 - Flerfoldighet ikke positiv"/>
+    <word ER008 = "Error008 - Ceiling priority ut av rekkevidde"/>
+    <word ER009 = "Error009 - Varighet av tilgang er ikke gyldig"/>
+    <word language = "Språk"/>
+    <word maximumLayout = "Maksimum layout"/>
+    <word ER010 = "Error010 - Inkompitabel adgang. Se bordet"/>
+    <word error = "Feil"/>
+    <word exportHTML = "Eksport (html)"/>
+    <word exportXML = "Eksport (xml)"/>
+    <word themes = "Seg"/>
+    <word lafTT = "Du må gjenstarte å søke denne blikk og stemning"/>
+</words> 
+
+<!-- end file -->

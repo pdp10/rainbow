@@ -1,0 +1,89 @@
+   464   154?  |./gui/view/ViewResourcesGraph.java
+   148    52?  |./gui/view/ViewTerminated.java
+   247   105?  |./gui/view/ViewResources.java
+   228    90   |./gui/view/ViewProcesses.java
+   377   158   |./gui/view/ViewStatistics.java
+   149    51?  |./gui/view/ViewReadyQueue.java
+   410   125   |./gui/view/ViewRunningGraph.java
+   384   162?  |./gui/ConfigurationSummary.java
+   902   345   |./gui/input/RainbowConfig.java
+   240    65   |./gui/input/InputControl.java
+  2504   885   |./gui/input/DataInput.java
+   987   533   |./gui/FileManager.java
+   213    47?  |./gui/SaveQuestion.java
+   140    18?  |./gui/gpfxRepository/IconUtilsRainbow.java
+   153    44?  |./gui/gpfxRepository/GpfxUtilsRainbow.java
+   618    83?  |./gui/About.java
+   244    68   |./gui/Error.java
+  1970   844>  |./gui/RainbowMainGUI.java
+  2225   520   |./gui/language/Language.java
+    87     8   |./data/Id.java
+    99    11?  |./data/UseResource.java
+    86     9?  |./data/Request.java
+   353    66   |./data/SimulatedProcess.java
+    86     8?  |./data/ResourceAttribution.java
+   112    12   |./data/Access.java
+   154    19?  |./data/Resource.java
+    86     7?  |./data/NoPreemptiveResource.java
+    57     3?  |./data/PreemptiveResource.java
+   244    28   |./data/Configuration.java
+   305    65   |./data/PCB.java
+   102    25   |./main/Rainbow.java
+   216    64   |./scheduler/SchedulerICPP.java
+   108     9   |./scheduler/TimeSharing.java
+   176    38   |./scheduler/HPF.java
+   177    33?  |./scheduler/PreemptiveMFDQ.java
+    92    11   |./scheduler/SchedulingPolicy.java
+    58     3?  |./scheduler/LinuxScheduling.java
+    41     2   |./scheduler/Interactive.java
+   255    66   |./scheduler/MF.java
+    41     2   |./scheduler/Batch.java
+   109    14?  |./scheduler/SRTF.java
+   174    32   |./scheduler/MFDQ.java
+   129    20   |./scheduler/FIFO.java
+   117    21   |./scheduler/HPFAss.java
+   111    17?  |./scheduler/RandomAss.java
+   109    16   |./scheduler/FIFOAss.java
+   645   193   |./scheduler/Scheduler.java
+   221    52   |./scheduler/PriorityRoundRobin.java
+   176    35   |./scheduler/PreemptiveOnPriorityRoundRobin.java
+    75     8?  |./scheduler/AssignmentPolicy.java
+   153    29   |./scheduler/HRRN.java
+    55     3   |./scheduler/Preemptive.java
+   142    27   |./scheduler/SJF.java
+   108    12   |./scheduler/PreemptiveHPF.java
+   180    33   |./scheduler/RoundRobin.java
+   209    47   |./scheduler/PreemptiveMF.java
+    59     3?  |./scheduler/UNIXScheduling.java
+   165    25   |./simulation/ProcessStatistics.java
+   186    49?  |./simulation/Statistics.java
+   136    30   |./simulation/Evolution.java
+   259    31   |./simulation/State.java
+   264    69   |./simulation/Simulation.java
+----------------
+ 19320  5604?>  total lines/statements
+
+  6779	lines had comments        35.1 %
+    80	comments are inline       -0.4 %
+  1819	lines were blank           9.4 %
+     0	lines for preprocessor     0.0 %
+ 10802	lines containing code     55.9 %
+ 19320	total lines              100.0 %
+
+132217	comment-chars             19.9 %
+ 19656	nontext-comment-chars      3.0 %
+200346	whitespace-chars          30.1 %
+     0	preprocessor-chars         0.0 %
+312557	statement-chars           47.0 %
+664776	total characters         100.0 %
+
+ 28466	tokens, average length 7.97
+
+  0.42	ratio of comment:code
+    52	?:illegal characters found
+     4	>:too-long identifiers
+
+   353	top-level blocks/statements
+    10	maximum blocklevel
+  3.69	ratio of blocklevel:code
+

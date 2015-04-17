@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : esperanto.xml
+    Created on : 12 September 2014
+    Author     : Piero Dalle Pezze
+    Translation: Piero Dalle Pezze
+    Description:
+        Esperanto dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Asigno"/>
+    <word averageResponseTime = "Mezumo respondo tempo"/>
+    <word averageTurnAround = "Mezumo turno ĉirkaŭ"/>
+    <word averageWaitingTime = "Mezumo atendotempo"/>
+    <word blockedProcesses = "Blokita procezoj"/>
+    <word configurationFile = "Agordo de dosiero (* .xml)"/>
+    <word cpuUsage = "CPU Uzado"/>
+    <word cpuUsagePercentage = "CPU Uzado (%)"/>
+    <word deadlock = "Blokiĝo"/>
+    <word deadlockSimulationTerminated = "Blokiĝo. Simulado finita"/>
+    <word delay = "Prokrasto (dekono da sekundoj)"/>
+    <word graphOfResourcesAssignment = "Rimedo atribuo grafeo"/>
+    <word graphOfRunningProcesses = "Running procezoj grafeo"/>
+    <word hideStatistics = "Kaŝu statistikoj"/>
+    <word noQueue = "Ne vosto"/>
+    <word process = "Procezo"/>
+    <word processes = "Procezoj"/>
+    <word readyQueue = "Lerta vosto"/>
+    <word resource = "Rimedo"/>
+    <word resources = "Rimedoj"/>  
+    <word responseTime = "Respondo tempo"/>
+    <word showStatistics = "Montru statistikoj"/>
+    <word simulationAtInitialState = "Simulado en la komenca stato"/>
+    <word simulationCompleted = "Simulado kompletigis"/>
+    <word state = "Ŝtato"/>
+    <word statistics = "Statistikoj"/>
+    <word statisticsOfProcesses = "Procezo statistikoj"/>
+    <word statisticsOfTheSimulation = "Simulado statistikoj"/>
+    <word terminated = "Finita"/>
+    <word throughput = "Traigivo"/>
+    <word turnAround = "Turni"/>
+    <word waitingTime = "Atendante tempo"/>
+    <word blockedState = "Blokita"/>
+    <word executingState = "Kurado"/>
+    <word readyState = "Lerta"/>  
+    <word terminatedState = "Finita"/>
+    <word toActivateState = "Esti aktivigitaj"/>
+    <word about = "Pri "/>
+    <word configurationSummary = "Agordo resumo"/>
+    <word defaultLayout = "Defaŭlta aranĝo"/>
+    <word exit = "Eliro"/>
+    <word file = "Dosiero"/>
+    <word help = "Helpo"/>
+    <word modifyConfiguration = "Modifu"/>
+    <word newConfiguration = "Nova dosiero"/>
+    <word openConfiguration = "Malfermi"/>
+    <word save = "Konservi"/>
+    <word simulation = "Simulado"/>
+    <word views = "Vidaĵoj"/>
+    <word loadSavedConfigurationTT = "Ŝargi konservitan agordon"/>
+    <word modifyConfigurationTT = "Malfermu la agordo panelo modifi la nuna agordo"/>
+    <word moveBackwardStepTT = "Movi paŝon malantaŭen"/>
+    <word moveForwardStepTT = "Movu paŝo antaŭeniras"/>
+    <word moveToFinalStateTT = "Movu al la fina stato"/>
+    <word moveToInitialStateTT = "Movu al la komenca stato"/>
+    <word openConfigurationTT = "Malfermu la agordo panelo komenci novan simulado"/>
+    <word openHelpWindowTT = "Malfermu la helpo fenestro"/>
+    <word playAutomaticAdvancementTT = "Ludu la aŭtomatan progreson"/>
+    <word saveConfigurationTT = "Konservi la agordon"/>
+    <word setDelaySimulationTT = "Ŝanĝu la malfruo por la aŭtomata progreson de la simulado"/>
+    <word stopAutomaticAdvancementTT = "Haltu la aŭtomatan progreson"/>
+    <word abort = "Haltu"/>
+    <word no = "Ne"/>  
+    <word saveQ = "Ĉu vi volas konservi la agordon?"/>
+    <word submit = "Sendi"/>
+    <word yes = "Jes"/>
+    <word activationTime = "Aktivigo tempo"/>
+    <word assignmentPolicy = "Asigno politiko"/>
+    <word basePriority = "Bazo prioritato"/>
+    <word ceilingPriority = "Plafono prioritato"/>
+    <word chooseTheSchedulingPolicy = "Elektu la temptabelanta politiko"/>
+    <word executionTime = "Ekzekuto tempo"/>
+    <word multiplicity = "Multeco"/>
+    <word name = "Nomo"/>
+    <word processName = "Procezo nomo"/>
+    <word preemption = "Preemption"/>
+    <word requestTime = "Petoj tempo"/>
+    <word schedulingPolicy = "Temptabelanta politiko"/>
+    <word timeSlice = "Tempo tranĉaĵo"/>
+    <word dataInput = "Datumoj enigo"/>
+    <word accessesToResources = "Rimedo uzado"/>
+    <word policies = "Politikoj"/>
+    <word defaultName = "Defaŭlta nomo"/>
+    <word add = "Aldonu"/>
+    <word modify = "Modifu"/>
+    <word remove = "Forigu"/>
+    <word accept = "Akceptu"/>
+    <word processParameters = "Procezo parametroj"/>
+    <word resourceParameters = "Rimedo parametroj"/>
+    <word preemptive = "Preemptive"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Rimedo uzado parametroj"/>
+    <word quantum = "Kvantuma"/>
+    <word requestDuration = "Petoj daŭro"/>
+    <word addNewRowTT = "Aldonu novajn vico"/>
+    <word removeSelectedRowTT = "Forigu la elektitan vico"/>
+    <word modifySelectedRowTT = "Modifu la elektitan vico"/>
+    <word ICPPTT = "Tuja Plafono Prioritato Protokolo"/>
+    <word onlyForTimeSharingPoliciesTT = "Tempo por dividi temptabelanta politikoj nur"/>
+    <word ER000 = "Eraro000 - Rainbow agordo-dosiero ne troviĝis aŭ koruptita. \ nInitialise defaŭlta agordo" />
+    <word ER001 = "Eraro001 - Inaŭgurita dosiero koruptita" />
+    <word ER002 = "Eraro002 - Dosiero ne savitaj" />
+    <word ER003 = "Eraro003 - La daŭro de la simulado estas pli granda ol 15000 iksodojn" />
+    <word ER004 = "Eraro004 - Prioritato el gamo" />
+    <word ER005 = "Eraro005 - Ekzekuto tempo ne pozitiva" />
+    <word ER006 = "Eraro006 - Peto tempo de rimedo estas ne valida" />
+    <word ER007 = "Eraro007 - Multeco ne pozitiva" />
+    <word ER008 = "Eraro008 - Plafono prioritaton el gamo" />
+    <word ER009 = "Eraro009 - Aliro daŭro ne valida" />    
+    <word language = "Lingvo"/>
+    <word maximumLayout = "Maksimuma aranĝo"/>
+    <word ER010 = "Eraro010 - Nekongrua aliro. Vidu la tablon"/>
+    <word error = "Eraro"/>
+    <word exportHTML = "Eksportu (html)"/>
+    <word exportXML = "Eksportu (xml)"/>
+    <word themes = "Temoj"/>
+    <word lafTT = "Vi devas restartigi apliki ĉi rigardo kaj sentas"/>
+</words>
+
+<!-- end file -->

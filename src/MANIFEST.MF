@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.4
+Created-By: 1.7.0 (Oracle)
+Main-Class: org.rainbow.main.Rainbow
+SplashScreen-Image: images/splash.png
+Class-Path: lib/help.jar lib/icons.jar lib/idw-gpl.jar lib/jh.jar 
+ lib/looks-2.1.4.jar lib/nimrodlf.jar lib/swing-layout-1.0.jar
+

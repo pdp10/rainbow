@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : indonesia.xml
+    Created on : 6 May 2007, 1.40
+    Author     : Piero Dalle Pezze
+    Translation: http://www.inbahasa.com
+    Description:
+        Indonesia dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Tugas"/>
+    <word averageResponseTime = "Waktu jawaban pukul rata"/>
+    <word averageTurnAround = "Rata-rata turn around"/>
+    <word averageWaitingTime = "Pukul rata waktu menunggu"/>
+    <word blockedProcesses = "Menghalangi diproses"/>
+    <word configurationFile = "Arsip bentuk ( *.xml )"/>
+    <word cpuUsage = "Pemakaian cpu"/>
+    <word cpuUsagePercentage = "Pemakaian cpu (%)"/>
+    <word deadlock = "Jalan buntu"/>
+    <word deadlockSimulationTerminated = "Jalan buntu. pekerjaan tiruan diakhiri"/>
+    <word delay = "Kelambatan (kesepuluh detik)"/>
+    <word graphOfResourcesAssignment = "Grafik tugas sumber penghasilan"/>
+    <word graphOfRunningProcesses = "Grafik berlari diproses"/>
+    <word hideStatistics = "Statistik kulit"/>
+    <word noQueue = "Tidak antri"/>
+    <word process = "Proses"/>
+    <word processes = "Proses"/>
+    <word readyQueue = "Antri siap"/>
+    <word resource = "Sumber"/>
+    <word resources = "Sumber"/>
+    <word responseTime = "Waktu jawaban"/>
+    <word showStatistics = "Statistik menunjukan"/>
+    <word simulationAtInitialState = "Pekerjaan tiruan pada negara memaraf"/>
+    <word simulationCompleted = "Pekerjaan tiruan diselesaikan"/>
+    <word state = "Menyatakan"/>
+    <word statistics = "Statistik"/>
+    <word statisticsOfProcesses = "Statistik memproses"/>
+    <word statisticsOfTheSimulation = "Statistik pekerjaan tiruan"/>
+    <word terminated = "Mengakhiri"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Waktu menunggu"/>
+    <word blockedState = "Menghalangi"/>
+    <word executingState = "Menjalankan"/>
+    <word readyState = "Siap"/>
+    <word terminatedState = "Mengakhiri"/>
+    <word toActivateState = "Untuk mengaktipkan"/>
+    <word about = "Tentang"/>
+    <word configurationSummary = "Ringkasan bentuk"/>
+    <word defaultLayout = "Susunan kegagalan"/>
+    <word exit = "Pergi"/>
+    <word file = "Arsip"/>
+    <word help = "Membantu"/>
+    <word modifyConfiguration = "Memodifikasi"/>
+    <word newConfiguration = "Baru"/>
+    <word openConfiguration = "Membuka"/>
+    <word save = "Menabung"/>
+    <word simulation = "Simulasi"/>
+    <word views = "Memandang"/>
+    <word loadSavedConfigurationTT = "Beban bentuk diselamatkan"/>
+    <word modifyConfigurationTT = "Membuka sehelai papan bentuk ke memodifikasi bentuk arus"/>
+    <word moveBackwardStepTT = "Terbelakang gerak langkah"/>
+    <word moveForwardStepTT = "Depan gerak langkah"/>
+    <word moveToFinalStateTT = "Gerak untuk negara akhir"/>
+    <word moveToInitialStateTT = "Gerak untuk negara memaraf"/>
+    <word openConfigurationTT = "Membuka sehelai papan bentuk untuk start pekerjaan tiruan baru"/>
+    <word openHelpWindowTT = "Membuka jendela membantu"/>
+    <word playAutomaticAdvancementTT = "Main seperti kemajuan otomatis"/>
+    <word saveConfigurationTT = "Menyelamatkan bentuk"/>
+    <word setDelaySimulationTT = "Kumpulan kelambatan untuk seperti kemajuan otomatis pekerjaan tiruan"/>
+    <word stopAutomaticAdvancementTT = "Berhenti seperti kemajuan otomatis"/>
+    <word abort = "Menggugurkan"/>
+    <word no = "Tidak"/>
+    <word saveQ = "Melakukan kamu ingin untuk menyelamatkan bentuk"/>
+    <word submit = "Menyampaikan"/>
+    <word yes = "Ya"/>
+    <word activationTime = "Waktu penggerakan"/>
+    <word assignmentPolicy = "Kebijakan tugas"/>
+    <word basePriority = "Prioritas kaki "/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Memilih kebijakan skeduling"/>
+    <word executionTime = "Waktu pelaksanaan"/>
+    <word multiplicity = "Serbaragam"/>
+    <word name = "Menyebut"/>
+    <word processName = "Nama cara"/>
+    <word preemption = "Preemption"/>
+    <word requestTime = "Waktu permintaan"/>
+    <word schedulingPolicy = "Kebijakan skeduling"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Input data"/>
+    <word accessesToResources = "Mengakses ke sumber penghasilan"/>
+    <word policies = "Menjaga"/>
+    <word defaultName = "Nama kegagalan"/>
+    <word add = "Menambahkan"/>
+    <word modify = "Memodifikasi"/>
+    <word remove = "Memindahkan"/>
+    <word accept = "Menerima"/>
+    <word processParameters = "Parameter memproses"/>
+    <word resourceParameters = "Parameter sumber penghasilan"/>
+    <word preemptive = "Preemptive"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Parameter mengakses"/>
+    <word quantum = "Kuantum"/>
+    <word requestDuration = "Lamanya permintaan"/>
+    <word addNewRowTT = "Jajaran baru menjumlahkan"/>
+    <word removeSelectedRowTT = "Memindahkan jajaran dipilih"/>
+    <word modifySelectedRowTT = "Memodifikasi jajaran dipilih"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Hanya untuk waktu berbagi skeduling policies"/>
+    <word ER000 = "Error000 - Arsip bentuk pelangi tidak menemukan atau merusak . Initialize bentuk kegagalan "/>
+    <word ER001 = "Error001 - Arsip membuka dirusak"/>
+    <word ER002 = "Error002 - Arsip tidak menyelamatkan"/>
+    <word ER003 = "Error003 - Lamanya pekerjaan tiruan lebih besar dari 15000 detik"/>
+    <word ER004 = "Error004 - Prioritas luar cakupan"/>
+    <word ER005 = "Error005 - Waktu pelaksanaan tidak positif"/>
+    <word ER006 = "Error006 - Waktu permintaan sumber penghasilan tidak sah "/>
+    <word ER007 = "Error007 - Serbaragam tidak positif"/>
+    <word ER008 = "Error008 - Ceiling priority luar cakupan"/>
+    <word ER009 = "Error009 - Lamanya mengakses tidak sah"/>
+    <word language = "Bahasa"/>
+    <word maximumLayout = "Susunan maksimum"/>
+    <word ER010 = "Error010 - Tidak rukun mengakses . melihat meja"/>
+    <word error = "Kesalahan"/>
+    <word exportHTML = "Eksport (html)"/>
+    <word exportXML = "Eksport (xml)"/>
+    <word themes = "Tema"/>
+    <word lafTT = "Anda harus menyalakan kembali untuk mempergunakan pandangan dan rasa ini"/>
+</words> 
+
+<!-- end file -->

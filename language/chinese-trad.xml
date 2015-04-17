@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : chinese-trad.xml
+    Created on : 29 April 2007, 9.52
+    Author     : Piero Dalle Pezze
+    Translation: http://babelfish.altavista.com
+    Description:
+        Chinese (trad) dictionary of Rainbow. 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "任務"/>
+    <word averageResponseTime = "平均回應時間"/>
+    <word averageTurnAround = "平均轉過來"/>
+    <word averageWaitingTime = "平均等待時間"/>
+    <word blockedProcesses = "封鎖的過程"/>
+    <word configurationFile = "配置文件(* xml)"/>
+    <word cpuUsage = "CPU 用法"/>
+    <word cpuUsagePercentage = "CPU 用法 (%)"/>
+    <word deadlock = "僵局"/>
+    <word deadlockSimulationTerminated = "僵局。模仿被終止"/>
+    <word delay = "延遲(第十秒鐘)"/>
+    <word graphOfResourcesAssignment = "資源任務圖表"/>
+    <word graphOfRunningProcesses = "連續過程圖表"/>
+    <word hideStatistics = "皮統計"/>
+    <word noQueue = "沒有隊列"/>
+    <word process = "過程"/>
+    <word processes = "過程"/>
+    <word readyQueue = "準備好隊列"/>
+    <word resource = "資源"/>
+    <word resources = "資源"/>
+    <word responseTime = "反應時間"/>
+    <word showStatistics = "顯示統計"/>
+    <word simulationAtInitialState = "模仿在初始狀態"/>
+    <word simulationCompleted = "模仿完成了"/>
+    <word state = "狀態"/>
+    <word statistics = "統計"/>
+    <word statisticsOfProcesses = "過程統計"/>
+    <word statisticsOfTheSimulation = "模仿的統計"/>
+    <word terminated = "終止"/>
+    <word throughput = "低谷被投入"/>
+    <word turnAround = "轉過來"/>
+    <word waitingTime = "等待時間"/>
+    <word blockedState = "阻攔"/>
+    <word executingState = "跑"/>
+    <word readyState = "準備好"/>
+    <word terminatedState = "終止"/>
+    <word toActivateState = "激活"/>
+    <word about = "關於 "/>
+    <word configurationSummary = "配置的總結"/>
+    <word defaultLayout = "缺省佈局"/>
+    <word exit = "出口"/>
+    <word file = "文件"/>
+    <word help = "幫助"/>
+    <word modifyConfiguration = "修改"/>
+    <word newConfiguration = "新"/>
+    <word openConfiguration = "開放"/>
+    <word save = "之外"/>
+    <word simulation = "模仿"/>
+    <word views = "看法"/>
+    <word loadSavedConfigurationTT = "裝載一種被保存的配置"/>
+    <word modifyConfigurationTT = "打開配置盤區修改當前的配置"/>
+    <word moveBackwardStepTT = "行動落後步"/>
+    <word moveForwardStepTT = "前進步"/>
+    <word moveToFinalStateTT = "行動向最終狀態"/>
+    <word moveToInitialStateTT = "行動向初始狀態"/>
+    <word openConfigurationTT = "打開配置盤區開始新模仿"/>
+    <word openHelpWindowTT = "打開幫助窗口"/>
+    <word playAutomaticAdvancementTT = "演奏自動推進"/>
+    <word saveConfigurationTT = "之外配置"/>
+    <word setDelaySimulationTT = "設置延遲為模仿的自動推進"/>
+    <word stopAutomaticAdvancementTT = "停止自動推進"/>
+    <word abort = "放棄"/>
+    <word no = "不"/>
+    <word saveQ = "您想要保存配置嗎?"/>
+    <word submit = "遞交"/>
+    <word yes = "是"/>
+    <word activationTime = "活化作用時間"/>
+    <word assignmentPolicy = "任務政策"/>
+    <word basePriority = "基本的優先權"/>
+    <word ceilingPriority = "天花板優先權"/>
+    <word chooseTheSchedulingPolicy = "選擇預定的政策"/>
+    <word executionTime = "執行時間"/>
+    <word multiplicity = "多樣性"/>
+    <word name = "名字"/>
+    <word processName = "過程的名字"/>
+    <word preemption = "先買"/>
+    <word requestTime = "請求時間"/>
+    <word schedulingPolicy = "預定的政策"/>
+    <word timeSlice = "時間切片"/>
+    <word dataInput = "資料輸入"/>
+    <word accessesToResources = "對資源的通入"/>
+    <word policies = "政策"/>
+    <word defaultName = "缺省名"/>
+    <word add = "增加"/>
+    <word modify = "修改"/>
+    <word remove = "去除"/>
+    <word accept = "受理"/>
+    <word processParameters = "處理參量"/>
+    <word resourceParameters = "資源參量"/>
+    <word preemptive = "先發制人"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "訪問參量"/>
+    <word quantum = "量子"/>
+    <word requestDuration = "請求期間"/>
+    <word addNewRowTT = "增加新列"/>
+    <word removeSelectedRowTT = "去除選擇的列"/>
+    <word modifySelectedRowTT = "修改選擇的列"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "只為分時預定的政策"/>
+    <word ER000 = "Error000 - 彩虹配置文件沒被發現或沒腐敗。初始化默認配置"/>
+    <word ER001 = "Error001 - 被打開的文件腐敗"/>
+    <word ER002 = "Error002 - 文件沒被保存"/>
+    <word ER003 = "Error003 - 模仿期間大於15000 壁虱"/>
+    <word ER004 = "Error004 - 優先權超出範圍"/>
+    <word ER005 = "Error005 - 執行時間不正面"/>
+    <word ER006 = "Error006 - 資源請求時間無效"/>
+    <word ER007 = "Error007 - 多樣性不正面"/>
+    <word ER008 = "Error008 - 天花板優先權超出範圍"/>
+    <word ER009 = "Error009 - 訪問期間無效"/>
+    <word language = "語言"/>
+    <word maximumLayout = "最大佈局"/>
+    <word ER010 = "Error010 - 不相容的通入。 看見桌"/>
+    <word error = "錯誤"/>
+    <word exportHTML = "出口(html)"/>
+    <word exportXML = "出口(xml)"/>
+    <word themes = "題材"/>
+    <word lafTT = "您必須重新起動申請這品質"/>
+</words> 
+
+<!-- end file -->

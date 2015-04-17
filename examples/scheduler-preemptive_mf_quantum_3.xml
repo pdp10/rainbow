@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Rainbow - A simulator of processes and resources in a multitasking computer.
+  Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+-->
+
+<!--
+  This is a configuration file exported by using the software Rainbow.
+  Created on: Tue Apr 01 20:25:00 CEST 2008
+-->
+
+
+<configuration>
+      <schedulingPolicy>Preemptive Multilevel Feedback</schedulingPolicy>
+      <assignmentPolicy>First In First Out</assignmentPolicy>
+      <timeSlice>3</timeSlice>
+      <icpp>false</icpp>
+  <processes>
+      <process>
+          <name>P0</name>
+          <activationTime>15</activationTime>
+          <executionTime>1</executionTime>
+          <basePriority>3</basePriority>
+      </process>
+      <process>
+          <name>P1</name>
+          <activationTime>1</activationTime>
+          <executionTime>9</executionTime>
+          <basePriority>6</basePriority>
+      </process>
+      <process>
+          <name>P3</name>
+          <activationTime>1</activationTime>
+          <executionTime>4</executionTime>
+          <basePriority>5</basePriority>
+      </process>
+      <process>
+          <name>P4</name>
+          <activationTime>2</activationTime>
+          <executionTime>7</executionTime>
+          <basePriority>6</basePriority>
+      </process>
+  </processes>
+  <resources>
+  </resources>
+  <accesses>
+  </accesses>
+</configuration>
+
+
+<!-- end file -->

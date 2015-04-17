@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : language.dtd
+    Created on : 9 March 2007, 9.02
+    Author     : Piero Dalle Pezze
+    Description:
+        Description of a language.
+
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/language.dtd
+-->
+
+<!ELEMENT words (assignment,averageResponseTime,averageTurnAround,averageWaitingTime,blockedProcesses,
+                 configurationFile,cpuUsage,cpuUsagePercentage,deadlock,deadlockSimulationTerminated,
+                 delay,graphOfResourcesAssignment,graphOfRunningProcesses,hideStatistics,noQueue,process,
+                 processes,readyQueue,resource,resources,responseTime,showStatistics,simulationAtInitialState,
+                 simulationCompleted,state,statistics,statisticsOfProcesses,statisticsOfTheSimulation,
+                 terminated,throughput,turnAround,waitingTime,blockedState,executingState,readyState,
+                 terminatedState,toActivateState,about,configurationSummary,defaultLayout,exit,file,help,
+                 modifyConfiguration,newConfiguration,openConfiguration,save,simulation,views,loadSavedConfigurationTT,
+                 modifyConfigurationTT,moveBackwardStepTT,moveForwardStepTT,moveToFinalStateTT,moveToInitialStateTT,
+                 openConfigurationTT,openHelpWindowTT,playAutomaticAdvancementTT,saveConfigurationTT,setDelaySimulationTT,
+                 stopAutomaticAdvancementTT,abort,no,saveQ,submit,yes,activationTime,assignmentPolicy,basePriority,
+                 ceilingPriority,chooseTheSchedulingPolicy,executionTime,multiplicity,name,processName,preemption,
+                 requestTime,schedulingPolicy,timeSlice,dataInput,accessesToResources,policies,defaultName,add,modify,
+                 remove,accept,processParameters,resourceParameters,preemptive,ICPP,accessParameters,quantum,requestDuration,
+                 addNewRowTT,removeSelectedRowTT,modifySelectedRowTT,ICPPTT,onlyForTimeSharingPoliciesTT,
+                 ER000,ER001,ER002,ER003,ER004,ER005,ER006,ER007,ER008,ER009,language, maximumLayout, ER010, error, exportHTML,
+                 exportXML, themes, lafTT)>
+<!ELEMENT assignment (#PCDATA)>
+<!ELEMENT averangeResponseTime (#PCDATA)>
+<!ELEMENT averangeTurnAround (#PCDATA)>
+<!ELEMENT averangeWaitingTime (#PCDATA)>
+<!ELEMENT blockedProcesses (#PCDATA)>
+<!ELEMENT configurationFile (#PCDATA)>
+<!ELEMENT cpuUsage (#PCDATA)>
+<!ELEMENT cpuUsagePercentage (#PCDATA)>
+<!ELEMENT deadlock (#PCDATA)>
+<!ELEMENT deadlockSimulationTerminated (#PCDATA)>
+<!ELEMENT delay (#PCDATA)>
+<!ELEMENT graphOfResourcesAssignment (#PCDATA)>
+<!ELEMENT graphOfRunningProcesses (#PCDATA)>
+<!ELEMENT hideStatistics (#PCDATA)>
+<!ELEMENT noQueue (#PCDATA)>
+<!ELEMENT process (#PCDATA)>
+<!ELEMENT processes (#PCDATA)>
+<!ELEMENT readyQueue (#PCDATA)>
+<!ELEMENT resource (#PCDATA)>
+<!ELEMENT resources (#PCDATA)>
+<!ELEMENT responseTime (#PCDATA)>
+<!ELEMENT showStatistics (#PCDATA)>
+<!ELEMENT simulationAtInitialState (#PCDATA)>
+<!ELEMENT simulationCompleted (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT statistics (#PCDATA)>
+<!ELEMENT statisticsOfProcesses (#PCDATA)>
+<!ELEMENT statisticsOfTheSimulation (#PCDATA)>
+<!ELEMENT terminated (#PCDATA)>
+<!ELEMENT throughput (#PCDATA)>
+<!ELEMENT turnAround (#PCDATA)>
+<!ELEMENT waitingTime (#PCDATA)>
+<!ELEMENT blockedState (#PCDATA)>
+<!ELEMENT executingState (#PCDATA)>
+<!ELEMENT readyState (#PCDATA)>
+<!ELEMENT terminatedState (#PCDATA)>
+<!ELEMENT toActivateState (#PCDATA)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT configurationSummary (#PCDATA)>
+<!ELEMENT defaultLayout (#PCDATA)>
+<!ELEMENT exit (#PCDATA)>
+<!ELEMENT file (#PCDATA)>
+<!ELEMENT help (#PCDATA)>
+<!ELEMENT modifyConfiguration (#PCDATA)>
+<!ELEMENT newConfiguration (#PCDATA)>
+<!ELEMENT openConfiguration (#PCDATA)>
+<!ELEMENT save (#PCDATA)>
+<!ELEMENT simulation (#PCDATA)>
+<!ELEMENT views (#PCDATA)>
+<!ELEMENT loadSavedConfigurationTT (#PCDATA)>
+<!ELEMENT modifyConfigurationTT (#PCDATA)>
+<!ELEMENT moveBackwardStepTT (#PCDATA)>
+<!ELEMENT moveForwardStepTT (#PCDATA)>
+<!ELEMENT moveToFinalStateTT (#PCDATA)>
+<!ELEMENT moveToInitialStateTT (#PCDATA)>
+<!ELEMENT openConfigurationTT (#PCDATA)>
+<!ELEMENT openHelpWindowTT (#PCDATA)>
+<!ELEMENT playAutomaticAdvancementTT (#PCDATA)>
+<!ELEMENT saveConfigurationTT (#PCDATA)>
+<!ELEMENT setDelaySimulationTT (#PCDATA)>
+<!ELEMENT stopAutomaticAdvancementTT (#PCDATA)>
+<!ELEMENT abort (#PCDATA)>
+<!ELEMENT no (#PCDATA)>
+<!ELEMENT saveQ (#PCDATA)>
+<!ELEMENT submit (#PCDATA)>
+<!ELEMENT yes (#PCDATA)>
+<!ELEMENT activationTime (#PCDATA)>
+<!ELEMENT assignmentPolicy (#PCDATA)>
+<!ELEMENT basePriority (#PCDATA)>
+<!ELEMENT ceilingPriority (#PCDATA)>
+<!ELEMENT chooseTheSchedulingPolicy (#PCDATA)>
+<!ELEMENT executionTime (#PCDATA)>
+<!ELEMENT multiplicity (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT processName (#PCDATA)>
+<!ELEMENT preemption (#PCDATA)>
+<!ELEMENT requestTime (#PCDATA)>
+<!ELEMENT schedulingPolicy (#PCDATA)>
+<!ELEMENT timeSlice (#PCDATA)>
+<!ELEMENT dataInput (#PCDATA)>
+<!ELEMENT accessesToResources (#PCDATA)>
+<!ELEMENT policies (#PCDATA)>
+<!ELEMENT defaultName (#PCDATA)>
+<!ELEMENT add (#PCDATA)>
+<!ELEMENT modify (#PCDATA)>
+<!ELEMENT remove (#PCDATA)>
+<!ELEMENT accept (#PCDATA)>
+<!ELEMENT processParameters (#PCDATA)>
+<!ELEMENT resourceParameters (#PCDATA)>
+<!ELEMENT preemptive (#PCDATA)>
+<!ELEMENT ICPP (#PCDATA)>
+<!ELEMENT accessParameters (#PCDATA)>
+<!ELEMENT quantum (#PCDATA)>
+<!ELEMENT requestDuration (#PCDATA)>
+<!ELEMENT addNewRowTT (#PCDATA)>
+<!ELEMENT removeSelectedRowTT (#PCDATA)>
+<!ELEMENT modifySelectedRowTT (#PCDATA)>
+<!ELEMENT ICPPTT (#PCDATA)>
+<!ELEMENT onlyForTimeSharingPoliciesTT (#PCDATA)>
+<!ELEMENT ER000 (#PCDATA)>
+<!ELEMENT ER001 (#PCDATA)>
+<!ELEMENT ER002 (#PCDATA)>
+<!ELEMENT ER003 (#PCDATA)>
+<!ELEMENT ER004 (#PCDATA)>
+<!ELEMENT ER005 (#PCDATA)>
+<!ELEMENT ER006 (#PCDATA)>
+<!ELEMENT ER007 (#PCDATA)>
+<!ELEMENT ER008 (#PCDATA)>
+<!ELEMENT ER009 (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT maximumLayout (#PCDATA)>
+<!ELEMENT ER010 (#PCDATA)>
+<!ELEMENT error (#PCDATA)>
+<!ELEMENT exportHTML (#PCDATA)>
+<!ELEMENT exportXML (#PCDATA)>
+<!ELEMENT themes (#PCDATA)>
+<!ELEMENT lafTT (#PCDATA)>
+
+<!-- end language.dtd -->

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : greek.xml
+    Created on : 30 April 2007, 3.44
+    Author     : Piero Dalle Pezze
+    Translation: http://babelfish.altavista.com
+    Description:
+        Greek dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Ανάθεση"/>
+    <word averageResponseTime = "Μέσος χρόνος απόκρισης"/>
+    <word averageTurnAround = "Μέση στροφή γύρω"/>
+    <word averageWaitingTime = "Μέσος αναμονής χρόνος"/>
+    <word blockedProcesses = "Παρεμποδισμένες διαδικασίες"/>
+    <word configurationFile = "Αρχείο διαμόρφωσης (* φθς)"/>
+    <word cpuUsage = "Χρήση ΚΜΕ"/>
+    <word cpuUsagePercentage = "Χρήση ΚΜΕ (%)"/>
+    <word deadlock = "Αδιέξοδο"/>
+    <word deadlockSimulationTerminated = "Αδιέξοδο. Προσομοίωση που ολοκληρώνεται"/>
+    <word delay = "Καθυστέρηση (δέκατο των δευτερολέπτων)"/>
+    <word graphOfResourcesAssignment = "Γραφική παράσταση της ανάθεσης των πόρων"/>
+    <word graphOfRunningProcesses = "Γραφική παράσταση του τρεξίματος των διαδικασιών"/>
+    <word hideStatistics = "Στατιστικές δορών"/>
+    <word noQueue = "Καμία σειρά αναμονής"/>
+    <word process = "Διαδικασία"/>
+    <word processes = "Διαδικασίες"/>
+    <word readyQueue = "Αναμείνετε τη σειρά αναμονής"/>
+    <word resource = "Πόρος"/>
+    <word resources = "Πόροι"/>
+    <word responseTime = "Χρόνος απόκρισης"/>
+    <word showStatistics = "Παρουσιάστε στατιστικές"/>
+    <word simulationAtInitialState = "Προσομοίωση στο αρχικό κράτος"/>
+    <word simulationCompleted = "Προσομοίωση που ολοκληρώνεται"/>
+    <word state = "Κράτος"/>
+    <word statistics = "Στατιστικές"/>
+    <word statisticsOfProcesses = "Στατιστικές των διαδικασιών"/>
+    <word statisticsOfTheSimulation = "Στατιστικές της προσομοίωσης"/>
+    <word terminated = "Ολοκληρωμένος"/>
+    <word throughput = "Throughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Αναμονής χρόνος"/>
+    <word blockedState = "Εμποδισμένος"/>
+    <word executingState = "Τρέξιμο"/>
+    <word readyState = "Αναμείνετε"/>
+    <word terminatedState = "Ολοκληρωμένος"/>
+    <word toActivateState = "Για να ενεργοποιήσει"/>
+    <word about = "Περίπου "/>
+    <word configurationSummary = "Περίληψη της διαμόρφωσης"/>
+    <word defaultLayout = "Σχεδιάγραμμα προεπιλογής"/>
+    <word exit = "Έξοδος"/>
+    <word file = "Αρχείο"/>
+    <word help = "Βοήθεια"/>
+    <word modifyConfiguration = "Τροποποιήστε"/>
+    <word newConfiguration = "Νέος"/>
+    <word openConfiguration = "Ανοικτός"/>
+    <word save = "Εκτός από"/>
+    <word simulation = "Προσομοίωση"/>
+    <word views = "Απόψεις"/>
+    <word loadSavedConfigurationTT = "Φορτώστε μια σωζόμενη διαμόρφωση"/>
+    <word modifyConfigurationTT = "Ανοίξτε την επιτροπή διαμόρφωσης για να τροποποιήσετε την τρέχουσα διαμόρφωση"/>
+    <word moveBackwardStepTT = "Κίνηση προς τα πίσω ενός βήματος"/>
+    <word moveForwardStepTT = "Κίνηση προς τα εμπρός ενός βήματος"/>
+    <word moveToFinalStateTT = "Κίνηση προς το τελικό κράτος"/>
+    <word moveToInitialStateTT = "Κίνηση προς το αρχικό κράτος"/>
+    <word openConfigurationTT = "Ανοίξτε την επιτροπή διαμόρφωσης για να αρχίσετε μια νέα προσομοίωση"/>
+    <word openHelpWindowTT = "Ανοίξτε το παράθυρο βοήθειας"/>
+    <word playAutomaticAdvancementTT = "Παίξτε την αυτόματη πρόοδο"/>
+    <word saveConfigurationTT = "Εκτός από τη διαμόρφωση"/>
+    <word setDelaySimulationTT = "Θέστε την καθυστέρηση για την αυτόματη πρόοδο της προσομοίωσης"/>
+    <word stopAutomaticAdvancementTT = "Σταματήστε την αυτόματη πρόοδο"/>
+    <word abort = "Αποβάλτε"/>
+    <word no = "Αριθ"/>
+    <word saveQ = "Θέλετε να σώσετε τη διαμόρφωση;"/>
+    <word submit = "Υποβάλτε"/>
+    <word yes = "Ναι"/>
+    <word activationTime = "Χρόνος ενεργοποίησης"/>
+    <word assignmentPolicy = "Πολιτική ανάθεσης"/>
+    <word basePriority = "Προτεραιότητα βάσεων"/>
+    <word ceilingPriority = "Ανώτατη προτεραιότητα"/>
+    <word chooseTheSchedulingPolicy = "Επιλέξτε την πολιτική σχεδιασμού"/>
+    <word executionTime = "Χρόνος εκτέλεσης"/>
+    <word multiplicity = "Πολλαπλότητα"/>
+    <word name = "Όνομα"/>
+    <word processName = "Όνομα της διαδικασίας"/>
+    <word preemption = "Δικαίωμα προτίμησης"/>
+    <word requestTime = "Χρόνος αιτήματος"/>
+    <word schedulingPolicy = "Σχέδιο της πολιτικής"/>
+    <word timeSlice = "Χρονική φέτα"/>
+    <word dataInput = "Εισαγωγή στοιχείων"/>
+    <word accessesToResources = "Προσβάσεις στους πόρους"/>
+    <word policies = "Πολιτικές"/>
+    <word defaultName = "Όνομα προεπιλογής"/>
+    <word add = "Προσθέστε"/>
+    <word modify = "Τροποποιήστε"/>
+    <word remove = "Αφαιρέστε"/>
+    <word accept = "Δεχτείτε"/>
+    <word processParameters = "Παράμετροι διαδικασίας"/>
+    <word resourceParameters = "Παράμετροι των πόρων"/>
+    <word preemptive = "Προαγοραστικός"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Παράμετροι πρόσβασης"/>
+    <word quantum = "Κβάντο"/>
+    <word requestDuration = "Διάρκεια αιτήματος"/>
+    <word addNewRowTT = "Προσθέστε τη νέα σειρά"/>
+    <word removeSelectedRowTT = "Αφαιρέστε την επιλεγμένη σειρά"/>
+    <word modifySelectedRowTT = "Τροποποιήστε την επιλεγμένη σειρά"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Μόνο για τον καταμερισμό χρόνου που σχεδιάζει τις πολιτικές"/>
+    <word ER000 = "Error000 - Αρχείο διαμόρφωσης που δεν βρίσκεται ή που αλλοιώνεται. Μονογράψτε τη διαμόρφωση προεπιλογής"/>
+    <word ER001 = "Error001 - Ανοιγμένο αρχείο που αλλοιώνεται"/>
+    <word ER002 = "Error002 - Αρχείο σωζόμενο"/>
+    <word ER003 = "Error003 - Διάρκεια προσομοίωσης μεγαλύτερη από 15000 κρότωνες"/>
+    <word ER004 = "Error004 - Προτεραιότητα από τη σειρά"/>
+    <word ER005 = "Error005 - Χρόνος εκτέλεσης μη θετικός"/>
+    <word ER006 = "Error006 - Χρόνος αιτήματος των πόρων μη έγκυρος"/>
+    <word ER007 = "Error007 - Πολλαπλότητα μη θετική"/>
+    <word ER008 = "Error008 - Ανώτατη προτεραιότητα από τη σειρά"/>
+    <word ER009 = "Error009 - Διάρκεια πρόσβασης μη έγκυρη"/>
+    <word language = "Γλώσσα"/>
+    <word maximumLayout = "Μέγιστο σχεδιάγραμμα"/>
+    <word ER010 = "Error010 - Ασυμβίβαστη πρόσβαση. Δείτε τον πίνακα"/>
+    <word error = "Λάθος"/>
+    <word exportHTML = "Εξαγωγή (html)"/>
+    <word exportXML = "Εξαγωγή (xml)"/>
+    <word themes = "θέματα"/>
+    <word lafTT = "Πρέπει να ξαναφύγετε για να εφαρμόσετε αυτό το βλέμμα και να αισθανθείτε"/>
+</words> 
+
+<!-- end file -->

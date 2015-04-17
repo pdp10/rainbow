@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : spanish.xml
+    Created on : 16 May 2007, 16.26
+    Author     : Piero Dalle Pezze
+    Translation: Google Translator
+    Description:
+        Spanish dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Asignación"/>
+    <word averageResponseTime = "Tiempo de reacción medio"/>
+    <word averageTurnAround = "Average turn around"/>
+    <word averageWaitingTime = "Tiempo de espera medio"/>
+    <word blockedProcesses = "Procesos bloqueados"/>
+    <word configurationFile = "Archivo de la configuración(*.xml)"/>
+    <word cpuUsage = "Uso de la CPU"/>
+    <word cpuUsagePercentage = "Uso de la CPU(%)"/>
+    <word deadlock = "Bloqueo mutuo"/>
+    <word deadlockSimulationTerminated = "Bloqueo mutuo. La simulación terminó"/>
+    <word delay = "Retrasa (décimo de segundos)"/>
+    <word graphOfResourcesAssignment = "Gráfico de la asignación de recursos"/>
+    <word graphOfRunningProcesses = "Gráfico de procesos corrientes"/>
+    <word hideStatistics = "Estadística de la piel"/>
+    <word noQueue = "Ninguna coleta"/>
+    <word process = "Proceso"/>
+    <word processes = "Procesos"/>
+    <word readyQueue = "Fila de procesos preparados"/>
+    <word resource = "Recurso"/>
+    <word resources = "Recursos"/>
+    <word responseTime = "Tiempo de reacción"/>
+    <word showStatistics = "Demuestre la estadística"/>
+    <word simulationAtInitialState = "Simulación en el estado inicial"/>
+    <word simulationCompleted = "La simulación terminó"/>
+    <word state = "Estado"/>
+    <word statistics = "Estadística"/>
+    <word statisticsOfProcesses = "Estadística de procesos"/>
+    <word statisticsOfTheSimulation = "Estadística de la simulación"/>
+    <word terminated = "Terminado"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Tiempo de espera"/>
+    <word blockedState = "Bloqueado"/>
+    <word executingState = "En ejecución"/>
+    <word readyState = "Listo"/>
+    <word terminatedState = "Terminado"/>
+    <word toActivateState = "Para activar"/>
+    <word about = "Acerca de "/>
+    <word configurationSummary = "Resumen de la configuración"/>
+    <word defaultLayout = "Disposición predefinida"/>
+    <word exit = "Salida"/>
+    <word file = "Archivo"/>
+    <word help = "Ayuda"/>
+    <word modifyConfiguration = "Modifique"/>
+    <word newConfiguration = "Nuevo"/>
+    <word openConfiguration = "Abrir"/>
+    <word save = "Salve"/>
+    <word simulation = "Simulación"/>
+    <word views = "Vistas"/>
+    <word loadSavedConfigurationTT = "Cargue una configuración ahorrada"/>
+    <word modifyConfigurationTT = "Abra el panel de la configuración para modificar la configuración actual"/>
+    <word moveBackwardStepTT = "Muévase al revés de un paso"/>
+    <word moveForwardStepTT = "Muévase adelante de un paso"/>
+    <word moveToFinalStateTT = "Movimiento al estado final"/>
+    <word moveToInitialStateTT = "Muévase al estado inicial"/>
+    <word openConfigurationTT = "Abra el panel de configuración para comenzar una nueva simulación"/>
+    <word openHelpWindowTT = "Abra la ventana de ayuda"/>
+    <word playAutomaticAdvancementTT = "Ejecute el adelantamiento automático"/>
+    <word saveConfigurationTT = "Salve la configuración"/>
+    <word setDelaySimulationTT = "Fije retrasa para el adelanto automático de la simulación"/>
+    <word stopAutomaticAdvancementTT = "Pare el adelanto automático"/>
+    <word abort = "Aborte"/>
+    <word no = "No"/>
+    <word saveQ = "Haga usted quiere salvar la configuración?"/>
+    <word submit = "Someta"/>
+    <word yes = "Sí"/>
+    <word activationTime = "Tiempo de la activación"/>
+    <word assignmentPolicy = "Política de la asignación"/>
+    <word basePriority = "Prioridad inicial"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Elija la política programar"/>
+    <word executionTime = "Tiempo de ejecución"/>
+    <word multiplicity = "Multiplicidad"/>
+    <word name = "Nombre"/>
+    <word processName = "Nombre del proceso"/>
+    <word preemption = "Preemption"/>
+    <word requestTime = "Tiempo de la petición"/>
+    <word schedulingPolicy = "La política para planificar"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Entrada de datos"/>
+    <word accessesToResources = "Accesos a los recursos"/>
+    <word policies = "Políticas"/>
+    <word defaultName = "Nombre predefinido"/>
+    <word add = "Agregue"/>
+    <word modify = "Modifique"/>
+    <word remove = "Quite"/>
+    <word accept = "Acepte"/>
+    <word processParameters = "Parámetros de procesos"/>
+    <word resourceParameters = "Parámetros de recursos"/>
+    <word preemptive = "Preemptive"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Parámetros de accesos"/>
+    <word quantum = "Quantum"/>
+    <word requestDuration = "Duración del pedido"/>
+    <word addNewRowTT = "Agregue la nueva fila"/>
+    <word removeSelectedRowTT = "Quite la fila seleccionada"/>
+    <word modifySelectedRowTT = "Modifique la fila seleccionada"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Sólo para políticas de planificar de compartir de tiempo"/>
+    <word ER000 = "Error000 - Archivo de configuración Rainbow no encontrado o corrompido. Inicialice configuración predefinida"/>
+    <word ER001 = "Error001 - El archivo abierto corrupto"/>
+    <word ER002 = "Error002 - Archivo no ahorrado"/>
+    <word ER003 = "Error003 - La duración de la simulación es más grande que 15000 auditorías"/>
+    <word ER004 = "Error004 - Prioridad fuera de la gama"/>
+    <word ER005 = "Error005 - Tiempo de ejecución no positivo"/>
+    <word ER006 = "Error006 - El tiempo de la petición del recurso es inválido"/>
+    <word ER007 = "Error007 - Multiplicidad no positiva"/>
+    <word ER008 = "Error008 - Ceiling priority out of range"/>
+    <word ER009 = "Error009 - Duration of access is not valid"/>
+    <word language = "Lengua"/>
+    <word maximumLayout = "Disposición máxima"/>
+    <word ER010 = "Error010 - Acceso incompatible. Vea la tabla"/>
+    <word error = "Error"/>
+    <word exportHTML = "Exportación (html)"/>
+    <word exportXML = "Exportación (xml)"/>
+    <word themes = "Tema"/>
+    <word lafTT = "Usted must reiniciar aplicar esto aspecto y palpar"/>
+</words>
+
+<!-- end file -->

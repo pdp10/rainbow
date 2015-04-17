@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="scheduler.UNIXScheduling" project="Rainbow" 
+    file="/Rainbow/scheduler/UNIXScheduling.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1534" y="133"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="scheduler.LinuxScheduling" project="Rainbow" 
+    file="/Rainbow/scheduler/LinuxScheduling.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1537" y="204"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="scheduler.HPFAss" project="Rainbow" file="/Rainbow/scheduler/HPFAss.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="357" y="543"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="scheduler.FIFO" project="Rainbow" file="/Rainbow/scheduler/FIFO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="810" y="726"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="scheduler.AssignmentPolicy" project="Rainbow" 
+    file="/Rainbow/scheduler/AssignmentPolicy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="225" y="420"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="scheduler.PreemptiveOnPriorityRoundRobin" project="Rainbow" 
+    file="/Rainbow/scheduler/PreemptiveOnPriorityRoundRobin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1333" y="279"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="scheduler.PreemptiveMF" project="Rainbow" 
+    file="/Rainbow/scheduler/PreemptiveMF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1317" y="524"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="scheduler.SRTF" project="Rainbow" file="/Rainbow/scheduler/SRTF.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1158" y="725"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="scheduler.Interactive" project="Rainbow" 
+    file="/Rainbow/scheduler/Interactive.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="932" y="369"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="scheduler.PreemptiveMFDQ" project="Rainbow" 
+    file="/Rainbow/scheduler/PreemptiveMFDQ.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1317" y="647"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="scheduler.MF" project="Rainbow" file="/Rainbow/scheduler/MF.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1363" y="420"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="scheduler.PriorityRoundRobin" project="Rainbow" 
+    file="/Rainbow/scheduler/PriorityRoundRobin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1332" y="165"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="scheduler.SchedulerICPP" project="Rainbow" 
+    file="/Rainbow/scheduler/SchedulerICPP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="531" y="688"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="scheduler.HRRN" project="Rainbow" file="/Rainbow/scheduler/HRRN.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="892" y="53"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="scheduler.Scheduler" project="Rainbow" file="/Rainbow/scheduler/Scheduler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="532" y="419"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="scheduler.RandomAss" project="Rainbow" file="/Rainbow/scheduler/RandomAss.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="216" y="557"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="scheduler.TimeSharing" project="Rainbow" 
+    file="/Rainbow/scheduler/TimeSharing.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1092" y="346"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="scheduler.Preemptive" project="Rainbow" 
+    file="/Rainbow/scheduler/Preemptive.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1158" y="526"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="scheduler.SchedulingPolicy" project="Rainbow" 
+    file="/Rainbow/scheduler/SchedulingPolicy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="814" y="527"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="scheduler.PreemptiveHPF" project="Rainbow" 
+    file="/Rainbow/scheduler/PreemptiveHPF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1157" y="53"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="scheduler.HPF" project="Rainbow" file="/Rainbow/scheduler/HPF.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1016" y="55"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="scheduler.RoundRobin" project="Rainbow" file="/Rainbow/scheduler/RoundRobin.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1092" y="148"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="scheduler.MFDQ" project="Rainbow" file="/Rainbow/scheduler/MFDQ.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1438" y="517"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="scheduler.FIFOAss" project="Rainbow" file="/Rainbow/scheduler/FIFOAss.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="86" y="552"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="scheduler.SJF" project="Rainbow" file="/Rainbow/scheduler/SJF.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="933" y="725"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="scheduler.Batch" project="Rainbow" file="/Rainbow/scheduler/Batch.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="930" y="624"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="28">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <realization id="30">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="31">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="32" name="scheduler"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <realization id="36">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="37">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <realization id="39">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="40">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="41" name="scheduler"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <realization id="43">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="44">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="48">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="49" name="scheduler"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="52" name="assignment"/>      
+      <multiplicity id="53" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <realization id="57">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="59">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="60" name="schedulingPolicy"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="63" name="scheduler"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <realization id="65">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <generalization id="66">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="68">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="69" name="scheduler"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="72">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="73" name="scheduler"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="76" name="scheduler"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="79">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <realization id="80">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="81">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <realization id="83">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <classifier-display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

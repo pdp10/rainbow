@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : arabic.xml
+    Created on : 4 May 2007, 1.52
+    Author     : Piero Dalle Pezze
+    Translation: http://www.appliedlanguage.com
+    Description:
+        Arabic dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "تنازل"/>
+    <word averageResponseTime = "[رسبونس تيم] معدّلة"/>
+    <word averageTurnAround = "Average turn around"/>
+    <word averageWaitingTime = "[ويت تيم] معدّلة"/>
+    <word blockedProcesses = "يسدّ عمليات"/>
+    <word configurationFile = "تشكيل مبرد ([.فكس])"/>
+    <word cpuUsage = "[كبو] إستعمال"/>
+    <word cpuUsagePercentage = "[كبو] إستعمال(%)"/>
+    <word deadlock = "أزمة"/>
+    <word deadlockSimulationTerminated = "أزمة. محاكاة ينهى"/>
+    <word delay = "يؤخّر (عاشرة من ثانية)"/>
+    <word graphOfResourcesAssignment = "رسم التنازل الموردات"/>
+    <word graphOfRunningProcesses = "رسم من عمليات جارية"/>
+    <word hideStatistics = "جلد إحصائيّة"/>
+    <word noQueue = "ما من رتل"/>
+    <word process = "عملية"/>
+    <word processes = "عمليات"/>
+    <word readyQueue = "[ردي قويو]"/>
+    <word resource = "موردة"/>
+    <word resources = "موردات"/>
+    <word responseTime = "[رسبونس تيم]"/>
+    <word showStatistics = "أبديت إحصائيّة"/>
+    <word simulationAtInitialState = "محاكاة في ال [إينيتيل ستت]"/>
+    <word simulationCompleted = "محاكاة يتمّ"/>
+    <word state = "دولة"/>
+    <word statistics = "إحصائيّة"/>
+    <word statisticsOfProcesses = "إحصائيّة العمليات"/>
+    <word statisticsOfTheSimulation = "إحصائيّة من المحاكاة"/>
+    <word terminated = "ينهي"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "[ويت تيم]"/>
+    <word blockedState = "يسدّ"/>
+    <word executingState = "يركض"/>
+    <word readyState = "يتأهّب"/>
+    <word terminatedState = "ينهي"/>
+    <word toActivateState = "أن ينشّط"/>
+    <word about = "حول"/>
+    <word configurationSummary = "خلاصة من التشكيل"/>
+    <word defaultLayout = "تقصير تصميم"/>
+    <word exit = "مخرجة"/>
+    <word file = "مبرد"/>
+    <word help = "مساعدة"/>
+    <word modifyConfiguration = "عدّلت"/>
+    <word newConfiguration = "جديدة"/>
+    <word openConfiguration = "مفتوحة"/>
+    <word save = "باستثناء"/>
+    <word simulation = "محاكاة"/>
+    <word views = "منظرات"/>
+    <word loadSavedConfigurationTT = "حمّلت ينقذ تشكيل"/>
+    <word modifyConfigurationTT = "فتحت التشكيل لوح أن يعدّل التشكيل حاليّة"/>
+    <word moveBackwardStepTT = "تحرّكت عكسيّا من خطوة"/>
+    <word moveForwardStepTT = "تحرّكت إلى الأمام من خطوة"/>
+    <word moveToFinalStateTT = "تحرّكت إلى الدولة نهائيّة"/>
+    <word moveToInitialStateTT = "تحرّكت إلى ال [إينيتيل ستت]"/>
+    <word openConfigurationTT = "فتحت التشكيل لوح أن يبدأ محاكاة جديدة"/>
+    <word openHelpWindowTT = "فتحت ال [هلب ويندوو]"/>
+    <word playAutomaticAdvancementTT = "لعبت التقدم آليّة"/>
+    <word saveConfigurationTT = "باستثناء التشكيل"/>
+    <word setDelaySimulationTT = "ثبتت ال يؤخّر للتقدم آليّة من المحاكاة"/>
+    <word stopAutomaticAdvancementTT = "توقّفت التقدم آليّة"/>
+    <word abort = "[أبورت]"/>
+    <word no = "رفض"/>
+    <word saveQ = "أنت تريد أن ينقذ التشكيل ؟"/>
+    <word submit = "قدّمت"/>
+    <word yes = "نعم"/>
+    <word activationTime = "تنشيط وقت"/>
+    <word assignmentPolicy = "تنازل سياسة"/>
+    <word basePriority = "أولوية حقيرة"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "اخترت ال يبرمج سياسة"/>
+    <word executionTime = "[إإكسكأيشن تيم]"/>
+    <word multiplicity = "تعدد"/>
+    <word name = "اسم"/>
+    <word processName = "اسم من العملية"/>
+    <word preemption = "حقّ شفعة"/>
+    <word requestTime = "طلب وقت"/>
+    <word schedulingPolicy = "[سكهدولينغ] سياسة"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "[دتا ينبوت]"/>
+    <word accessesToResources = "منفذات إلى موردات"/>
+    <word policies = "سياسات"/>
+    <word defaultName = "تقصير اسم"/>
+    <word add = "أضفت"/>
+    <word modify = "عدّلت"/>
+    <word remove = "أزلت"/>
+    <word accept = "قبلت"/>
+    <word processParameters = "معلمات العمليات"/>
+    <word resourceParameters = "معلمات الموردات"/>
+    <word preemptive = "وقائيّة"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "معلمات المنفذات"/>
+    <word quantum = "[قونتثم]"/>
+    <word requestDuration = "مدة الطلب"/>
+    <word addNewRowTT = "أضفت صف جديدة"/>
+    <word removeSelectedRowTT = "أزلت ال ينتقى صف"/>
+    <word modifySelectedRowTT = "عدّلت ال ينتقى صف"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "فقط لالتزامن يبرمج سياسات"/>
+    <word ER000 = "Error000 - قوس قزح تشكيل مبرد لا يؤسّس أو يفسد. وقعت تقصير تشكيل"/>
+    <word ER001 = "Error001 - يفتح مبرد يفسد"/>
+    <word ER002 = "Error002 - مبرد لا ينقذ"/>
+    <word ER003 = "Error003 - المدة من المحاكاة [غرت ثن] 15000 تكتكة"/>
+    <word ER004 = "Error004 - أولوية من مدى"/>
+    <word ER005 = "Error005 - [إإكسكأيشن تيم] لا [بوستيف]"/>
+    <word ER006 = "Error006 - طلب وقت من الموردة باطلة"/>
+    <word ER007 = "Error007 - تعدد لا [بوستيف]"/>
+    <word ER008 = "Error008 - Ceiling priority من مدى"/>
+    <word ER009 = "Error009 - مدة المنفذة باطلة"/>
+    <word language = "لغة"/>
+    <word maximumLayout = "تصميم قصوى"/>
+    <word ER010 = "Error010 - منفذة متعارضة. رأيت الطاولة"/>
+    <word error = "خطأ"/>
+    <word exportHTML = "(html) تصدير"/>
+    <word exportXML = "(xml) تصدير"/>
+    <word themes = "مواضيع"/>
+    <word lafTT = "أنت ينبغي [ربووت] أن يطبّق هذا نظرة وشعرت"/>
+</words> 
+
+<!-- end file -->

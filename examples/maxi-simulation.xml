@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Rainbow - A simulator of processes and resources in a multitasking computer.
+  Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+-->
+
+<!--
+  This is a configuration file exported by using the software Rainbow.
+  Created on: Tue Apr 01 16:53:21 CEST 2008
+-->
+
+
+<configuration>
+      <schedulingPolicy>Preemptive Multilevel Feedback Dynamic Quantum</schedulingPolicy>
+      <assignmentPolicy>First In First Out</assignmentPolicy>
+      <timeSlice>1</timeSlice>
+      <icpp>false</icpp>
+  <processes>
+      <process>
+          <name>P0</name>
+          <activationTime>23</activationTime>
+          <executionTime>14</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P1</name>
+          <activationTime>24</activationTime>
+          <executionTime>35</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P2</name>
+          <activationTime>62</activationTime>
+          <executionTime>15</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P3</name>
+          <activationTime>1</activationTime>
+          <executionTime>35</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P4</name>
+          <activationTime>3</activationTime>
+          <executionTime>46</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P5</name>
+          <activationTime>34</activationTime>
+          <executionTime>26</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P6</name>
+          <activationTime>21</activationTime>
+          <executionTime>23</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P7</name>
+          <activationTime>2</activationTime>
+          <executionTime>34</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P8</name>
+          <activationTime>1</activationTime>
+          <executionTime>24</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P9</name>
+          <activationTime>21</activationTime>
+          <executionTime>23</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P10</name>
+          <activationTime>1</activationTime>
+          <executionTime>74</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P11</name>
+          <activationTime>0</activationTime>
+          <executionTime>34</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+  </processes>
+  <resources>
+      <resource>
+          <name>R0</name>
+          <preemptive>false</preemptive>
+          <multiplicity>1</multiplicity>
+          <ceilingPriority>0</ceilingPriority>
+      </resource>
+      <resource>
+          <name>R1</name>
+          <preemptive>false</preemptive>
+          <multiplicity>1</multiplicity>
+          <ceilingPriority>0</ceilingPriority>
+      </resource>
+      <resource>
+          <name>R2</name>
+          <preemptive>false</preemptive>
+          <multiplicity>1</multiplicity>
+          <ceilingPriority>0</ceilingPriority>
+      </resource>
+      <resource>
+          <name>R3</name>
+          <preemptive>false</preemptive>
+          <multiplicity>1</multiplicity>
+          <ceilingPriority>0</ceilingPriority>
+      </resource>
+      <resource>
+          <name>R4</name>
+          <preemptive>true</preemptive>
+          <multiplicity>1</multiplicity>
+          <ceilingPriority>--</ceilingPriority>
+      </resource>
+      <resource>
+          <name>R5</name>
+          <preemptive>true</preemptive>
+          <multiplicity>1</multiplicity>
+          <ceilingPriority>--</ceilingPriority>
+      </resource>
+      <resource>
+          <name>R6</name>
+          <preemptive>false</preemptive>
+          <multiplicity>1</multiplicity>
+          <ceilingPriority>0</ceilingPriority>
+      </resource>
+      <resource>
+          <name>R7</name>
+          <preemptive>false</preemptive>
+          <multiplicity>2</multiplicity>
+          <ceilingPriority>0</ceilingPriority>
+      </resource>
+  </resources>
+  <accesses>
+      <access>
+          <processName>P1</processName>
+          <resourceName>R7</resourceName>
+          <requestTime>1</requestTime>
+          <requestDuration>2</requestDuration>
+      </access>
+      <access>
+          <processName>P1</processName>
+          <resourceName>R7</resourceName>
+          <requestTime>5</requestTime>
+          <requestDuration>6</requestDuration>
+      </access>
+      <access>
+          <processName>P2</processName>
+          <resourceName>R7</resourceName>
+          <requestTime>2</requestTime>
+          <requestDuration>4</requestDuration>
+      </access>
+      <access>
+          <processName>P5</processName>
+          <resourceName>R4</resourceName>
+          <requestTime>4</requestTime>
+          <requestDuration>6</requestDuration>
+      </access>
+      <access>
+          <processName>P5</processName>
+          <resourceName>R1</resourceName>
+          <requestTime>6</requestTime>
+          <requestDuration>7</requestDuration>
+      </access>
+      <access>
+          <processName>P8</processName>
+          <resourceName>R1</resourceName>
+          <requestTime>2</requestTime>
+          <requestDuration>3</requestDuration>
+      </access>
+  </accesses>
+</configuration>
+
+
+<!-- end file -->

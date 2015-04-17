@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : finnish.xml
+    Created on : 27 May 2007, 10.07
+    Author     : Piero Dalle Pezze
+    Translation: http://www.tranexp.com:2000
+    Description:
+        Finnish dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Luovutus"/>
+    <word averageResponseTime = "Määrätä keskiarvo reaktio aika"/>
+    <word averageTurnAround = "Average turn around"/>
+    <word averageWaitingTime = "Määrätä keskiarvo odotus aika"/>
+    <word blockedProcesses = "Blokki jalostaa"/>
+    <word configurationFile = "Kokoonpano arkistoida (*.xml)"/>
+    <word cpuUsage = "CPU kielenkäyttö"/>
+    <word cpuUsagePercentage = "CPU kielenkäyttö (%)"/>
+    <word deadlock = "Lukkiutuma"/>
+    <word deadlockSimulationTerminated = "Lukkiutuma. Simulointi lopettaa"/>
+    <word delay = "Hidastaa (kymmenes -lta toisen luokan)"/>
+    <word graphOfResourcesAssignment = "Graafinen -lta luovutus -lta varat"/>
+    <word graphOfRunningProcesses = "Graafinen -lta jatkuva jalostaa"/>
+    <word hideStatistics = "Kätkeytyä statistiikka"/>
+    <word noQueue = "Ei jono"/>
+    <word process = "Jalostaa"/>
+    <word processes = "Jalostaa"/>
+    <word readyQueue = "Valmis jono"/>
+    <word resource = "Varat"/>
+    <word resources = "Varat"/>
+    <word responseTime = "Reaktio aika"/>
+    <word showStatistics = "Esitellä statistiikka"/>
+    <word simulationAtInitialState = "Simulointi aikaa alku- juhla-"/>
+    <word simulationCompleted = "Simulointi täysin"/>
+    <word state = "Juhla-"/>
+    <word statistics = "Statistiikka"/>
+    <word statisticsOfProcesses = "Statistiikka -lta jalostaa"/>
+    <word statisticsOfTheSimulation = "Statistiikka -lta simulointi"/>
+    <word terminated = "Lopettaa"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Odotus aika"/>
+    <word blockedState = "Blokki"/>
+    <word executingState = "Kotona esitys"/>
+    <word readyState = "Valmis"/>
+    <word terminatedState = "Lopettaa"/>
+    <word toActivateState = "Jotta aktivoida"/>
+    <word about = "Jokseenkin "/>
+    <word configurationSummary = "Lyhennelmä -lta kokoonpano"/>
+    <word defaultLayout = "Default layout"/>
+    <word exit = "Ulos"/>
+    <word file = "Arkistoida"/>
+    <word help = "Auttaa"/>
+    <word modifyConfiguration = "Modifioida"/>
+    <word newConfiguration = "Veres"/>
+    <word openConfiguration = "Auki"/>
+    <word save = "Paitsi"/>
+    <word simulation = "Simulointi"/>
+    <word views = "Paneeli"/>
+    <word loadSavedConfigurationTT = "Ahdata paitsi kokoonpano"/>
+    <word modifyConfigurationTT = "Auki kokoonpano laudoittaa jotta modifioida ajankohtainen kokoonpano"/>
+    <word moveBackwardStepTT = "Ehdottaa takaperoinen -lta astua"/>
+    <word moveForwardStepTT = "Ehdottaa edistää -lta astua"/>
+    <word moveToFinalStateTT = "Ehdottaa jotta kestää juhla-"/>
+    <word moveToInitialStateTT = "Ehdottaa jotta alku- juhla-"/>
+    <word openConfigurationTT = "Auki kokoonpano laudoittaa jotta alku veres simulointi"/>
+    <word openHelpWindowTT = "Auki auttaa akkuna"/>
+    <word playAutomaticAdvancementTT = "Alku automaattinen edistäminen"/>
+    <word saveConfigurationTT = "Paitsi kokoonpano"/>
+    <word setDelaySimulationTT = "Asento hidastaa ajaksi automaattinen edistäminen -lta simulointi"/>
+    <word stopAutomaticAdvancementTT = "Seis automaattinen edistäminen"/>
+    <word abort = "Kumoaminen"/>
+    <word no = "Ei"/>
+    <word saveQ = "Ajaa te haluta jotta paitsi kokoonpano?"/>
+    <word submit = "Hyväksyä"/>
+    <word yes = "Jaa"/>
+    <word activationTime = "Aktivoiminen aika"/>
+    <word assignmentPolicy = "Luovutus linja"/>
+    <word basePriority = "Alku- aiemmuus"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Valikoida ajoittaen linja"/>
+    <word executionTime = "Esitys aika"/>
+    <word multiplicity = "Monimuotoisuus"/>
+    <word name = "Maine"/>
+    <word processName = "Maine -lta jalostaa"/>
+    <word preemption = "Prelaatti"/>
+    <word requestTime = "Anomus aika"/>
+    <word schedulingPolicy = "Ajoittaen linja"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Aineisto syöttää"/>
+    <word accessesToResources = "Pääsy jotta varat"/>
+    <word policies = "Poliisi"/>
+    <word defaultName = "Laiminlyöminen maine"/>
+    <word add = "Kartuttaa"/>
+    <word modify = "Modifioida"/>
+    <word remove = "Eliminoida"/>
+    <word accept = "Hyväksyä"/>
+    <word processParameters = "Parametri -lta jalostaa"/>
+    <word resourceParameters = "Parametri -lta varat"/>
+    <word preemptive = "Prelaatti"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Parametri -lta pääsy"/>
+    <word quantum = "Kvantti"/>
+    <word requestDuration = "Aika -lta anomus"/>
+    <word addNewRowTT = "Kartuttaa veres kahina"/>
+    <word removeSelectedRowTT = "Eliminoida ensiluokkainen kahina"/>
+    <word modifySelectedRowTT = "Modifioida ensiluokkainen kahina"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Ainoa ajaksi aika jakaminen ajoittaen poliisi"/>
+    <word ER000 = "Error000 - Kokoonpano arkistoida ei perustaa eli lahjoa. Alku- laiminlyöminen kokoonpano"/>
+    <word ER001 = "Error001 - Säilykerasian avaaja arkistoida lahjoa"/>
+    <word ER002 = "Error002 - Arkistoida ei paitsi"/>
+    <word ER003 = "Error003 - Aika -lta simulointi on erinomainen kuin 15000 käydä"/>
+    <word ER004 = "Error004 - Aiemmuus rikki -lta ala"/>
+    <word ER005 = "Error005 - Esitys aika ei ehdoton"/>
+    <word ER006 = "Error006 - Anomus aika -lta apulähde on ei hyvin perusteltu"/>
+    <word ER007 = "Error007 - Monimuotoisuus ei ehdoton"/>
+    <word ER008 = "Error008 - Ceiling priority rikki -lta ala"/>
+    <word ER009 = "Error009 - Aika -lta pääsy on ei hyvin perusteltu"/>
+    <word language = "Kieli"/>
+    <word maximumLayout = "Maximum layout"/>
+    <word ER010 = "Error010 - Ristiriitainen pääsy. Hiippakunta esittää"/>
+    <word error = "Erehdys"/>
+    <word exportHTML = "Viedä (html)"/>
+    <word exportXML = "Viedä (xml)"/>
+    <word themes = "Aine"/>
+    <word lafTT = "Te raivo uudestisyntynyt jotta anoa nyt kuluva etsiä ja koetella"/>
+</words> 
+
+<!-- end file -->

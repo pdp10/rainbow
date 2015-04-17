@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Rainbow - A simulator of processes and resources in a multitasking computer.
+  Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+-->
+
+<!--
+  This is a configuration file exported by using the software Rainbow.
+  Created on: Tue Apr 01 21:11:11 CEST 2008
+-->
+
+
+<configuration>
+      <schedulingPolicy>Preemptive Highest Priority First</schedulingPolicy>
+      <assignmentPolicy>First In First Out</assignmentPolicy>
+      <timeSlice>1</timeSlice>
+      <icpp>true</icpp>
+  <processes>
+      <process>
+          <name>P0</name>
+          <activationTime>1</activationTime>
+          <executionTime>6</executionTime>
+          <basePriority>0</basePriority>
+      </process>
+      <process>
+          <name>P1</name>
+          <activationTime>3</activationTime>
+          <executionTime>10</executionTime>
+          <basePriority>3</basePriority>
+      </process>
+      <process>
+          <name>P2</name>
+          <activationTime>4</activationTime>
+          <executionTime>3</executionTime>
+          <basePriority>18</basePriority>
+      </process>
+      <process>
+          <name>P3</name>
+          <activationTime>2</activationTime>
+          <executionTime>8</executionTime>
+          <basePriority>19</basePriority>
+      </process>
+  </processes>
+  <resources>
+      <resource>
+          <name>R3</name>
+          <preemptive>false</preemptive>
+          <multiplicity>1</multiplicity>
+          <ceilingPriority>20</ceilingPriority>
+      </resource>
+  </resources>
+  <accesses>
+      <access>
+          <processName>P0</processName>
+          <resourceName>R3</resourceName>
+          <requestTime>1</requestTime>
+          <requestDuration>5</requestDuration>
+      </access>
+      <access>
+          <processName>P2</processName>
+          <resourceName>R3</resourceName>
+          <requestTime>0</requestTime>
+          <requestDuration>3</requestDuration>
+      </access>
+      <access>
+          <processName>P3</processName>
+          <resourceName>R3</resourceName>
+          <requestTime>0</requestTime>
+          <requestDuration>6</requestDuration>
+      </access>
+  </accesses>
+</configuration>
+
+
+<!-- end file -->

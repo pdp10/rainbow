@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="simulation.Simulation.Executor" project="Rainbow" 
+    file="/Rainbow/simulation/Simulation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="403" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="simulation.ProcessStatistics" project="Rainbow" 
+    file="/Rainbow/simulation/ProcessStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="890" y="283"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="simulation.State" project="Rainbow" file="/Rainbow/simulation/State.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="727" y="283"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="simulation.Simulation" project="Rainbow" 
+    file="/Rainbow/simulation/Simulation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="563" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="simulation.Statistics" project="Rainbow" 
+    file="/Rainbow/simulation/Statistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="889" y="403"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="simulation.Evolution" project="Rainbow" file="/Rainbow/simulation/Evolution.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="562" y="405"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <nesting id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <association id="8">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="9" name="evolution"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="12" name="now"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="15" name="history"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="18" name="procStat"/>      
+      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

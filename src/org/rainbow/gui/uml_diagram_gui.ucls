@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="gui.RainbowMainGUI" project="Rainbow" file="/Rainbow/gui/RainbowMainGUI.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="440" y="241"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="gui.SaveQuestion" project="Rainbow" file="/Rainbow/gui/SaveQuestion.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="166" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="gui.RainbowMainGUI.WindowActionListener" project="Rainbow" 
+    file="/Rainbow/gui/RainbowMainGUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="334" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="gui.FileManager" project="Rainbow" file="/Rainbow/gui/FileManager.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="377" y="86"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="gui.ConfigurationSummary" project="Rainbow" 
+    file="/Rainbow/gui/ConfigurationSummary.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="528" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="gui.About" project="Rainbow" file="/Rainbow/gui/About.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="689" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="gui.Error" project="Rainbow" file="/Rainbow/gui/Error.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="676" y="236"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="gui.gpfxRepository.GpfxUtilsRainbow" project="Rainbow" 
+    file="/Rainbow/gui/gpfxRepository/GpfxUtilsRainbow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1141" y="289"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="gui.gpfxRepository.IconUtilsRainbow" project="Rainbow" 
+    file="/Rainbow/gui/gpfxRepository/IconUtilsRainbow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1139" y="376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="gui.input.DataInput" project="Rainbow" file="/Rainbow/gui/input/DataInput.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="923" y="214"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="gui.input.InputControl" project="Rainbow" 
+    file="/Rainbow/gui/input/InputControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="927" y="292"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="gui.input.RainbowConfig" project="Rainbow" 
+    file="/Rainbow/gui/input/RainbowConfig.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="930" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="gui.language.Language" project="Rainbow" 
+    file="/Rainbow/gui/language/Language.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1353" y="378"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="gui.view.ViewRunningGraph.JPanelGraphic" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewRunningGraph.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1163" y="640"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="gui.view.ViewTerminated.TableModel" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewTerminated.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="361" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="gui.view.ViewResourcesGraph" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewResourcesGraph.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="188" y="547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="gui.view.ViewTerminated" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewTerminated.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="360" y="547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="gui.view.ViewStatistics.TableModelProcesses" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="792" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="gui.view.ViewResources.TableModel" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewResources.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="515" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="gui.view.ViewResources" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewResources.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="516" y="547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="gui.view.ViewProcesses" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewProcesses.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="661" y="547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="gui.view.ViewStatistics" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="866" y="547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="gui.view.ViewRunningGraph" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewRunningGraph.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1163" y="547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="gui.view.ViewResourcesGraph.JPanelGraph" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewResourcesGraph.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="186" y="637"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="gui.view.ViewReadyQueue.TableModel" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewReadyQueue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1331" y="635"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="gui.view.ViewStatistics.TableModelSimulation" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewStatistics.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="982" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="gui.view.ViewProcesses.TableModel" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewProcesses.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="660" y="637"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="gui.view.ViewReadyQueue" project="Rainbow" 
+    file="/Rainbow/gui/view/ViewReadyQueue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1331" y="547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <nesting id="29">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <association id="30">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="31" name="askConfirmation"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <bendpoint x="467" y="129"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="34" name="fileManager"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <nesting id="36">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="26"/>  
+  </nesting>  
+  <nesting id="37">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </nesting>  
+  <nesting id="38">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <nesting id="39">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <nesting id="40">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <association id="41">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="42" name="x"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="45" name="gui"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="48" name="about"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <nesting id="50">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <nesting id="51">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="25"/>  
+  </nesting>  
+  <association id="52">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="53" name="iconUtils"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="56" name="configurationSummary"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <nesting id="58">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="27"/>  
+  </nesting>  
+  <association id="59">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="60" name="jPanelGraph"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="false" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : nederlands.xml
+    Created on : 9 March 2007, 9.52
+    Author     : Piero Dalle Pezze
+    Translation: Staas de Jong
+    Description:
+        Nederlands dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Toewijzing"/>
+    <word averageResponseTime = "Gemiddelde responstijd"/>
+    <word averageTurnAround = "Gemiddelde turn around"/>
+    <word averageWaitingTime = "Gemiddelde wachttijd"/>
+    <word blockedProcesses = "Geblokkeerde processen"/>
+    <word configurationFile = "Configuratiebestand (*.xml)"/>
+    <word cpuUsage = "CPU gebruik"/>
+    <word cpuUsagePercentage = "CPU gebruik (%)"/>
+    <word deadlock = "Deadlock"/>
+    <word deadlockSimulationTerminated = "Deadlock. Simulatie beëindigd"/>
+    <word delay = "Delay (tienden van seconden)"/>
+    <word graphOfResourcesAssignment = "Grafiek van brontoewijzing"/>
+    <word graphOfRunningProcesses = "Grafiek van lopende processen"/>
+    <word hideStatistics = "Verberg statistieken"/>
+    <word noQueue = "Geen rij"/>
+    <word process = "Proces"/>
+    <word processes = "Processen"/>
+    <word readyQueue = "Gereed-rij"/>
+    <word resource = "Bron"/>
+    <word resources = "Bronnen"/>
+    <word responseTime = "Responstijd"/>
+    <word showStatistics = "Toon statistieken"/>
+    <word simulationAtInitialState = "Simulatie bij de initiële toestand"/>
+    <word simulationCompleted = "Simulatie voltooid"/>
+    <word state = "Toestand"/>
+    <word statistics = "Statistieken"/>
+    <word statisticsOfProcesses = "Statistieken van processen"/>
+    <word statisticsOfTheSimulation = "Statistieken van de simulatie"/>
+    <word terminated = "Beëindigd"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Wachttijd"/>
+    <word blockedState = "Geblokkeerd"/>
+    <word executingState = "Lopend"/>
+    <word readyState = "Klaar"/>
+    <word terminatedState = "Beëindigd"/>
+    <word toActivateState = "Ter activatie"/>
+    <word about = "Over "/>
+    <word configurationSummary = "Samenvatting van de configuratie"/>
+    <word defaultLayout = "Standaard layout"/>
+    <word exit = "Uitgang"/>
+    <word file = "Bestand"/>
+    <word help = "Hulp"/>
+    <word modifyConfiguration = "Wijzig"/>
+    <word newConfiguration = "Nieuw"/>
+    <word openConfiguration = "Lading"/>
+    <word save = "Opslaan"/>
+    <word simulation = "Simulatie"/>
+    <word views = "Views"/>
+    <word loadSavedConfigurationTT = "Laad een opgeslagen configuratie"/>
+    <word modifyConfigurationTT = "Open het configuratiepaneel om de huidige configuratie te wijzigen"/>
+    <word moveBackwardStepTT = "Ga een stap achteruit"/>
+    <word moveForwardStepTT = "Ga een stap vooruit"/>
+    <word moveToFinalStateTT = "Ga naar de eindtoestand"/>
+    <word moveToInitialStateTT = "Ga naar de begintoestand"/>
+    <word openConfigurationTT = "Open het configuratiepaneel om een nieuwe simulatie te starten"/>
+    <word openHelpWindowTT = "Open het helpvenster"/>
+    <word playAutomaticAdvancementTT = "Ga automatisch verder"/>
+    <word saveConfigurationTT = "Sla de configuratie op"/>
+    <word setDelaySimulationTT = "Stel het delay in voor het automatisch verdergaan van de simulatie"/>
+    <word stopAutomaticAdvancementTT = "Stop het automatisch verdergaan"/>
+    <word abort = "Afbreken"/>
+    <word no = "Nee"/>
+    <word saveQ = "Wilt U de configuratie opslaan?"/>
+    <word submit = "Leg voor"/>
+    <word yes = "Ja"/>
+    <word activationTime = "Activatietijd"/>
+    <word assignmentPolicy = "Toewijzings policy"/>
+    <word basePriority = "Grondprioriteit"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Kies de scheduling policy"/>
+    <word executionTime = "Executietijd"/>
+    <word multiplicity = "Multipliciteit"/>
+    <word name = "Naam"/>
+    <word processName = "Naam van het proces"/>
+    <word preemption = "Preëmptie"/>
+    <word requestTime = "Request tijd"/>
+    <word schedulingPolicy = "Scheduling policy"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Data invoer"/>
+    <word accessesToResources = "Brontoegangen"/>
+    <word policies = "Policies"/>
+    <word defaultName = "Standaardnaam"/>
+    <word add = "Voeg toe"/>
+    <word modify = "Wijzig"/>
+    <word remove = "Verwijder"/>
+    <word accept = "Accepteer"/>
+    <word processParameters = "Procesparameters"/>
+    <word resourceParameters = "Bronparameters"/>
+    <word preemptive = "Preëmptief"/>
+    <word ICPP = "ICCP"/>
+    <word accessParameters = "Toegangsparameters"/>
+    <word quantum = "Quantum"/>
+    <word requestDuration = "Request duur"/>
+    <word addNewRowTT = "Voeg nieuwe regel toe"/>
+    <word removeSelectedRowTT = "Verwijder de geselecteerde regel"/>
+    <word modifySelectedRowTT = "Wijzig de geselecteerde regel"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Alleen voor time sharing scheduling policies"/>
+    <word ER000 = "Error000 - Rainbow configuratiebestand niet gevonden of corrupt.\nInitialiseer standaardconfiguratie"/>
+    <word ER001 = "Error001 - Geopende bestand is corrupt"/>
+    <word ER002 = "Error002 - Bestand niet opgeslagen"/>
+    <word ER003 = "Error003 - Simulatieduur groter dan 15000 ticks"/>
+    <word ER004 = "Error004 - Prioriteit buiten bereik"/>
+    <word ER005 = "Error005 - Executietijd niet positief"/>
+    <word ER006 = "Error006 - Bronrequesttijd niet geldig"/>
+    <word ER007 = "Error007 - Multipliciteit niet positief"/>
+    <word ER008 = "Error008 - Ceiling prioriteit buiten bereik"/>
+    <word ER009 = "Error009 - Toegangsduur niet geldig"/>
+    <word language = "Taal"/>
+    <word maximumLayout = "Maximum layout"/>
+    <word ER010 = "Error010 - Onverenigbare toegang. Zie de lijst"/>
+    <word error = "Fout"/>
+    <word exportHTML = "De uitvoer (html)"/>
+    <word exportXML = "De uitvoer (xml)"/>
+    <word themes = "Thema"/>
+    <word lafTT = "U most opnieuw opstarten voor toepassen zulks uiterlijk en voelen"/>
+</words> 
+
+<!-- end file -->

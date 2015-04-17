@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : korean.xml
+    Created on : 29 April 2007, 9.52
+    Author     : Piero Dalle Pezze
+    Translation: http://babelfish.altavista.com
+    Description:
+        Korean dictionary of Rainbow. 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "지정"/>
+    <word averageResponseTime = "평균 응답 시간"/>
+    <word averageTurnAround = "평균 주변에 돌십시요"/>
+    <word averageWaitingTime = "평균 대기 시간"/>
+    <word blockedProcesses = "막은 과정"/>
+    <word configurationFile = "구성 파일 (*xml)"/>
+    <word cpuUsage = "중앙 처리 장치 사용법"/>
+    <word cpuUsagePercentage = "중앙 처리 장치 사용법 (%)"/>
+    <word deadlock = "교착상태"/>
+    <word deadlockSimulationTerminated = "교착상태. 종결되는 가장"/>
+    <word delay = "지연 (초의 10 분의 1)"/>
+    <word graphOfResourcesAssignment = "자원 지정의 도표"/>
+    <word graphOfRunningProcesses = "운영하는 과정의 도표"/>
+    <word hideStatistics = "은신처 통계"/>
+    <word noQueue = "큐"/>
+    <word process = "과정"/>
+    <word processes = "과정"/>
+    <word readyQueue = "준비되어 있는 큐"/>
+    <word resource = "자원"/>
+    <word resources = "자원"/>
+    <word responseTime = "응답 시간"/>
+    <word showStatistics = "쇼 통계"/>
+    <word simulationAtInitialState = "초기 상태에 가장"/>
+    <word simulationCompleted = "가장은 완료했다"/>
+    <word state = "국가"/>
+    <word statistics = "통계"/>
+    <word statisticsOfProcesses = "과정의 통계"/>
+    <word statisticsOfTheSimulation = "가장의 통계"/>
+    <word terminated = "종결하는"/>
+    <word throughput = "두는 여물통"/>
+    <word turnAround = "주변에 돌십시요"/>
+    <word waitingTime = "대기 시간"/>
+    <word blockedState = "막는"/>
+    <word executingState = "달림"/>
+    <word readyState = "준비되어 있는"/>
+    <word terminatedState = "종결하는"/>
+    <word toActivateState = "활성화한 위하여"/>
+    <word about = "에 관하여 "/>
+    <word configurationSummary = "윤곽의 개요"/>
+    <word defaultLayout = "과태 배치"/>
+    <word exit = "출구"/>
+    <word file = "파일"/>
+    <word help = "도움"/>
+    <word modifyConfiguration = "변경하십시요"/>
+    <word newConfiguration = "새로운"/>
+    <word openConfiguration = "열려있는"/>
+    <word save = "를 제외하고"/>
+    <word simulation = "가장"/>
+    <word views = "전망"/>
+    <word loadSavedConfigurationTT = "저장한 윤곽을 적재하십시요"/>
+    <word modifyConfigurationTT = "현재 윤곽을 변경하기 위하여 윤곽 위원회를 열십시요"/>
+    <word moveBackwardStepTT = "단계의 뒤에의 움직임"/>
+    <word moveForwardStepTT = "단계의 앞으로의 움직임"/>
+    <word moveToFinalStateTT = "최종 상태에 움직임"/>
+    <word moveToInitialStateTT = "초기 상태에 움직임"/>
+    <word openConfigurationTT = "새로운 가장을 시작하기 위하여 윤곽 위원회를 열십시요"/>
+    <word openHelpWindowTT = "도움말 윈도우를 열십시요"/>
+    <word playAutomaticAdvancementTT = "자동 전진을 하십시요"/>
+    <word saveConfigurationTT = "윤곽를 제외하고"/>
+    <word setDelaySimulationTT = "가장의 자동 전진을 위해 지연을 놓으십시요"/>
+    <word stopAutomaticAdvancementTT = "자동 전진을 멈추십시요"/>
+    <word abort = "비행 중지"/>
+    <word no = "아니다"/>
+    <word saveQ = "너는 윤곽을 저장하고는가 싶는가?"/>
+    <word submit = "복종시키십시요"/>
+    <word yes = "그렇다"/>
+    <word activationTime = "활성화 시간"/>
+    <word assignmentPolicy = "지정 방침"/>
+    <word basePriority = "우선권"/>
+    <word ceilingPriority = "천장 우선권"/>
+    <word chooseTheSchedulingPolicy = "계획 방침을 선택하십시요"/>
+    <word executionTime = "실행 시간"/>
+    <word multiplicity = "다양성"/>
+    <word name = "이름"/>
+    <word processName = "과정의 이름"/>
+    <word preemption = "선매"/>
+    <word requestTime = "요구 시간"/>
+    <word schedulingPolicy = "계획 방침"/>
+    <word timeSlice = "시간 조각"/>
+    <word dataInput = "자료 입력"/>
+    <word accessesToResources = "자원에 접근"/>
+    <word policies = "방침"/>
+    <word defaultName = "디폴트 이름"/>
+    <word add = "추가하십시요"/>
+    <word modify = "변경하십시요"/>
+    <word remove = "제거하십시요"/>
+    <word accept = "수락"/>
+    <word processParameters = "가공 매개변수"/>
+    <word resourceParameters = "자원 매개변수"/>
+    <word preemptive = "선매"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "접근 매개변수"/>
+    <word quantum = "양"/>
+    <word requestDuration = "요구 내구"/>
+    <word addNewRowTT = "새로운 줄을 추가하십시요"/>
+    <word removeSelectedRowTT = "선정한 줄을 제거하십시요"/>
+    <word modifySelectedRowTT = "선정한 줄을 변경하십시요"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "단 시분할 계획 방침을 위해"/>
+    <word ER000 = "Error000 - 발견하지 않으나 타락시키지 않는 무지개 구성 파일. 과태 윤곽을 초기화하십시요"/>
+    <word ER001 = "Error001 - 타락시키는 열n 파일"/>
+    <word ER002 = "Error002 - 저장하지 않는 파일"/>
+    <word ER003 = "Error003 - 가장 내구 보다 큰15000의 진드기"/>
+    <word ER004 = "Error004 - 범위에서 우선권"/>
+    <word ER005 = "Error005 - 긍정 실행 시간"/>
+    <word ER006 = "Error006 - 부당한 자원 요구 시간"/>
+    <word ER007 = "Error007 - 긍정 다양성"/>
+    <word ER008 = "Error008 - 범위에서 천장 우선권"/>
+    <word ER009 = "Error009 - 부당한 접근 내구"/>
+    <word language = "언어"/>
+    <word maximumLayout = "최대 배치"/>
+    <word ER010 = "Error010 - 상반되는 접근. 테이블을 보십시요"/>
+    <word error = "과실"/>
+    <word exportHTML = "수출 (html)"/>
+    <word exportXML = "수출 (xml)"/>
+    <word themes = "주제"/>
+    <word lafTT = "당신은 이 품질을 적용하기 위하여 재시동해야 한다"/>
+</words> 
+
+<!-- end file -->

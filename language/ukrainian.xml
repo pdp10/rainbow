@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+Document   : ukranian.xml
+Created on : 8 May 2007, 17.39
+Author     : Piero Dalle Pezze
+Translation: Oleksandr Evel
+Description:
+    Ukranian dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words> 
+    <word assignment = "Закріплення"/>
+    <word averageResponseTime = "Середній час відгуку"/>
+    <word averageTurnAround = "Середній час циклу обробки"/>
+    <word averageWaitingTime = "Середній час очікування"/>
+    <word blockedProcesses = "Заблоковані процеси"/>
+    <word configurationFile = "Файл конфігурації(*.xml)"/>
+    <word cpuUsage = "Використання центрального процесора"/>
+    <word cpuUsagePercentage = "Використання центрального процесора (%)"/>
+    <word deadlock = "Взаємне блокування (deadlock)"/>
+    <word deadlockSimulationTerminated = "Взаємне блокування. Моделювання завершено"/>
+    <word delay = "Час затримки (десяті секунди)"/>
+    <word graphOfResourcesAssignment = "Графік розподілу ресурсів"/>
+    <word graphOfRunningProcesses = "Графік поточних процесів"/>
+    <word hideStatistics = "Сховати статистичні дані"/>
+    <word noQueue = "Черга відсутня"/>
+    <word process = "Процес"/>
+    <word processes = "Процеси"/>
+    <word readyQueue = "Черга готових процесів"/>
+    <word resource = "Ресурс"/>
+    <word resources = "Ресурси"/>
+    <word responseTime = "Час відгуку"/>
+    <word showStatistics = "Показати статистику"/>
+    <word simulationAtInitialState = "Моделювання в початковому стані"/>
+    <word simulationCompleted = "Моделювання завершено"/>
+    <word state = "Стан"/>
+    <word statistics = "Статистика"/>
+    <word statisticsOfProcesses = "Статистика процесів"/>
+    <word statisticsOfTheSimulation = "Статистика моделювання"/>
+    <word terminated = "Завершені"/>
+    <word throughput = "Пропускна здатність"/>
+    <word turnAround = "Час циклу обробки"/>
+    <word waitingTime = "Час очікування"/>
+    <word blockedState = "Заблокований"/>
+    <word executingState = "Виконується"/>
+    <word readyState = "Готовий"/>
+    <word terminatedState = "Завершений"/>
+    <word toActivateState = "До запуску"/>
+    <word about = "Про програму "/>
+    <word configurationSummary = "Опис конфігурації"/>
+    <word defaultLayout = "Вигляд за умовчанням"/>
+    <word exit = "Вихід"/>
+    <word file = "Файл"/>
+    <word help = "Довідка"/>
+    <word modifyConfiguration = "Змінити"/>
+    <word newConfiguration = "Нова"/>
+    <word openConfiguration = "Відкрити"/>
+    <word save = "Зберегти"/>
+    <word simulation = "Моделювання"/>
+    <word views = "Вигляд"/>
+    <word loadSavedConfigurationTT = "Завантажити збережену конфігурацію"/>
+    <word modifyConfigurationTT = "Відкрити панель конфігурації для зміни поточного налаштування"/>
+    <word moveBackwardStepTT = "Повернутись на крок назад"/>
+    <word moveForwardStepTT = "Перейти на крок вперед"/>
+    <word moveToFinalStateTT = "Перейти до кінцевого стану"/>
+    <word moveToInitialStateTT = "Перейти до початкового стану"/>
+    <word openConfigurationTT = "Відкрити панель конфігурації для запуску нового сеансу моделювання"/>
+    <word openHelpWindowTT = "Відкрити вікно довідки"/>
+    <word playAutomaticAdvancementTT = "Запустити автоматичне відтворення"/>
+    <word saveConfigurationTT = "Зберегти конфігурацію"/>
+    <word setDelaySimulationTT = "Встановити затримку для автоматичного відтворення сеансу моделювання"/>
+    <word stopAutomaticAdvancementTT = "Припинити автоматичне відтворення"/>
+    <word abort = "Відміна"/>
+    <word no = "Ні"/>
+    <word saveQ = "Зберегти кофігурацію?"/>
+    <word submit = "Гаразд"/>
+    <word yes = "Так"/>
+    <word activationTime = "Час активації"/>
+    <word assignmentPolicy = "Політика розподілу"/>
+    <word basePriority = "Базовий пріоритет"/>
+    <word ceilingPriority = "Граничний пріоритет"/>
+    <word chooseTheSchedulingPolicy = "Вибрати політику планування"/>
+    <word executionTime = "Час виконання"/>
+    <word multiplicity = "Численність"/>
+    <word name = "Ім’я"/>
+    <word processName = "Ім’я процесу"/>
+    <word preemption = "Пріоритетне переривання"/>
+    <word requestTime = "Час запиту"/>
+    <word schedulingPolicy = "Політика планування"/>
+    <word timeSlice = "Квант часу"/>
+    <word dataInput = "Введення даних"/>
+    <word accessesToResources = "Доступ до ресурсів"/>
+    <word policies = "Політика"/>
+    <word defaultName = "Ім’я за умовчанням"/>
+    <word add = "Додати"/>
+    <word modify = "Змінити"/>
+    <word remove = "Вилучити"/>
+    <word accept = "Гаразд"/>
+    <word processParameters = "Параметри процесів"/>
+    <word resourceParameters = "Параметри ресурсів"/>
+    <word preemptive = "Пріоритетний"/>
+    <word ICPP = "ICCP"/>
+    <word accessParameters = "Параметри доступу"/>
+    <word quantum = "Квант"/>
+    <word requestDuration = "Тривалість запиту"/>
+    <word addNewRowTT = "Додати новий рядок"/>
+    <word removeSelectedRowTT = "Вилучити вибраний рядок"/>
+    <word modifySelectedRowTT = "Змінити вибраний рядок"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Тільки для політик планування з розподілом часу"/>
+    <word ER000 = "Error000 - Файл конфігурації Rainbow відсутній або зіпсований.\nВстановлена конфігурація за умовчанням"/>
+    <word ER001 = "Error001 - Відкрито зіпсований файл"/>
+    <word ER002 = "Error002 - Файл не збережений"/>
+    <word ER003 = "Error003 - Тривалість моделювання перевищує 15000 тактів"/>
+    <word ER004 = "Error004 - Пріоритет за межами допустимих значень"/>
+    <word ER005 = "Error005 - Значення часу виконання не додатне"/>
+    <word ER006 = "Error006 - Не допустиме значення часу запиту ресурсу"/>
+    <word ER007 = "Error007 - Значення численності  не додатне"/>
+    <word ER008 = "Error008 - Значення граничного пріоритету поза межами допустимого"/>
+    <word ER009 = "Error009 - Тривалість доступу поза межами допустимих значень"/>
+    <word language = "Мова"/>
+    <word maximumLayout = "Максимальний план"/>
+    <word ER010 = "Error010 - Несовместимый доступ. См. таблицу"/>
+    <word error = "блуд"/>
+    <word exportHTML = "Экспорт (html)"/>
+    <word exportXML = "Экспорт (xml)"/>
+    <word themes = "Тема"/>
+    <word lafTT = "Ви повинні reboot щоб застосувати цей погляд та відчуваєте"/>
+</words>
+
+<!-- end file -->

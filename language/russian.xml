@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : russian.xml
+    Created on : 8 May 2007, 17.39
+    Author     : Piero Dalle Pezze
+    Translation: Oleksandr Evel
+    Description:
+        Russian dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Закрепление"/>
+    <word averageResponseTime = "Среднее время отклика"/> 
+    <word averageTurnAround = "Среднее оборотное время"/> 
+    <word averageWaitingTime = "Среднее время ожидания"/> 
+    <word blockedProcesses = "Блокированные процессы"/> 
+    <word configurationFile = "Файл конфигурации(*.xml)"/> 
+    <word cpuUsage = "Использование центрального процессора"/> 
+    <word cpuUsagePercentage = "Использование центрального процессора (%)"/> 
+    <word deadlock = "Взаимная блокировка (deadlock)"/> 
+    <word deadlockSimulationTerminated = "Взаимная блокировка. Моделирование закончено."/> 
+    <word delay = "Время задержки (десятые секунды)"/> 
+    <word graphOfResourcesAssignment = "График распределения ресурсов"/> 
+    <word graphOfRunningProcesses = "График выполняемых процессов"/> 
+    <word hideStatistics = "Скрыть статистические данные"/> 
+    <word noQueue = "Очередь отсутствует"/> 
+    <word process = "Процесс"/> 
+    <word processes = "Процессы"/> 
+    <word readyQueue = "Очередь готовых процессов"/> 
+    <word resource = "Ресурс"/> 
+    <word resources = "Ресурсы"/> 
+    <word responseTime = "Время отклика"/> 
+    <word showStatistics = "Показать статистику"/> 
+    <word simulationAtInitialState = "Моделирование в начальном состоянии"/> 
+    <word simulationCompleted = "Моделирование закончено"/> 
+    <word state = "Состояние"/> 
+    <word statistics = "Статистика"/> 
+    <word statisticsOfProcesses = "Статистика процессов"/> 
+    <word statisticsOfTheSimulation = "Статистика моделирования"/> 
+    <word terminated = "Завершенные"/> 
+    <word throughput = "Пропускная способность"/> 
+    <word turnAround = "Оборотное время"/> 
+    <word waitingTime = "Время  ожидания"/> 
+    <word blockedState = "Заблокирован"/> 
+    <word executingState = "Исполняется"/> 
+    <word readyState = "Готовый"/> 
+    <word terminatedState = "Завершен"/> 
+    <word toActivateState = "К запуску"/> 
+    <word about = "О программе "/> 
+    <word configurationSummary = "Описание конфигурации"/> 
+    <word defaultLayout = "Вид по умолчанию"/> 
+    <word exit = "Выход"/> 
+    <word file = "Файл"/> 
+    <word help = "Справка"/> 
+    <word modifyConfiguration = "Изменить"/> 
+    <word newConfiguration = "Новая"/> 
+    <word openConfiguration = "Открыть"/> 
+    <word save = "Сохранить"/> 
+    <word simulation = "Моделирование"/> 
+    <word views = "Вид"/> 
+    <word loadSavedConfigurationTT = "Загрузить сохраненную конфигурацию"/> 
+    <word modifyConfigurationTT = "Открыть панель управления для изменения текущей кофигурации"/> 
+    <word moveBackwardStepTT = "Шаг назад"/> 
+    <word moveForwardStepTT = "Шаг вперед"/> 
+    <word moveToFinalStateTT = "Перейти к конечному состоянию"/> 
+    <word moveToInitialStateTT = "Перейти к начальному состоянию"/> 
+    <word openConfigurationTT = "Открыть панель конфигурации для запуска нового сеанса моделирования"/> 
+    <word openHelpWindowTT = "Открыть окно справки"/> 
+    <word playAutomaticAdvancementTT = "Запустить автоматическое воспроизведение"/> 
+    <word saveConfigurationTT = "Сохранить конфигурацию"/> 
+    <word setDelaySimulationTT = "Установить задержку для автоматического воспроизведения сеанса моделирования"/>
+    <word stopAutomaticAdvancementTT = "Прекратить автоматическое воспроизведение"/> 
+    <word abort = "Отмена"/> 
+    <word no = "Нет"/> 
+    <word saveQ = "Сохранить конфигурацию?"/> 
+    <word submit = "Применить"/> 
+    <word yes = "Да"/> 
+    <word activationTime = "Время активации"/> 
+    <word assignmentPolicy = "Политика распределения"/> 
+    <word basePriority = "Базовый приоритет"/> 
+    <word ceilingPriority = "Предельный приоритет"/> 
+    <word chooseTheSchedulingPolicy = "Выбрать политику планирования"/> 
+    <word executionTime = "Время исполнения"/> 
+    <word multiplicity = "Множественность"/> 
+    <word name = "Имя"/> 
+    <word processName = "Имя процесса"/> 
+    <word preemption = "Приоритетное прерывание"/> 
+    <word requestTime = "Время запроса"/> 
+    <word schedulingPolicy = "Политика планирования"/> 
+    <word timeSlice = "Квант времени"/> 
+    <word dataInput = "Введение данных"/> 
+    <word accessesToResources = "Доступ к ресурсам"/> 
+    <word policies = "Политика"/> 
+    <word defaultName = "Имя по умолчанию"/> 
+    <word add = "Добавить"/> 
+    <word modify = "Изменить"/> 
+    <word remove = "Удалить"/> 
+    <word accept = "Применить"/> 
+    <word processParameters = "Параметры процессов"/> 
+    <word resourceParameters = "Параметры ресурсов"/> 
+    <word preemptive = "Приоритетный"/> 
+    <word ICPP = "ICCP"/>
+    <word accessParameters = "Параметры доступа"/> 
+    <word quantum = "Квант"/> 
+    <word requestDuration = "Продолжительность запроса"/> 
+    <word addNewRowTT = "Добавить ряд"/> 
+    <word removeSelectedRowTT = "Удалить выделенный ряд"/> 
+    <word modifySelectedRowTT = "Изменить выделенный ряд"/> 
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Только для политик планирования с разделением времени"/> 
+    <word ER000 = "Error000 - Файл конфигурации Rainbow не найден или испорчен.\nУстановлена конфигурация по умолчанию"/> 
+    <word ER001 = "Error001 - Открытый файл испорчен"/> 
+    <word ER002 = "Error002 - Файл не сохранен"/> 
+    <word ER003 = "Error003 - Продолжительность моделирования превышает 15000 тактов"/> 
+    <word ER004 = "Error004 - Недопустимое значение приоритета"/> 
+    <word ER005 = "Error005 - Значение времени исполнения не положительное"/> 
+    <word ER006 = "Error006 - Недопустимое значение времени запроса ресурса"/> 
+    <word ER007 = "Error007 - Множественность не положительна"/> 
+    <word ER008 = "Error008 - Значение предельного приоритета вне допустимого диапазона"/> 
+    <word ER009 = "Error009 - Продолжительность доступа вне допустимых значений"/> 
+    <word language = "Язык"/>
+    <word maximumLayout = "Максимальный план"/>
+    <word ER010 = "Error010 - Несовместимый доступ. См. таблицу"/>
+    <word error = "Ошибка"/>
+    <word exportHTML = "Экспорт (html)"/>
+    <word exportXML = "Экспорт (xml)"/>
+    <word themes = "тема"/>
+    <word lafTT = "Вы должны reboot для того чтобы приложить этот взгляд и почувствовать"/>
+</words>
+
+<!-- end file -->

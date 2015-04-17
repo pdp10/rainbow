@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : polish.xml
+    Created on : 5 May 2007, 5.44
+    Author     : Piero Dalle Pezze
+    Translation: http://www.poltran.com
+    Description:
+        Polish dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Wyznaczenie"/>
+    <word averageResponseTime = "Przeciętny czas odpowiedzi"/>
+    <word averageTurnAround = "Average turn around"/>
+    <word averageWaitingTime = "Osiągać przeciętnie czekający czas"/>
+    <word blockedProcesses = "Zablokowane procesy"/>
+    <word configurationFile = "Konfiguracja fajłu (*.xml)"/>
+    <word cpuUsage = "CPU Używanie"/>
+    <word cpuUsagePercentage = "CPU Używanie (%)"/>
+    <word deadlock = "Impas"/>
+    <word deadlockSimulationTerminated = "Impas. Udawanie zakończył"/>
+    <word delay = "Wstrzymują (dziesiąty sekundy)"/>
+    <word graphOfResourcesAssignment = "Powielacz wyznaczenia bogactw"/>
+    <word graphOfRunningProcesses = "Powielacz procesów biegania"/>
+    <word hideStatistics = "Ukrywają statystykę"/>
+    <word noQueue = "Żadna kolejka"/>
+    <word process = "Proces"/>
+    <word processes = "Procesy"/>
+    <word readyQueue = "Gotowa kolejka"/>
+    <word resource = "Bogactwo"/>
+    <word resources = "Bogactwa"/>
+    <word responseTime = "Czas odpowiedzi"/>
+    <word showStatistics = "Pokazują statystykę"/>
+    <word simulationAtInitialState = "Udawanie przy początkowy państwo"/>
+    <word simulationCompleted = "Udawanie skończył"/>
+    <word state = "Państwo"/>
+    <word statistics = "Statystyka"/>
+    <word statisticsOfProcesses = "Statystyka procesów"/>
+    <word statisticsOfTheSimulation = "Statystyka udawania"/>
+    <word terminated = "Zakończony"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Czekanie czasu"/>
+    <word blockedState = "Zablokowany"/>
+    <word executingState = "Bieganie"/>
+    <word readyState = "Gotowy"/>
+    <word terminatedState = "Zakończony"/>
+    <word toActivateState = "Żeby uaktywniać"/>
+    <word about = "O "/>
+    <word configurationSummary = "Skrót konfiguracji"/>
+    <word defaultLayout = "Default layout"/>
+    <word exit = "Wyjscie"/>
+    <word file = "Rejestrować"/>
+    <word help = "Pomoc"/>
+    <word modifyConfiguration = "Odmieniają"/>
+    <word newConfiguration = "Nowy"/>
+    <word openConfiguration = "Otwierać"/>
+    <word save = "Ratują"/>
+    <word simulation = "Udawanie"/>
+    <word views = "Widok"/>
+    <word loadSavedConfigurationTT = "Ładują oszczędzaną konfigurację"/>
+    <word modifyConfigurationTT = "Otwarty konfiguracja tablicy rozdzielczej odmieniać aktualną konfigurację"/>
+    <word moveBackwardStepTT = "Posuwają odwrotny kroku"/>
+    <word moveForwardStepTT = "Posuwają naprzód kroku"/>
+    <word moveToFinalStateTT = "Posuwają do końcowego państwo"/>
+    <word moveToInitialStateTT = "Posuwają do początkowy państwo"/>
+    <word openConfigurationTT = "Otwarty konfiguracja tablicy rozdzielczej rozpoczynać nowe udawanie"/>
+    <word openHelpWindowTT = "Otwarty pomoc okna"/>
+    <word playAutomaticAdvancementTT = "Grają automatyczne wspieranie"/>
+    <word saveConfigurationTT = "Ratują konfigurację"/>
+    <word setDelaySimulationTT = "Komplet zwłoka dla automatycznego wspierania udawania"/>
+    <word stopAutomaticAdvancementTT = "Przerywają automatyczne wspieranie"/>
+    <word abort = "Przerywać"/>
+    <word no = "Żaden"/>
+    <word saveQ = "Robi wy potrzebujecie żeby ratować konfigurację?"/>
+    <word submit = "Oddają na rozpatrzenie"/>
+    <word yes = "Tak"/>
+    <word activationTime = "Activation czas"/>
+    <word assignmentPolicy = "Wyznaczenie polityka"/>
+    <word basePriority = "Osadzają pierwszeństwo"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Wybierają planowanie polityka"/>
+    <word executionTime = "Czas wykonania"/>
+    <word multiplicity = "Multiplicity"/>
+    <word name = "Imię"/>
+    <word processName = "Imię procesu"/>
+    <word preemption = "Preemption"/>
+    <word requestTime = "Proszą o czas"/>
+    <word schedulingPolicy = "Planowanie polityka"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Dane wprowadzenie"/>
+    <word accessesToResources = "Dostępy do bogactw"/>
+    <word policies = "Polisy"/>
+    <word defaultName = "Nie dotrzymują zobowiązań imię"/>
+    <word add = "Dodają"/>
+    <word modify = "Odmieniają"/>
+    <word remove = "Przesuwają"/>
+    <word accept = "Przyjmują"/>
+    <word processParameters = "Parametry procesów"/>
+    <word resourceParameters = "Parametry bogactw"/>
+    <word preemptive = "Preemptive"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Parametry dostępów"/>
+    <word quantum = "Kwota"/>
+    <word requestDuration = "Czas trwania prośby"/>
+    <word addNewRowTT = "Dodają nowy rząd"/>
+    <word removeSelectedRowTT = "Przesuwają dobierany rząd"/>
+    <word modifySelectedRowTT = "Odmieniają dobierany rząd"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Tylko dla czasu rozdzielający planujący polisy"/>
+    <word ER000 = "Error000 - Konfiguracja Tęczy fajłu nie znajdowany albo zepsuł. Rozpoczynać nie dotrzymują zobowiązań konfigurację"/>
+    <word ER001 = "Error001 - Otwierany fajł zepsuł"/>
+    <word ER002 = "Error002 - Rejestrują nie oszczędził"/>
+    <word ER003 = "Error003 - Czas trwania udawania jest większe niż 15000 tykania"/>
+    <word ER004 = "Error004 - Pierwszeństwo zza szeregu"/>
+    <word ER005 = "Error005 - Czas wykonania nie pozytywny"/>
+    <word ER006 = "Error006 - Prośba czas bogactwa nie jest ważny"/>
+    <word ER007 = "Error007 - Multiplicity nie pozytywny "/>
+    <word ER008 = "Error008 - Ceiling priority zza szeregu"/>
+    <word ER009 = "Error009 - Czas trwania dostępu nie jest ważny"/>
+    <word language = "Język"/>
+    <word maximumLayout = "Maksimum layout"/>
+    <word ER010 = "Error010 - Niezgodny dostęp. Widzą tablicę"/>
+    <word error = "Błąd"/>
+    <word exportHTML = "Wywóz (html)"/>
+    <word exportXML = "Wywóz (xml)"/>
+    <word themes = "Motyw"/>
+    <word lafTT = "Wy musicie naładowywać powtórnie stosować to spojrzenie i czują"/>
+</words> 
+
+<!-- end file -->

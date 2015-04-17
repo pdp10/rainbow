@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : swedish.xml
+    Created on : 5 May 2007, 1.52
+    Author     : Francesca Meneghin
+    Translation: http://internettolken.se
+    Description:
+        Swedish dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Uppdrag"/>
+    <word averageResponseTime = "Medel gensvar tid"/>
+    <word averageTurnAround = "Average turn around"/>
+    <word averageWaitingTime = "Medel väntar tid"/>
+    <word blockedProcesses = "Blocked processer"/>
+    <word configurationFile = "Inställning fil (*.xml)"/>
+    <word cpuUsage = "CPU Användande "/>
+    <word cpuUsagePercentage = "CPU Användande (%)"/>
+    <word deadlock = "Baklås"/>
+    <word deadlockSimulationTerminated = "Baklås. Simulation avslutat"/>
+    <word delay = "Försena (tionde av sekunder)"/>
+    <word graphOfResourcesAssignment = "Graf av uppdrag av resurser"/>
+    <word graphOfRunningProcesses = "Graf av går processer"/>
+    <word hideStatistics = "Gömma statistik"/>
+    <word noQueue = "Inga köa"/>
+    <word process = "Processe"/>
+    <word processes = "Processer"/>
+    <word readyQueue = "Klar köa"/>
+    <word resource = "Resurs"/>
+    <word resources = "Resurser"/>
+    <word responseTime = "Gensvar tid"/>
+    <word showStatistics = "Visa statistik"/>
+    <word simulationAtInitialState = "Simulation vid den inledande stat"/>
+    <word simulationCompleted = "Simulation färdig"/>
+    <word state = "Stat"/>
+    <word statistics = "Statistik"/>
+    <word statisticsOfProcesses = "Statistik av processer"/>
+    <word statisticsOfTheSimulation = "Statistik av den simulation"/>
+    <word terminated = "Avslutat"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Väntar tid"/>
+    <word blockedState = "Blocked"/>
+    <word executingState = "Går"/>
+    <word readyState = "Klar"/>
+    <word terminatedState = "Avslutat"/>
+    <word toActivateState = "Till aktivera"/>
+    <word about = "Om"/>
+    <word configurationSummary = "Summering av den inställning"/>
+    <word defaultLayout = "Default layout"/>
+    <word exit = "Gå ur"/>
+    <word file = "Fil"/>
+    <word help = "hjälp"/>
+    <word modifyConfiguration = "Modifiera"/>
+    <word newConfiguration = "Ny"/>
+    <word openConfiguration = "Öppna"/>
+    <word save = "Spara"/>
+    <word simulation = "Simulation"/>
+    <word views = "Ser"/>
+    <word loadSavedConfigurationTT = "Ladda en sparad inställning"/>
+    <word modifyConfigurationTT = "Öppna den inställning ruta till modifiera den nuvarande inställning"/>
+    <word moveBackwardStepTT = "Flytta bakåt av en steg"/>
+    <word moveForwardStepTT = "Flytta framåt av en steg "/>
+    <word moveToFinalStateTT = "Flytta till den slutlig stat"/>
+    <word moveToInitialStateTT = "Flytta till den inledande stat"/>
+    <word openConfigurationTT = "Öppna den inställning ruta till starta en ny simulation"/>
+    <word openHelpWindowTT = "Öppna den hjälp fönster"/>
+    <word playAutomaticAdvancementTT = "Spela den automatisk befordran"/>
+    <word saveConfigurationTT = "Spara den inställning"/>
+    <word setDelaySimulationTT = "Sätta den försena för den automatisk befordran av den simulation"/>
+    <word stopAutomaticAdvancementTT = "Stopp den automatisk befordran"/>
+    <word abort = "Avbryta"/>
+    <word no = "Inga"/>
+    <word saveQ = "Gör du vill till spara den inställning?"/>
+    <word submit = "Framlägga"/>
+    <word yes = "Ja"/>
+    <word activationTime = "Verksamhet tid"/>
+    <word assignmentPolicy = "Uppdrag politik"/>
+    <word basePriority = "Bas prioritet"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Välj den scheduling politik"/>
+    <word executionTime = "Verkställande tid"/>
+    <word multiplicity = "Mångfald"/>
+    <word name = "Namn"/>
+    <word processName = "Namn av den behandla"/>
+    <word preemption = "Preemption"/>
+    <word requestTime = "Begäran tid"/>
+    <word schedulingPolicy = "Scheduling politik"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Information inmatning "/>
+    <word accessesToResources = "Accesses till resurser"/>
+    <word policies = "Politik"/>
+    <word defaultName = "Huvudsaklig namn"/>
+    <word add = "Lägga till"/>
+    <word modify = "Modifiera"/>
+    <word remove = "Ta bort"/>
+    <word accept = "Acceptera"/>
+    <word processParameters = "Parametrar av processer"/>
+    <word resourceParameters = "Parametrar av resurser"/>
+    <word preemptive = "Preemptive"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Parametrar av accesses"/>
+    <word quantum = "Mängd"/>
+    <word requestDuration = "Varaktighet av begäran"/>
+    <word addNewRowTT = "Lägga till ny rad"/>
+    <word removeSelectedRowTT = "Ta bort den vald rad"/>
+    <word modifySelectedRowTT = "Modifiera den vald rad"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Bara för tid delande scheduling taktik"/>
+    <word ER000 = "Error000 - Regnbåge inställning fil inte funnen eller skadade. Initialisera huvudsaklig inställning"/>
+    <word ER001 = "Error001 - Öppnad fil skadade"/>
+    <word ER002 = "Error002 - Fil inte sparad"/>
+    <word ER003 = "Error003 - Den varaktighet av den simulation är bättre än 15000 ticks"/>
+    <word ER004 = "Error004 - Prioritet ute av omfång"/>
+    <word ER005 = "Error005 - Verkställande tid inte positiv"/>
+    <word ER006 = "Error006 - Begäran tid av den resurs är inte giltig"/>
+    <word ER007 = "Error007 - Mångfald inte positiv"/>
+    <word ER008 = "Error008 - Ceiling priority ute av omfång"/>
+    <word ER009 = "Error009 - Varaktighet av tillgång är inte giltig"/>
+    <word language = "Språk"/>
+    <word maximumLayout = "Maximum layout"/>
+    <word ER010 = "Error010 - Inkompatibel tillträde. Se borden"/>
+    <word error = "Felaktighet"/>
+    <word exportHTML = "Exportera (html)"/>
+    <word exportXML = "Exportera (xml)"/>
+    <word themes = "Dem"/>
+    <word lafTT = "Du måste pånyttfödd till applicera den här utseende och känna"/>
+</words> 
+
+<!-- end file -->

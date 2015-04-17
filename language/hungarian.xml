@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : hungarian.xml
+    Created on : 6 May 2007, 1.39
+    Author     : Piero Dalle Pezze
+    Translation: http://www.webforditas.hu
+    Description:
+        Hungarian dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Kinevezés"/>
+    <word averageResponseTime = "Átlag válaszidő"/>
+    <word averageTurnAround = "Átlag turn around"/>
+    <word averageWaitingTime = "Átlagos váró idő"/>
+    <word blockedProcesses = "Zárolt eljárások"/>
+    <word configurationFile = "Konfiguráció kartotékolja (*.xml)"/>
+    <word cpuUsage = "CPU használat"/>
+    <word cpuUsagePercentage = "CPU használat (%)"/>
+    <word deadlock = "Befagyás"/>
+    <word deadlockSimulationTerminated = "Befagyás. Szimulálást fejeztek be"/>
+    <word delay = "Késedelem (tizedike másodpercek)"/>
+    <word graphOfResourcesAssignment = "Az erőforrások kinevezésének a grafikonja"/>
+    <word graphOfRunningProcesses = "A futó eljárások grafikonja"/>
+    <word hideStatistics = "Irha statisztika"/>
+    <word noQueue = "Nincs sor"/>
+    <word process = "Eljárás"/>
+    <word processes = "Eljárások"/>
+    <word readyQueue = "Kész sor"/>
+    <word resource = "Erőforrás"/>
+    <word resources = "Erőforrások"/>
+    <word responseTime = "Válaszidő"/>
+    <word showStatistics = "Bemutatóstatisztika"/>
+    <word simulationAtInitialState = "Szimulálás a kezdőállapotnál"/>
+    <word simulationCompleted = "Szimulálást fejeztek be"/>
+    <word state = "Állam"/>
+    <word statistics = "Statisztika"/>
+    <word statisticsOfProcesses = "Az eljárások statisztikája"/>
+    <word statisticsOfTheSimulation = "A szimulálás statisztikája"/>
+    <word terminated = "Véget ért"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Váró idő"/>
+    <word blockedState = "Meggátolták"/>
+    <word executingState = "Végrehajtásban"/>
+    <word readyState = "Kész"/>
+    <word terminatedState = "Véget ért"/>
+    <word toActivateState = "Aktiválni"/>
+    <word about = "Körös-körül"/>
+    <word configurationSummary = "A konfiguráció összefoglalása"/>
+    <word defaultLayout = "Alapértelmezett alaprajz"/>
+    <word exit = "Kijárat"/>
+    <word file = "Fájl"/>
+    <word help = "Segít"/>
+    <word modifyConfiguration = "Módosít"/>
+    <word newConfiguration = "Új"/>
+    <word openConfiguration = "Kinyílik"/>
+    <word save = "Spórol"/>
+    <word simulation = "Szimulálás"/>
+    <word views = "Nézetek"/>
+    <word loadSavedConfigurationTT = "Tölts be egy megmentett konfigurációt"/>
+    <word modifyConfigurationTT = "Nyisd ki a konfiguráció panelt hogy módosítsd az aktuális konfigurációt"/>
+    <word moveBackwardStepTT = "Hátrafelé mozog egy lépés"/>
+    <word moveForwardStepTT = "Egy lépés lépés csatára"/>
+    <word moveToFinalStateTT = "Költözz el a végső államba"/>
+    <word moveToInitialStateTT = "Költözz el a kezdőállapotba"/>
+    <word openConfigurationTT = "Nyisd ki a konfiguráció panelt hogy indíts el egy új szimulálást"/>
+    <word openHelpWindowTT = "Nyisd ki a segítőablakot"/>
+    <word playAutomaticAdvancementTT = "Játszd az automatikus haladást"/>
+    <word saveConfigurationTT = "Mentsd meg a konfigurációt"/>
+    <word setDelaySimulationTT = "Állítsd be a késedelmet a szimulálás automatikus haladásának"/>
+    <word stopAutomaticAdvancementTT = "Állítsd le az automatikus haladást"/>
+    <word abort = "Felfüggesztés"/>
+    <word no = "Nem"/>
+    <word saveQ = "Meg akarod menteni a konfigurációt?"/>
+    <word submit = "Engedelmeskedj"/>
+    <word yes = "Igen"/>
+    <word activationTime = "Aktiválás idő"/>
+    <word assignmentPolicy = "Kinevezés politika"/>
+    <word basePriority = "Közönséges prioritás"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Válaszd a beütemező politikát"/>
+    <word executionTime = "Végrehajtás idő"/>
+    <word multiplicity = "Sokaság"/>
+    <word name = "Név"/>
+    <word processName = "Az eljárás neve"/>
+    <word preemption = "Preemption"/>
+    <word requestTime = "Kérés idő"/>
+    <word schedulingPolicy = "Politikát beütemezni"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Adatinput"/>
+    <word accessesToResources = "Hozzáférések az erőforrásokhoz"/>
+    <word policies = "Politikák"/>
+    <word defaultName = "Alapértelmezett név"/>
+    <word add = "Adj össze"/>
+    <word modify = "Módosít"/>
+    <word remove = "Költözz ki"/>
+    <word accept = "Fogadd el"/>
+    <word processParameters = "Az eljárások paraméterei"/>
+    <word resourceParameters = "Az erőforrások paraméterei"/>
+    <word preemptive = "Preemptive"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "A hozzáférések paraméterei"/>
+    <word quantum = "Kvantum"/>
+    <word requestDuration = "A kérés tartama"/>
+    <word addNewRowTT = "Adj hozzá új vitát"/>
+    <word removeSelectedRowTT = "Távolítsd el a kiválasztott vitát"/>
+    <word modifySelectedRowTT = "Módosítsd a kiválasztott vitát"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Csak időosztásos ütemezés-politikákért"/>
+    <word ER000 = "Error000 - Szivárvány konfiguráció fájlt nem találtak meg vagy megvesztegették. Inicializálj alapértelmezett konfigurációt"/>
+    <word ER001 = "Error001 - Kinyitott fájlt vesztegettek meg"/>
+    <word ER002 = "Error002 - Fájl, amit nem mentettek meg"/>
+    <word ER003 = "Error003 - A szimulálás tartama nagyobb, mint 15000 ketyegés"/>
+    <word ER004 = "Error004 - Prioritás tartományból"/>
+    <word ER005 = "Error005 - Végrehajtás idő nem pozitív"/>
+    <word ER006 = "Error006 - Az erőforrás kérés ideje nem érvényes"/>
+    <word ER007 = "Error007 - Sokaság nem pozitív"/>
+    <word ER008 = "Error008 - Ceiling priority tartományból"/>
+    <word ER009 = "Error009 - A hozzáférés tartama nem érvényes"/>
+    <word language = "Nyelv"/>
+    <word maximumLayout = "Maximális alaprajz"/>
+    <word ER010 = "Error010 - Összeférhetetlen hozzáférés. Lásd az asztalt"/>
+    <word error = "Hiba"/>
+    <word exportHTML = "Exportáld (html)"/>
+    <word exportXML = "Exportáld (xml)"/>
+    <word themes = "Téma"/>
+    <word lafTT = "Önnek kell újraindít -hoz alkalmaz ez megjelenés és megtapint"/>
+</words> 
+
+<!-- end file -->

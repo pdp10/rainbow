@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : danish.xml
+    Created on : 27 May 2007, 12.00
+    Author     : Piero Dalle Pezze
+    Translation: http://babelfish.altavista.com
+    Description:
+        Danish dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "Hvervet"/>
+    <word averageResponseTime = "Gennemsnit svartid"/>
+    <word averageTurnAround = "Average turn around"/>
+    <word averageWaitingTime = "Gennemsnit ventetid"/>
+    <word blockedProcesses = "Spærret behandles"/>
+    <word configurationFile = "Konfiguration fil (*.xml)"/>
+    <word cpuUsage = "CPU Skik"/>
+    <word cpuUsagePercentage = "CPU Skik (%)"/>
+    <word deadlock = "Baglås"/>
+    <word deadlockSimulationTerminated = "Baglås. Simulering stoppet"/>
+    <word delay = "Ophold (tiende i andenstemmer)"/>
+    <word graphOfResourcesAssignment = "Graf i hvervet i ressourcer"/>
+    <word graphOfRunningProcesses = "Graf i løb behandles"/>
+    <word hideStatistics = "Skjule statistik"/>
+    <word noQueue = "Ikke kø"/>
+    <word process = "Processen"/>
+    <word processes = "Behandles"/>
+    <word readyQueue = "Beredvillig kø"/>
+    <word resource = "Hjælpekilde"/>
+    <word resources = "Ressourcer"/>
+    <word responseTime = "Svartid"/>
+    <word showStatistics = "Røbe sig statistik"/>
+    <word simulationAtInitialState = "Simulering henne ved den begyndende påstå"/>
+    <word simulationCompleted = "Simulering færdig"/>
+    <word state = "Påstå"/>
+    <word statistics = "Statistik"/>
+    <word statisticsOfProcesses = "Statistik i behandles"/>
+    <word statisticsOfTheSimulation = "Statistik i den simulering"/>
+    <word terminated = "Stoppet"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "Wartezeit"/>
+    <word blockedState = "Blokkeret"/>
+    <word executingState = "I effektuering"/>
+    <word readyState = "Beredvillig"/>
+    <word terminatedState = "Stoppet"/>
+    <word toActivateState = "Hen til aktivere"/>
+    <word about = "Omkring "/>
+    <word configurationSummary = "Sammendrag i den konfiguration"/>
+    <word defaultLayout = "Standard layout"/>
+    <word exit = "Udgang"/>
+    <word file = "Fil"/>
+    <word help = "Hjælp"/>
+    <word modifyConfiguration = "Modificerer"/>
+    <word newConfiguration = "Ny"/>
+    <word openConfiguration = "Lukke op"/>
+    <word save = "Opspare"/>
+    <word simulation = "Simulering"/>
+    <word views = "Panelet"/>
+    <word loadSavedConfigurationTT = "Ladning en oplagt konfiguration"/>
+    <word modifyConfigurationTT = "Lukke op den konfiguration bedømmelseskomite hen til ændre den indeværende konfiguration"/>
+    <word moveBackwardStepTT = "Skridt tilbage i en skridt"/>
+    <word moveForwardStepTT = "Rykke frem i en skridt"/>
+    <word moveToFinalStateTT = "Skridt hen til den afgørende påstå"/>
+    <word moveToInitialStateTT = "Skridt hen til den begyndende påstå"/>
+    <word openConfigurationTT = "Lukke op den konfiguration bedømmelseskomite for at starte en ny simulering"/>
+    <word openHelpWindowTT = "Lukke op den hjælp rude"/>
+    <word playAutomaticAdvancementTT = "Aktivere den automatisk arveforskud"/>
+    <word saveConfigurationTT = "Opspare den konfiguration"/>
+    <word setDelaySimulationTT = "Placere den ophold nemlig den automatisk arveforskud i den simulering"/>
+    <word stopAutomaticAdvancementTT = "Stop den automatisk arveforskud"/>
+    <word abort = "Tilintetgøre"/>
+    <word no = "Ikke"/>
+    <word saveQ = "Lave jer ville gerne opspare den konfiguration?"/>
+    <word submit = "Optage"/>
+    <word yes = "Ja"/>
+    <word activationTime = "Aktivisering gang"/>
+    <word assignmentPolicy = "Hvervet politik"/>
+    <word basePriority = "Nedrig prioritet"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "Gide den planlægger politik"/>
+    <word executionTime = "Effektuering gang"/>
+    <word multiplicity = "Mangfoldigheden"/>
+    <word name = "Benævne"/>
+    <word processName = "Benævne i den oparbejde"/>
+    <word preemption = "Forebyggende"/>
+    <word requestTime = "Opfordre gang"/>
+    <word schedulingPolicy = "Planlægger politik"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "Data inddata"/>
+    <word accessesToResources = "Tilgået hen til ressourcer"/>
+    <word policies = "Politiet"/>
+    <word defaultName = "Standard benævne"/>
+    <word add = "Indføje"/>
+    <word modify = "Modificerer"/>
+    <word remove = "Ophæve"/>
+    <word accept = "Optage"/>
+    <word processParameters = "Parametre i behandles"/>
+    <word resourceParameters = "Parametre i ressourcer"/>
+    <word preemptive = "Forebyggende"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "Parametre i tilgået"/>
+    <word quantum = "Kvantificere"/>
+    <word requestDuration = "Tidsvarighed i opfordre"/>
+    <word addNewRowTT = "Sammenlægge ny postyr"/>
+    <word removeSelectedRowTT = "Ophæve den udsøgt postyr"/>
+    <word modifySelectedRowTT = "Ændre den udsøgt postyr"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "Bare nemlig gang deler planlægger politi"/>
+    <word ER000 = "Error000 - Konfiguration fil ikke oprette eller ødelagt. Initialisere norm konfiguration"/>
+    <word ER001 = "Error001 - Anlagde fil ødelagt"/>
+    <word ER002 = "Error002 - Fil ikke oplagt"/>
+    <word ER003 = "Error003 - Den tidsvarighed i den simulering er større end 15000 mærker"/>
+    <word ER004 = "Error004 - Prioritet op fra omfang"/>
+    <word ER005 = "Error005 - Effektuering gang ikke sikker"/>
+    <word ER006 = "Error006 - Opfordre gang i den hjælpekilde er ikke lovlig"/>
+    <word ER007 = "Error007 - Mangfoldighed ikke sikker"/>
+    <word ER008 = "Error008 - Ceiling priority op fra omfang"/>
+    <word ER009 = "Error009 - Tidsvarighed i adgang er ikke lovlig"/>
+    <word language = "Sprog"/>
+    <word maximumLayout = "Maximum layout"/>
+    <word ER010 = "Error010 - Inkompatibel adgang. Se efter den bord"/>
+    <word error = "Fejl"/>
+    <word exportHTML = "Eksport (html)"/>
+    <word exportXML = "Eksport (xml)"/>
+    <word themes = "Sig"/>
+    <word lafTT = "Jer skal genstarte hen til andrage indeværende lede og beføle"/>
+</words>
+
+<!-- end file -->

@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<!-- 
+Original document by Nicolas Rodriguez (niko-rodrigue)
+Modified by Piero Dalle Pezze (pdp10)
+-->
+
+<project default ="usage" basedir="./">
+	<!-- =================================================================== -->
+	<!-- Initialization target                                               -->
+	<!-- =================================================================== -->
+
+	<target name="init">
+		<tstamp>
+			<format property="YEAR" pattern="yyyy"/>
+		</tstamp>
+		<property name="Name" value="Rainbow"/>
+		<property name="name" value="rainbow"/>
+		<property name="version" value="3.2.14"/>
+		<property name="year" value="${YEAR}"/>
+
+		<echo message="------ ${Name} ${version} [${year}]"/>
+		<echo message="------ ${TODAY}"/>
+		<echo message="------ ${DSTAMP} ${TSTAMP}"/>
+
+		<property environment="env"/>
+		<property name="build.compiler" value="modern"/>
+		<property name="build.sysclasspath" value="ignore"/>
+		<property name="debug" value="on"/>
+		<property name="optimize" value="on"/>
+		<property name="deprecation" value="false"/>
+		<property name="depend" value="true"/>
+		<property name="verbose" value="false"/>
+
+		<property name="build.number" value="${DSTAMP}-${TSTAMP}"/>
+		<property name="build.name" value="${version} (build ${build.number})"/>
+
+		<property name="src.dir" value="${basedir}/src"/>
+		<property name="build.dir" value="${basedir}/build"/>
+		<property name="build.src" value="${basedir}/build/src"/>
+		<property name="build.dest" value="${basedir}/build/classes"/>
+		<property name="build.javadocs" value="${basedir}/build/apidocs"/>
+		<property name="lib.dir" value="${basedir}/lib"/>
+		<property name="dist.root" value="${basedir}/dist"/>
+		<property name="dist.dir" value="${dist.root}/${name}-${version}"/>
+		<property name="package.dir" value="${basedir}/build/package"/>
+
+		<filter token="year" value="${year}"/>
+		<filter token="version" value="${version}"/>
+		<filter token="date" value="${TODAY}"/>
+		<filter token="log" value="true"/>
+		<filter token="verbose" value="true"/>
+
+		<!-- add everything needed to the classpath -->
+		<!-- adjust the settings to your local environment -->
+		<path id="org.rainbow.classpath">
+			<fileset dir="${lib.dir}">
+				<include name="*.jar"/>
+				<exclude name="{name}.jar"/>
+			</fileset>
+		</path>
+	</target>
+
+
+	<!-- =================================================================== -->
+	<!-- Help on usage                                                       -->
+	<!-- =================================================================== -->
+	<target name="usage" depends="init">
+		<echo message=""/>
+		<echo message=""/>
+		<echo message="Ant build.xml for ${Name}"/>
+		<echo message="-------------------------------------------------------------"/>
+		<echo message=""/>
+		<echo message=" Available targets:"/>
+		<echo message=""/>
+		<echo message="   compile  --> compiles the source code"/>
+		<echo message="   jar      --> generates the ${name}-${version}.jar file"/>
+		<echo message="   dist     --> generates a new ${Name} distribution"/>		
+		<echo message="   javadoc  --> generates the API documentation"/>
+		<echo message="   clean    --> cleans up the directory"/>
+		<echo message=""/>
+		<echo message=" See the comments inside the build.xml file for more details."/>
+		<echo message="-------------------------------------------------------------"/>
+		<echo message=""/>
+		<echo message=""/>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Prepares the build directory                                        -->
+	<!-- =================================================================== -->
+	<target name="prepare" depends="init">
+		<mkdir dir="${build.dir}"/>
+		<echo message="Done"/>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Prepares the source code                                            -->
+	<!-- =================================================================== -->
+	<target name="prepare-src" depends="prepare">
+		<!-- create directories -->
+		<mkdir dir="${build.src}"/>
+		<mkdir dir="${build.dest}"/>
+		<mkdir dir="${package.dir}"/>
+		<mkdir dir="${dist.root}"/>
+		<mkdir dir="${dist.dir}"/>
+		<mkdir dir="${dist.dir}/log"/>
+
+
+		<!-- copy src files -->
+		<copy todir="${build.src}" overwrite="yes">
+			<fileset dir="${src.dir}"
+                        excludes="**/CVS*, **/*.class, **/*~, **/*.tgz">
+			</fileset>
+		</copy>
+		<copy todir="${build.src}" overwrite="yes">
+			<fileset dir="${basedir}"
+		                        includes="log4j.properties">
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Compiles the source directory                                       -->
+	<!-- =================================================================== -->
+	<target name="compile" depends="prepare-src">
+		<javac srcdir="${build.src}"
+           destdir="${build.dest}"
+           debug="${debug}"
+           optimize="${optimize}"
+           verbose="${verbose}"
+           source="1.7"
+           target="1.7"
+           classpathref="org.rainbow.classpath">
+		</javac>
+	</target>
+
+
+	<!-- =================================================================== -->
+	<!-- Creates the class package                                           -->
+	<!-- =================================================================== -->
+	<target name="jar" depends="compile">
+
+		<copy todir="${build.dest}">
+			<fileset dir="${build.src}"
+                                 includes="**/*.png **/*.gif **/*.xsd **/*.xsl **/data/* **/*.xml **/*.properties">
+			</fileset>
+		</copy>
+
+		<jar destfile="${build.dir}/${name}-${version}.jar"  basedir="${build.dir}" >
+		  <fileset dir="${build.dir}/classes"/>
+		  <zipgroupfileset dir="${lib.dir}" includes="**/*.jar" />
+		  <manifest>
+		    <attribute name="Main-Class" value="org.rainbow.main.Rainbow"/>
+		  </manifest>
+		</jar>
+		
+		
+		<copy todir="${basedir}/lib" preservelastmodified="true" overwrite="true" verbose="true">
+			<fileset dir="${build.dir}"
+                                 includes="${name}-${version}.jar">
+			</fileset>
+		</copy>
+	</target>
+
+
+
+	<!-- =================================================================== -->
+	<!-- Creates the distribution                                            -->
+	<!-- =================================================================== -->
+	<target name="dist" depends="prepare-src">
+
+		<!-- Creates the standard jar file -->
+
+		<antcall target="clean"/>
+
+		<antcall target="jar"/>
+
+		<copy todir="${dist.dir}" file="${build.dir}/${name}-${version}.jar"/>
+		<!-- <copy todir="${dist.root}" file="${build.dir}/${name}-${version}.jar"/> -->
+
+		<!-- Creates and copy the generated javadoc -->
+		<antcall target="javadoc"/>
+
+		<copy todir="${dist.dir}/doc/api">
+			<fileset dir="${build.javadocs}/" includes="**/*">
+			</fileset>
+		</copy>
+
+		<!-- Copy the source files -->
+		<copy todir="${dist.dir}/src">
+			<fileset dir="${build.src}/" includes="**/*">
+			</fileset>
+		</copy>
+
+		<!-- Copy all the dependencies jar files -->
+		<copy todir="${dist.dir}/lib">
+			<fileset dir="${lib.dir}/" includes="*.jar">
+			</fileset>
+		</copy>
+
+
+		<copy todir="${dist.dir}">
+			<fileset dir="${basedir}/" includes="LICENSE.txt NEWS.txt README.txt rainbow.sh rainbow.bat *.html config/**/* examples/**/* language/**/* user_manual/* log4j.properties build.xml ">
+			</fileset>
+		</copy>
+		<chmod dir="${dist.dir}" perm="ugo+rx" includes="*.sh"/>
+
+
+		<copy todir="${dist.dir}/doc">
+			<fileset dir="${dist.dir}/doc" includes="**/*.pdf **/*.jpg **/*.java" excludes="posters/** publications/** templates/**">
+			</fileset>
+		</copy>
+
+		<!-- Creates the archives to be distributed -->
+		<zip destfile="${dist.root}/${name}-${version}.zip">
+			<zipfileset dir="${dist.root}" filemode="755" includes="${name}-${version}/*"/>
+			<zipfileset dir="${dist.root}" includes="${name}-${version}/**" excludes="${name}-${version}/*.sh"/>
+		</zip>
+
+		<tar destfile="${dist.root}/${name}-${version}.tar.gz" compression="gzip">
+			<tarfileset dir="${dist.root}" filemode="755" includes="${name}-${version}/*.sh"/>
+			<tarfileset dir="${dist.root}" includes="${name}-${version}/**" excludes="${name}-${version}/*.sh"/>
+		</tar>
+
+		<!-- Restores the *.sh and lib folder -->
+		<copy todir="${dist.dir}/lib">
+			<fileset dir="${lib.dir}/" includes="*.jar">
+			</fileset>
+		</copy>
+
+		<!--
+		<copy todir="${dist.dir}">
+			<fileset dir="${basedir}/" includes="*.sh"/>
+		</copy>
+		<chmod dir="${dist.dir}" perm="ugo+rx" includes="*.sh"/>
+        -->
+
+	</target>
+
+
+
+	<!-- =================================================================== -->
+	<!-- Creates the API documentation                                       -->
+	<!-- =================================================================== -->
+	<target name="javadoc" depends="prepare-src">
+		<mkdir dir="${build.javadocs}"/>
+		
+		<!-- packagename="*" -->
+          <javadoc packagenames="org.rainbow.*" 
+                          sourcepath="${build.src}"
+                          defaultexcludes="yes"
+                          destdir="${build.javadocs}"
+                          classpathref="org.rainbow.classpath" 
+		          maxmemory="256m" 
+			  author="true" 
+			  version="true" 
+			  use="true" 
+			  splitindex="true" 
+			  noindex="false" 
+			  windowtitle="${Name} API" 
+			  doctitle="${Name}" 
+		   breakiterator="yes">
+			<link href="http://docs.oracle.com/javase/7/docs/api"/>
+		</javadoc>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Cleans everything                                                   -->
+	<!-- =================================================================== -->
+	<target name="clean" depends="init">
+		<delete includeEmptyDirs="true" quiet="yes">
+			<fileset dir="${build.dir}" includes="**"/>
+		</delete>
+		<delete dir="${dist.root}" includeEmptyDirs="true" quiet="yes"/>
+		<delete includeEmptyDirs="true" quiet="yes">
+			<fileset dir="${lib.dir}/" includes="${name}-${version}.jar"/>
+		</delete>
+	</target>
+</project>
+
+<!-- End of file -->

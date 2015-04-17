@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : languageNames.xml
+    Created on : 22 March 2007, 22.34
+    Author     : Piero Dalle Pezze
+    Description:
+        Names of the languages in the current language.
+-->
+
+<!DOCTYPE languages SYSTEM "languageNames.dtd">
+<languages>
+    <language english = "English"/>
+    <language italian = "Italiano"/>
+    <language german = "Deutsch"/>
+    <language french = "Français"/>
+    <language spanish = "Español"/>
+    <language portuguese = "Português"/>
+    <language dutch = "Nederlands"/>
+    <language norwegian = "Norsk"/>
+    <language swedish = "Svenska"/>
+    <language finnish = "Suomi"/>
+    <language danish = "Dansk"/>
+    <language russian = "Русский"/>
+    <language ukrainian = "Українська"/>
+    <language polish = "Polski"/>
+    <language greek = "Ελληνικά"/>
+    <language japanese = "日本語"/>
+    <language korean = "한국어"/>
+    <language chinese_simp = "漢語 (simp)"/>
+    <language chinese_trad = "漢語 (trad)"/>
+    <language arabic = "العربية"/>
+    <language hungarian = "Magyar"/>
+    <language indonesia = "Bahasa Indonesia"/>
+    <language persian = "فارسی"/>
+    <language esperanto = "Esperanto"/>    
+</languages> 
+
+<!-- end file -->

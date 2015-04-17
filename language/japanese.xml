@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : japanese.xml
+    Created on : 29 April 2007, 9.52
+    Author     : Piero Dalle Pezze
+    Translation: http://babelfish.altavista.com
+    Description:
+        Japanese dictionary of Rainbow.
+
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "割り当て"/>
+    <word averageResponseTime = "平均応答時間"/>
+    <word averageTurnAround = "平均回しなさい"/>
+    <word averageWaitingTime = "平均待ち時間"/>
+    <word blockedProcesses = "妨げられたプロセス"/>
+    <word configurationFile = "コンフィギュレーション・ファイル(* xml)"/>
+    <word cpuUsage = "CPU の使用法"/>
+    <word cpuUsagePercentage = "CPU の使用法 (%)"/>
+    <word deadlock = "行き詰まり"/>
+    <word deadlockSimulationTerminated = "行き詰まり。終わるシミュレーション"/>
+    <word delay = "遅れ(秒の第10)"/>
+    <word graphOfResourcesAssignment = "資源の割り当てのグラフ"/>
+    <word graphOfRunningProcesses = "連続したプロセスのグラフ"/>
+    <word hideStatistics = "Hide の統計量"/>
+    <word noQueue = "列無し"/>
+    <word process = "プロセス"/>
+    <word processes = "プロセス"/>
+    <word readyQueue = "準備ができた列"/>
+    <word resource = "資源"/>
+    <word resources = "資源"/>
+    <word responseTime = "応答時間"/>
+    <word showStatistics = "ショーの統計量"/>
+    <word simulationAtInitialState = "初期状態のシミュレーション"/>
+    <word simulationCompleted = "完了するシミュレーション"/>
+    <word state = "国家"/>
+    <word statistics = "統計量"/>
+    <word statisticsOfProcesses = "プロセスの統計量"/>
+    <word statisticsOfTheSimulation = "シミュレーションの統計量"/>
+    <word terminated = "終えられる"/>
+    <word throughput = "たらいは置いた"/>
+    <word turnAround = "回しなさい"/>
+    <word waitingTime = "待ち時間"/>
+    <word blockedState = "妨げられる"/>
+    <word executingState = "動くこと"/>
+    <word readyState = "準備ができた"/>
+    <word terminatedState = "終えられる"/>
+    <word toActivateState = "活動化するため"/>
+    <word about = "について "/>
+    <word configurationSummary = "構成の概要"/>
+    <word defaultLayout = "デフォルトのレイアウト"/>
+    <word exit = "出口"/>
+    <word file = "ファイル"/>
+    <word help = "助け"/>
+    <word modifyConfiguration = "変更しなさい"/>
+    <word newConfiguration = "新しい"/>
+    <word openConfiguration = "開いた"/>
+    <word save = "を除けば"/>
+    <word simulation = "シミュレーション"/>
+    <word views = "眺め"/>
+    <word loadSavedConfigurationTT = "救われた構成に荷を積みなさい"/>
+    <word modifyConfigurationTT = "現在の構成を変更するために構成パネルを開けなさい"/>
+    <word moveBackwardStepTT = "ステップの後方の移動"/>
+    <word moveForwardStepTT = "ステップの先の移動"/>
+    <word moveToFinalStateTT = "最終状態への移動"/>
+    <word moveToInitialStateTT = "初期状態への移動"/>
+    <word openConfigurationTT = "新しいシミュレーションを始めるために構成パネルを開けなさい"/>
+    <word openHelpWindowTT = "ヘルプ・スクリーンを開けなさい"/>
+    <word playAutomaticAdvancementTT = "自動進歩をしなさい"/>
+    <word saveConfigurationTT = "構成を除けば"/>
+    <word setDelaySimulationTT = "シミュレーションの自動進歩のための遅れを置きなさい"/>
+    <word stopAutomaticAdvancementTT = "自動進歩を停止しなさい"/>
+    <word abort = "飛行中止"/>
+    <word no = "いいえ"/>
+    <word saveQ = "構成を救いたいと思うか。"/>
+    <word submit = "堤出しなさい"/>
+    <word yes = "はい"/>
+    <word activationTime = "活発化の時間"/>
+    <word assignmentPolicy = "割り当ての方針"/>
+    <word basePriority = "基礎優先順位"/>
+    <word ceilingPriority = "天井優先順位"/>
+    <word chooseTheSchedulingPolicy = "予定の方針を選びなさい"/>
+    <word executionTime = "実行時間"/>
+    <word multiplicity = "多様性"/>
+    <word name = "名前"/>
+    <word processName = "プロセスの名前"/>
+    <word preemption = "先買"/>
+    <word requestTime = "要求時間"/>
+    <word schedulingPolicy = "予定の方針"/>
+    <word timeSlice = "タイムスライス"/>
+    <word dataInput = "データ入力"/>
+    <word accessesToResources = "資源へのアクセス"/>
+    <word policies = "方針"/>
+    <word defaultName = "既定値の名前"/>
+    <word add = "加えなさい"/>
+    <word modify = "変更しなさい"/>
+    <word remove = "取除きなさい"/>
+    <word accept = "受容"/>
+    <word processParameters = "プロセスパラメータ"/>
+    <word resourceParameters = "資源変数"/>
+    <word preemptive = "優先"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "アクセス変数"/>
+    <word quantum = "量"/>
+    <word requestDuration = "要求持続期間"/>
+    <word addNewRowTT = "新しい列を加えなさい"/>
+    <word removeSelectedRowTT = "指定列を取除きなさい"/>
+    <word modifySelectedRowTT = "指定列を変更しなさい"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "タイムシェアリングの予定の方針のためただ"/>
+    <word ER000 = "Error000 - 見つけられないか、または買収されない虹のコンフィギュレーション・ファイル。デフォルト構成を初期設定しなさい"/>
+    <word ER001 = "Error001 - 開けられたファイルは買収した"/>
+    <word ER002 = "Error002 - 救われないファイル"/>
+    <word ER003 = "Error003 - シミュレーションの持続期間15000 以上のカチカチ"/>
+    <word ER004 = "Error004 - 範囲からの優先順位"/>
+    <word ER005 = "Error005 - 肯定的でない実行時間"/>
+    <word ER006 = "Error006 - 無効な資源の要求時間"/>
+    <word ER007 = "Error007 - 肯定的でない多様性"/>
+    <word ER008 = "Error008 - 範囲からの天井優先順位"/>
+    <word ER009 = "Error009 - 無効なアクセスの持続期間"/>
+    <word language = "言語"/>
+    <word maximumLayout = "最高のレイアウト"/>
+    <word ER010 = "Error010 - 相容れないアクセス。テーブルを見なさい"/>
+    <word error = "間違い"/>
+    <word exportHTML = "輸出(html)"/>
+    <word exportXML = "輸出(xml)"/>
+    <word themes = "主題"/>
+    <word lafTT = "この外観や質を適用するために再起動しなければならない"/>
+</words> 
+
+<!-- end file -->

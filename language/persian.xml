@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+    Document   : persian.xml
+    Created on : 22 May 2007, 14.52
+    Author     : Piero Dalle Pezze
+    Translation: http://www.parstranslator.net/
+    Description:
+        Persian dictionary of Rainbow 
+-->
+
+<!DOCTYPE words SYSTEM "language.dtd">
+<words>
+    <word assignment = "واگذاری"/>
+    <word averageResponseTime = "مدت زمان پاسخگویی میانگین به دست بیاورید"/>
+    <word averageTurnAround = "Average turn around"/>
+    <word averageWaitingTime = "زمان انتظارمیانگین به دست بیاورید"/>
+    <word blockedProcesses = "فراروندبازداشته شده ها"/>
+    <word configurationFile = "فایل پیکربندی"/>
+    <word cpuUsage = "استفاده واحدپردازشگر"/>
+    <word cpuUsagePercentage = "استفاده واحدپردازشگر (%)"/>
+    <word deadlock = "بن بست"/>
+    <word deadlockSimulationTerminated = "بن بستشبیه سازی پایان داد"/>
+    <word delay = " ) دهمین ثانیه ها ( نگه بدارید"/>
+    <word graphOfResourcesAssignment = "ازواگذاری منابع به صورت نمودارنشان بدهید"/>
+    <word graphOfRunningProcesses = "به صورت نمودارنشان بدهیدازاداره کردن پیش برود"/>
+    <word hideStatistics = "آمارمخفی بشوید"/>
+    <word noQueue = "هیچ ردیف"/>
+    <word process = "فرایند"/>
+    <word processes = "جریانها"/>
+    <word readyQueue = "صف حاضر"/>
+    <word resource = "منابع"/>
+    <word resources = "منابع"/>
+    <word responseTime = "مدت زمان پاسخگویی"/>
+    <word showStatistics = "آمارنشان بدهید"/>
+    <word simulationAtInitialState = "شبیه سازی در ) به ( وضعیت ابتدائی"/>
+    <word simulationCompleted = "شبیه سازی کامل شده"/>
+    <word state = "ایالت"/>
+    <word statistics = "آمار"/>
+    <word statisticsOfProcesses = "آمارجریانها"/>
+    <word statisticsOfTheSimulation = "آمارازشبیه سازی"/>
+    <word terminated = "پایان داده شده"/>
+    <word throughput = "Troughput"/>
+    <word turnAround = "Turn around"/>
+    <word waitingTime = "زمان منتظر"/>
+    <word blockedState = "بلوک"/>
+    <word executingState = "دراجرا"/>
+    <word readyState = "آماده"/>
+    <word terminatedState = "پایان داده شده"/>
+    <word toActivateState = "به فعال می کند"/>
+    <word about = "درباره "/>
+    <word configurationSummary = "خلاصه ازپیکربند"/>
+    <word defaultLayout = "طرح پیش فرض"/>
+    <word exit = "خارج بشوید"/>
+    <word file = "فایل"/>
+    <word help = "راهنما"/>
+    <word modifyConfiguration = "اصلاح کنی"/>
+    <word newConfiguration = "جدید"/>
+    <word openConfiguration = "باز"/>
+    <word save = "ذخیره بنمایید"/>
+    <word simulation = "شبیه سازی"/>
+    <word views = "نظرات"/>
+    <word loadSavedConfigurationTT = "یک پیکربندی ذخیره شده منتقل کنید"/>
+    <word modifyConfigurationTT = "بازصفحه پیکربندی که پیکربندی جاری اصلاح می کن"/>
+    <word moveBackwardStepTT = "ماقبل انتقال ازیک مرحله ای"/>
+    <word moveForwardStepTT = "انتقال جلویی ازیک مرحله ای"/>
+    <word moveToFinalStateTT = "انتقال به وضعیت آخری"/>
+    <word moveToInitialStateTT = "انتقال به وضعیت ابتدائی"/>
+    <word openConfigurationTT = "بازصفحه پیکربندی که یک شبیه سازی جدیدشروع می کند"/>
+    <word openHelpWindowTT = "بازپنجره راهنما"/>
+    <word playAutomaticAdvancementTT = "بازی پیشرفت خودکار"/>
+    <word saveConfigurationTT = "پیکربندی ذخیره بنمایید"/>
+    <word setDelaySimulationTT = "تاخیربرای پیشرفت خودکارشبیه سازی تعیین کنید"/>
+<word stopAutomaticAdvancementTT = "پیشرفت خودکارتوقف کنید"/>
+    <word abort = "ناقص بگذارید"/>
+    <word no = "نه"/>
+    <word saveQ = "شمامی خواهیدکه پیکربندی ؟ذخیره بنمایید"/>
+    <word submit = "ارسال"/>
+    <word yes = "بلی"/>
+    <word activationTime = "زمان فعال سازی"/>
+    <word assignmentPolicy = "خطمشی واگذاری"/>
+    <word basePriority = "اولویت پایه"/>
+    <word ceilingPriority = "Ceiling priority"/>
+    <word chooseTheSchedulingPolicy = "خطمشی زمان بندی انتخاب کنید"/>
+    <word executionTime = "زمان اجرا"/>
+    <word multiplicity = "تعدد"/>
+    <word name = "نام"/>
+    <word processName = "نام ازفرآیند"/>
+    <word preemption = "انحصار"/>
+    <word requestTime = "زمان درخواست"/>
+    <word schedulingPolicy = "خطمشی زمان بندی"/>
+    <word timeSlice = "Time slice"/>
+    <word dataInput = "ورودی داده ها"/>
+    <word accessesToResources = "دستیابی هابه منابع"/>
+    <word policies = "خطمشی"/>
+    <word defaultName = "نام پیش فرض"/>
+    <word add = "اضافه بنمایید"/>
+    <word modify = "اصلاح کنی"/>
+    <word remove = "خارج کنید"/>
+    <word accept = "بپذیرید"/>
+    <word processParameters = "پارامترهافرآیندها"/>
+    <word resourceParameters = "پارامترهامنابع"/>
+    <word preemptive = "انحصاری"/>
+    <word ICPP = "ICPP"/>
+    <word accessParameters = "پارامترهادستیابی ها"/>
+    <word quantum = "کوانتوم"/>
+    <word requestDuration = "مدت درخواست"/>
+    <word addNewRowTT = "سطرجدیداضافه بنمایید"/>
+    <word removeSelectedRowTT = "سطرانتحاب شده خارج کنید"/>
+    <word modifySelectedRowTT = "سطرانتحاب شده اصلاح کنی"/>
+    <word ICPPTT = "Immediate Ceiling Priority Protocol"/>
+    <word onlyForTimeSharingPoliciesTT = "تنهابرای خطمشی زمان بندی اشتراک زمانی"/>
+    <word ER000 = "Error000 - فایل پیکربندی نه یامعیوب بوده شده یافت. پیکربندی پیش فرض مقداراولیه بدهید"/>
+    <word ER001 = "Error001 - فایل بازشده معیوب بوده شده"/>
+    <word ER002 = "Error002 - فایل نه ذخیره نمود"/>
+    <word ER003 = "Error003 - مدت شبیه سازی بزرگتراز ۱۵۰۰۰ نشانه است"/>
+    <word ER004 = "Error004 - اولویت ) با ( خارج ازمحدوده"/>
+    <word ER005 = "Error005 - زمان اجراهیچ مثبت"/>
+    <word ER006 = "Error006 - زمان درخواست ازمنبع معتبرنیست"/>
+    <word ER007 = "Error007 - تعددهیچ مثبت"/>
+    <word ER008 = "Error008 - Ceiling priority  ) با ( خارج ازمحدوده"/>
+    <word ER009 = "Error009 - مدت دستیابی معتبرنیست"/>
+    <word language = "زبان"/>
+    <word maximumLayout = "طرح بیشترین حد"/>
+    <word ER010 = "Error010 - دستیابی ناسازگار. جدول راببینید"/>
+    <word error = "خطا"/>
+    <word exportHTML = "(html) صادراتی"/>
+    <word exportXML = "(xml) صادراتی"/>
+    <word themes = "موضوع"/>
+    <word lafTT = "شمابایدباردیگرشروع بکنیدکه درخواست کنیداین نگاه بکندواحساس بکند"/>
+</words> 
+
+<!-- end file -->
