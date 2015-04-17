@@ -21,7 +21,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ================================================================
 
 Software                      : Rainbow
-Version			      : 3.2.12
+Version			      : 3.2.14
 Current designer/programmers   : Piero Dalle Pezze (Rainbow)
 Previous designer/programmers : Stefano Bertolin (SGPEMv2), 
 				Piero Dalle Pezze (SGPEMv2),
