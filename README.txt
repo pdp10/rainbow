@@ -29,7 +29,7 @@ Previous designer/programmers : Stefano Bertolin (SGPEMv2),
 				Pier Giorgio Marin (SGPEMv2), 
 				Carlo Sarto (SGPEMv2),
 				Fabio Gallonetto (SGPEMv1).
-Date			      : 16 March 2015
+Date			      : 07 May 2015
 E-Mail		              : piero.dallepezze@gmail.com
 
 
@@ -39,14 +39,14 @@ BRIEF HISTORY
 
 The original idea of this software was conceived in 2005 at the University of Padua, 
 Italy, during the course of "Software Engineering" as a support to the course of 
-"Operating Systems". The project's name was SGPEMv1 (in Italian, "Simulatore 
+"Operating Systems". The project's name was SGPEMv1 (2005) (in Italian, "Simulatore 
 di Gestione dei Processi in un Elaboratore Multiprogrammato", translated: simulator of 
 the management of processes in a multitasking computer). One year later, due to faults 
 and conceptual inconsistencies the same project was purposed again and was called SGPEMv2. 
-The SGPEMv2 project was a re-engineering of SGPEMv1. It reuses the code of the main GUI 
+The SGPEMv2 (2006) project was a re-engineering of SGPEMv1. It reuses the code of the main GUI 
 (by Fabio Gallonetto) with some adaptions, but the engine was completely designed and 
 implemented again. Rainbow is the natural second version of SGPEMv2, but due to its history, 
-it is the third version. Rainbow is a personal initiative, outside the University of Padua.
+it is the third version. Rainbow (2006-now) is a personal initiative, outside the University of Padua.
 
 
 ================================================================
@@ -130,31 +130,13 @@ Before v3.2:
 
 COMPILATION
 
-You need JDK 1.6 (see http://java.sun.com/) and GNU/Make.
+You need JDK 1.6 (see http://java.sun.com/) and Ant.
 Enter in Rainbow/src.
 
 - GNU/Linux
 -----------
 
-You can simply type:    make; make jar 
-
-It’s also possible to run make with one of the following targets: 
-- 'make doc': runs javadoc on the source files. 
-- 'make clean': removes class files and other temporary files. 
-- 'make jar': creates a jar file with all class files. 
-- 'make srcjar' creates a jar file with all java files. 
-- 'make bundle' creates a Mac OS X Application Bundle with all the jar file.
-- 'make install' will install a jar file, app bundle, class files and any shell wrappers.
-- 'make uninstall' to remove installed files. 
-- 'make help', shows a help text with available targets. 
-- 'make tags' will generate a tag file for Emacs. 
-- 'make depend' creates a dependency graph for the class files. (The dependency graph 
-   will be put in a file called makefile.dep, which is included in the Makefile)
-
-- Windows
----------
-
-Click or run compile-on-win.bat
+You can simply type:    ant jar 
 
 ================================================================
 
