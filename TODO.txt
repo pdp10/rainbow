@@ -1,0 +1,34 @@
+High priorities:
+###########
+(1) Move the entire project to github.com. DONE
+git clone https://github.com/pdp10/rainbow
+
+(2) configure Ant. DONE
+
+(3) Add junit 
+
+
+
+
+
+
+Low priority:
+##########
+
+extract scheduling and assignment policies from DataInput to RainbowToolbar
+
+
+
+
+Transform CPU into a resource. 
+
+At FIRST, make CPU a preemptive resource, with multiplicity = 1 (this corresponds to the number of cores), but configurable. 
+Then in configuration, you set that you will always create a resource of type CPU, and this will be the FIRST ONE in the arraylist. So that in the resource allocation graph, you always have the running process connected to the resource CPU. 
+
+LATER, you need to add the the configurator, the possibility to set more cores, and change (potentially) the view of the resource allocation if this does not support an arraylist of current processes. 
+You will also need to change the scheduler or extend it to support multi cores. In particular PCB current, becomes a list of PCBsCurrent, and you need further controls over these. 
+
+In particular, it is a preemptive resource and the multiplicity can be 1 (single core) or >1 for multi core.
+If a 2 or more running processes (eg in a multi core system) require to access to the same non-preemptive resource, this request must happen through a mutex (so it has to be mutual exclusive access despite the fact that the system is multi core of course) and therefore, the assignment policy rules here.
+
+
