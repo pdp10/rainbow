@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!-- 
-Original document by Nicolas Rodriguez (niko-rodrigue)
-Modified by Piero Dalle Pezze (pdp10)
--->
 
 <project default ="usage" basedir="./">
 	<!-- =================================================================== -->
@@ -127,8 +123,8 @@ Modified by Piero Dalle Pezze (pdp10)
            debug="${debug}"
            optimize="${optimize}"
            verbose="${verbose}"
-           source="1.7"
-           target="1.7"
+           source="1.6"
+           target="1.6"
            classpathref="org.rainbow.classpath">
 		</javac>
 	</target>
