@@ -21,9 +21,10 @@ Hardware requirements:
 - RAM: 128 MB.
 
 
-### Compilation
-You need JDK 1.6 (see http://java.sun.com/) and Ant. Enter in Rainbow/src.
+### Compilation / Execution
+To compile the source code, you need JDK 1.7 and Ant. 
 
+Enter in the Rainbow/ folder. Then
 To compile the source code, type:
 ``` 
 ant jar 
