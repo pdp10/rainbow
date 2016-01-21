@@ -1,12 +1,5 @@
 High priorities:
 ###########
-(1) Move the entire project to github.com. DONE
-git clone https://github.com/pdp10/rainbow
-
-(2) configure Ant. DONE
-
-(3) Add junit 
-
 
 
 

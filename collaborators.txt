@@ -1,0 +1,13 @@
+Rainbow 3.2.14
+07 May 2015
+
+Current designer/programmers: 
+Piero Dalle Pezze (Rainbow)
+
+Previous designer/programmers:
+Stefano Bertolin (SGPEMv2) 
+Piero Dalle Pezze (SGPEMv2)
+Michele Perin (SGPEMv2)
+Pier Giorgio Marin (SGPEMv2)
+Carlo Sarto (SGPEMv2)
+Fabio Gallonetto (SGPEMv1)

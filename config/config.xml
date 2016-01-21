@@ -2,7 +2,7 @@
 
 <!--
     Document   : config.xml
-    Created on : Tue 2015.03.17 at 09:19:39 PM GMT
+    Created on : Fri 2016.01.08 at 09:50:46 PM GMT
     Author     : auto-generated
     Description:
         This is the configuration file of Rainbow.
@@ -26,7 +26,7 @@
     <config number_levels_MF_policies = "10"/>
     <config language = "English"/>
     <config theme = "Shaped Gradient Theme"/>
-    <config look_and_feel = "JGoodies"/>
+    <config look_and_feel = "System"/>
 </configuration>
 
 <!-- end config.xml -->
