@@ -1,10 +1,10 @@
 
-# Rainbow (GNU GPL v2)
+# Rainbow
+Rainbow is a software simulator for computer processes and resources. This software is release under the GNU General Public License v2
 
 
 ### Introduction
-The original idea of this software was conceived in 2005 at the University of Padua (Italy) in the course of "Software Engineering", as a supporting tool for the course of *Operating Systems*. The project's name was SGPEMv1 (2005) (in Italian, *Simulatore di Gestione dei Processi in un Elaboratore Multiprogrammato*, translated: *A simulator for computer processes and resources*). One year later, due to faults 
-and conceptual inconsistencies the same project was purposed again and was called SGPEMv2. The SGPEMv2 (2006) project was a re-engineering of SGPEMv1. It reused the code of the main GUI (by Fabio Gallonetto) with some edits, but the engine was completely re-designed. Rainbow is the natural second version of SGPEMv2, but due to its history, it is the third version. Rainbow (2006-now) is a personal initiative, unrelated with the University of Padua.
+The original idea of this software was conceived in 2005 at the University of Padua (Italy) in the course of "Software Engineering", as a supporting tool for the course of *Operating Systems*. The project's name was SGPEMv1 (2005) (in Italian, *Simulatore di Gestione dei Processi in un Elaboratore Multiprogrammato*. One year later, the same project was purposed again in order to improve its design, and was called SGPEMv2. The SGPEMv2 (2006) project was a re-engineering of SGPEMv1. It reused the code of the main GUI (by Fabio Gallonetto) with some edits, but the engine was completely re-designed. Rainbow is the natural second version of SGPEMv2, but due to its history, it is the third version. Rainbow (2006-now) is a personal initiative, unrelated with the University of Padua.
 
 
 ### Minimal requirements

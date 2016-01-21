@@ -123,8 +123,8 @@
            debug="${debug}"
            optimize="${optimize}"
            verbose="${verbose}"
-           source="1.6"
-           target="1.6"
+           source="1.7"
+           target="1.7"
            classpathref="org.rainbow.classpath">
 		</javac>
 	</target>
@@ -141,7 +141,7 @@
 			</fileset>
 		</copy>
 
-		<jar destfile="${build.dir}/${name}-${version}.jar"  basedir="${build.dir}" >
+		<jar destfile="${name}-${version}.jar"  basedir="${build.dir}" >
 		  <fileset dir="${build.dir}/classes"/>
 		  <zipgroupfileset dir="${lib.dir}" includes="**/*.jar" />
 		  <manifest>
@@ -149,12 +149,13 @@
 		  </manifest>
 		</jar>
 		
-		
+		<!--
 		<copy todir="${basedir}/lib" preservelastmodified="true" overwrite="true" verbose="true">
 			<fileset dir="${build.dir}"
                                  includes="${name}-${version}.jar">
 			</fileset>
 		</copy>
+		-->
 	</target>
 
 
