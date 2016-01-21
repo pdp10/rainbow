@@ -1,6 +1,6 @@
 
 # Rainbow
-Rainbow is a software simulator for computer processes and resources. This software is release under the GNU General Public License v2
+Rainbow is a software simulator for computer processes and resources. This software is release under the GNU General Public License v2.
 
 
 ### Introduction
@@ -9,7 +9,7 @@ The original idea of this software was conceived in 2005 at the University of Pa
 
 ### Minimal requirements
 Software requirements: 
-- JVM 1.6, 
+- JVM 1.7, 
 - Infonode GUI libraries 1.6.1 (included, GPL license),
 - JGoodies GUI libraries 2.3.1 (included, BSD license),
 - NimRod GUI libraries 1.2 (included, LGPL license),
