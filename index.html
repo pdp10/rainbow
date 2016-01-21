@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Rainbow by pdp10</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Rainbow</h1>
+          <h2>A simulator of computer processes</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/pdp10/Rainbow/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/pdp10/Rainbow/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/pdp10/Rainbow" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <p>Rainbow - A simulator of processes and resources in a multitasking computer.
+Copyright (C) 2006 - 2015 
+E-mail: <a href="mailto:piero.dallepezze@gmail.com">piero.dallepezze@gmail.com</a></p>
+
+<p>This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.</p>
+
+<p>This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+
+<p>You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</p>
+
+<h1></h1>
+
+<p>Software                      : Rainbow
+Version               : 3.2.14
+Current designer/programmers   : Piero Dalle Pezze (Rainbow)
+Previous designer/programmers : Stefano Bertolin (SGPEMv2), 
+                Piero Dalle Pezze (SGPEMv2),
+                Michele Perin (SGPEMv2),
+                Pier Giorgio Marin (SGPEMv2), 
+                Carlo Sarto (SGPEMv2),
+                Fabio Gallonetto (SGPEMv1).
+Date                  : 07 May 2015
+E-Mail                    : <a href="mailto:piero.dallepezze@gmail.com">piero.dallepezze@gmail.com</a></p>
+
+<h1></h1>
+
+<p>BRIEF HISTORY</p>
+
+<p>The original idea of this software was conceived in 2005 at the University of Padua, 
+Italy, during the course of "Software Engineering" as a support to the course of 
+"Operating Systems". The project's name was SGPEMv1 (2005) (in Italian, "Simulatore 
+di Gestione dei Processi in un Elaboratore Multiprogrammato", translated: simulator of 
+the management of processes in a multitasking computer). One year later, due to faults 
+and conceptual inconsistencies the same project was purposed again and was called SGPEMv2. 
+The SGPEMv2 (2006) project was a re-engineering of SGPEMv1. It reuses the code of the main GUI 
+(by Fabio Gallonetto) with some adaptions, but the engine was completely designed and 
+implemented again. Rainbow is the natural second version of SGPEMv2, but due to its history, 
+it is the third version. Rainbow (2006-now) is a personal initiative, outside the University of Padua.</p>
+
+<h1></h1>
+
+<p>MINIMAL REQUIREMENTS</p>
+
+<p>Software requirements: JVM 1.6, 
+                       Infonode GUI libraries 1.6.1 (included, GPL license),
+                       JGoodies GUI libraries 2.3.1 (included, BSD license),
+               NimRod GUI libraries 1.2 (included, LGPL license),
+               Swing-layout GUI libraries 1.0.3 (included, LGPL license),
+               Javahelp 2.0 (included, GPL license, manually compiled).</p>
+
+<p>Hardware requirements: Processor: 800 MHz, RAM: 128 MB.</p>
+
+<h1></h1>
+
+<p>CHANGING</p>
+
+<p>The aim of Rainbow is to be an useful, powerful and stable software 
+for all people that want to learn, understand and study how a 
+conceptual operating systems works, in particular from the point of 
+view of the scheduler of processes. 
+The main changes are reported below:</p>
+
+<p>Iced-features</p>
+
+<ul>
+<li>Fix bug in Ant build.xml to create distribution</li>
+<li>Link MANIFEST.MF to build.xml</li>
+<li>Add junit tests</li>
+<li>Simulation of a multi-core system</li>
+<li>Simulation of Linux / Unix system</li>
+<li>Adding a view for comparing the different Scheduling policies</li>
+<li>Generalise this software for simulating business processes and resources (and not just computer processes and resources)</li>
+<li>other ideas? :)</li>
+</ul>
+
+<p>Trunk</p>
+
+<ul>
+<li>Re-packaging of classes using org.rainbow</li>
+<li>Use of Ant instead of Make.</li>
+<li>Use of Git for version control.</li>
+</ul>
+
+<p>3.2.14</p>
+
+<ul>
+<li>Moved the source code to github 
+3.2.12</li>
+<li>Bug correction. Added minimal support for future implementation of multi-core process simulation.
+3.2.10</li>
+<li>Modularisation of the GUI. Separated Toolbar, Menubar, and Views from RainbowMainGUI. This improves 
+readability and code extension.
+3.2.8</li>
+<li>Simplified the multilanguage management by integrating the language configuration in 1 place. 
+3.2.6</li>
+<li>Removed automated advancement and replaced with a multi-step mechanism of advancement
+3.2.4 </li>
+<li>Redisign of the Scheduler package in order to enable the development 
+of alternative Schedulers. This aims to generalise this Simulator to a 
+scenary outside Operating Systems.
+Before v3.2: </li>
+<li>Support of internationalization;</li>
+<li>New design and implementation of the modules:
+Scheduler, SimulatedProcess, AssignmentPolicy, Resource, DataInput;</li>
+<li>Support of the mechanism ICPP (Immediate Ceiling Priority Protocol);</li>
+<li>Modular and easy configuration of the Rainbow system;</li>
+<li>New scheduling policies: 
+    Multilevel Feedback, Preemptive Multilevel Feedback,
+    Multilevel Feedback with Dynamic Quantum,
+Preemptive Multilevel Feedback with Dynamic quantum.</li>
+<li>New assignment policy :
+    Highest Priority First</li>
+<li>Export the configuration in html files;</li>
+<li>Maximum layout;</li>
+<li>English translation of all the source code, Help and About menu;</li>
+<li>GNU license v.2;</li>
+<li>Java 1.6 compatible;</li>
+<li>New icons Nuvola;</li>
+<li>Improvement of the Look 'n' Feel;</li>
+<li>Added themes menu and status bar;</li>
+<li>Makefile generated by mmake;</li>
+<li>XML configuration files.</li>
+</ul>
+
+<h1></h1>
+
+<p>COMPILATION</p>
+
+<p>You need JDK 1.6 (see <a href="http://java.sun.com/">http://java.sun.com/</a>) and Ant.
+Enter in Rainbow/src.</p>
+
+<h2>
+<a id="--gnulinux" class="anchor" href="#--gnulinux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>- GNU/Linux</h2>
+
+<p>You can simply type:    ant jar </p>
+
+<h1></h1>
+
+<p>EXECUTE</p>
+
+<p>You must enter inside the Rainbow folder. Then execute:</p>
+
+<p>Under GNU/Linux: ./rainbow.sh
+Under Windows  : rainbow.bat</p>
+
+<h1></h1>
+
+<p>ABOUT</p>
+
+<p>The name was changed because SGPEM was an Italian acronym.
+Rainbow was suggested by the colors of running processes 
+in the scheduling function, which is represented in a graphical 
+view of the software.
+The initial splash image remembers "the storm before the rainbow".</p>
+        </section>
+
+        <footer>
+          Rainbow is maintained by <a href="https://github.com/pdp10">pdp10</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
