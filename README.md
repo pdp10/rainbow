@@ -1,5 +1,7 @@
 
 # Rainbow
+[![Build Status](https://travis-ci.org/pdp10/Rainbow.svg?branch=master)](https://travis-ci.org/pdp10/Rainbow)
+
 Rainbow is an open source software simulator of an abstract operating system. It allows users to simulate several scheduling and assignment policies of computer processes and resources, and visualise results as plots and statistics. It is available in 23 languages. This software is release under the GNU General Public License v2.
 
 
