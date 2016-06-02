@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<project default ="usage" basedir="./">
+<project name="rainbow" default ="usage" basedir="./">
 	<!-- =================================================================== -->
 	<!-- Initialization target                                               -->
 	<!-- =================================================================== -->
@@ -39,7 +39,9 @@
 		<property name="dist.root" value="${basedir}/dist"/>
 		<property name="dist.dir" value="${dist.root}/${name}-${version}"/>
 		<property name="package.dir" value="${basedir}/build/package"/>
-
+		<property name="test.build.dir" value="build/test" />
+		<property name="test.src.dir" value="test" />
+		
 		<filter token="year" value="${year}"/>
 		<filter token="version" value="${version}"/>
 		<filter token="date" value="${TODAY}"/>
@@ -80,6 +82,8 @@
 		<echo message=""/>
 	</target>
 
+	<target name="test" depends="jar, clean" />
+	
 	<!-- =================================================================== -->
 	<!-- Prepares the build directory                                        -->
 	<!-- =================================================================== -->
