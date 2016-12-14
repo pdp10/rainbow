@@ -1,49 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
     <title>Rainbow by pdp10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
-    <div id="container">
-      <div class="inner">
+    <section class="page-header">
+      <h1 class="project-name">Rainbow</h1>
+      <h2 class="project-tagline">A simulator of computer processes</h2>
+      <a href="https://github.com/pdp10/rainbow" class="btn">View on GitHub</a>
+      <a href="https://github.com/pdp10/rainbow/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/pdp10/rainbow/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <header>
-          <h1>Rainbow</h1>
-          <h2>A simulator of computer processes</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/pdp10/rainbow/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/pdp10/rainbow/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/pdp10/rainbow" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h1>
-<a id="rainbow" class="anchor" href="#rainbow" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rainbow</h1>
-
-<p><a href="https://travis-ci.org/pdp10/rainbow"><img src="https://travis-ci.org/pdp10/rainbow.svg?branch=master" alt="Build Status"></a></p>
+    <section class="main-content">
+      <p><a href="https://travis-ci.org/pdp10/rainbow"><img src="https://travis-ci.org/pdp10/rainbow.svg?branch=master" alt="Build Status"></a></p>
 
 <p><a href="https://img.shields.io/badge/License-GPL%20v2-blue.svg"><img src="https://img.shields.io/badge/License-GPL%20v2-blue.svg" alt="License: GPL v2"></a></p>
 
-<p>Rainbow is an open source software simulator of an abstract operating system. It allows users to simulate several scheduling and assignment policies of computer processes and resources, and visualise results as plots and statistics. It is available in 23 languages. This software is release under the GNU General Public License v2.</p>
+<p>Rainbow is an open source software simulator of an abstract operating system. It allows users to simulate several scheduling and assignment policies of computer processes and resources, and visualise results as plots and statistics. It is available in several languages. This software is release under the GNU General Public License v2.</p>
 
 <h3>
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h3>
 
-<p>The original idea of this software was conceived in 2005 at the University of Padua (Italy) in the course of "Software Engineering", as a supporting tool for the course of <em>Operating Systems</em>. The project's name was SGPEMv1 (2005) (in Italian, <em>Simulatore di Gestione dei Processi in un Elaboratore Multiprogrammato</em>. One year later, the same project was purposed again in order to improve its design, and was called SGPEMv2. The SGPEMv2 (2006) project was a re-engineering of SGPEMv1. It reused the code of the main GUI (by Fabio Gallonetto) with some edits, but the engine was completely re-designed. Rainbow is the natural second version of SGPEMv2, but due to its history, it is the third version. Rainbow (2006-now) is a personal initiative, unrelated with the University of Padua.</p>
+<p>The original idea of this software was conceived in 2005 at the Department of Pure and Applied Mathematics, University of Padua (Italy) in the course of "Software Engineering". It was meant to be a supporting tool for the course of <em>Operating Systems</em>. The project name was SGPEMv1 (2005) (in Italian, <em>Simulatore di Gestione dei Processi in un Elaboratore Multiprogrammato</em>. One year later, the same project was purposed again in order to improve its design, and was called SGPEMv2. The SGPEMv2 (2006) project was a re-engineering of SGPEMv1. It reused the code of the main GUI (by Fabio Gallonetto) with a few edits, but the engine was completely re-designed. Rainbow is the natural second version of SGPEMv2, but for versioning reasons, it is the third version. Rainbow (2006-now) is a personal initiative, unrelated with the University of Padova.</p>
 
 <h3>
 <a id="minimal-requirements" class="anchor" href="#minimal-requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Minimal requirements</h3>
@@ -51,12 +36,10 @@
 <p>Software requirements: </p>
 
 <ul>
-<li>JVM 1.7, </li>
+<li>JVM 1.7,</li>
 <li>Infonode GUI libraries 1.6.1 (included, GPL license),</li>
 <li>JGoodies GUI libraries 2.3.1 (included, BSD license),</li>
-<li>NimRod GUI libraries 1.2 (included, LGPL license),</li>
-<li>Swing-layout GUI libraries 1.0.3 (included, LGPL license),</li>
-<li>Javahelp 2.0 (included, GPL license, manually compiled).</li>
+<li>Swing-layout GUI libraries 1.0.3 (included, LGPL license).</li>
 </ul>
 
 <p>Hardware requirements: </p>
@@ -69,43 +52,40 @@
 <h3>
 <a id="compilation--execution" class="anchor" href="#compilation--execution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compilation / Execution</h3>
 
-<p>To compile the source code, you need JDK 1.7 and Ant. </p>
+<p>To compile the source code, you need JDK 1.7 and Maven. </p>
 
-<p>Enter in the Rainbow/ folder. Then
-To compile the source code, type:</p>
+<p>To compile the source code, type:</p>
 
-<pre><code>ant jar 
+<pre><code>mvn package 
 </code></pre>
 
 <p>To execute Rainbow, type:</p>
 
 <pre><code># On GNU/Linux: 
 ./rainbow.sh
-</code></pre>
-
-<pre><code># On Windows:
+# On Windows:
 rainbow.bat
 </code></pre>
 
 <h3>
 <a id="developing" class="anchor" href="#developing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developing</h3>
 
-<p>If you wish to develop new features, you can fork the project and then send a pull request. Everyone is welcome, particularly students keen to learn how the core of an operating system works.</p>
+<p>If you wish to develop new features, you can fork the project and then send a pull request. Everyone is welcome, particularly students keen to learn how the core of an operating system works. For details, please see <code>doc/developer_manual/developer_manual.md</code>.</p>
 
 <h3>
 <a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h3>
 
-<p>The name was changed because SGPEM was an Italian acronym. Rainbow was suggested by the colours of 
-running processes in the scheduling function, which is represented in a graphical view of the software.
-The initial splash image remembers <em>the storm before the rainbow</em>.</p>
-        </section>
+<p>The name was changed because SGPEM was an Italian acronym. Rainbow was suggested by the colours of running processes in the scheduling function.</p>
 
-        <footer>
-          Rainbow is maintained by <a href="https://github.com/pdp10">pdp10</a><br>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/pdp10/rainbow">Rainbow</a> is maintained by <a href="https://github.com/pdp10">pdp10</a>.</span>
 
-                  <script type="text/javascript">
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -116,7 +96,5 @@ The initial splash image remembers <em>the storm before the rainbow</em>.</p>
             } catch(err) {}
           </script>
 
-      </div>
-    </div>
   </body>
 </html>
