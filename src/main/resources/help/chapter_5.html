@@ -1,0 +1,389 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>Chapter 5. Functional description</TITLE>
+	<meta name="generator" content="Bluefish 1.0.7">
+	<meta name="author" content="Piero Dalle Pezze">
+	<META NAME="CREATED" CONTENT="20070512;15234800">
+	<META NAME="CHANGEDBY" CONTENT="Piero Dalle Pezze">
+	<META NAME="CHANGED" CONTENT="20070514;22471600">
+	<LINK href="style.css" rel="stylesheet" type="text/css">
+</HEAD>
+<BODY LANG="en-US" DIR="LTR" CLASS="ELEGANT">
+<H2 CLASS="western"><i>Chapter 5. Functional description</i></H2>
+<HR SIZE=1>
+<UL TYPE=DISC>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="#par_1">Configuration of
+	Rainbow</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="#par_2">Configuration of
+	a simulation</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="#par_3">Simulation</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="#par_4">Multi language</A>
+		</P>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="#par_5">Menu bar</A> 
+	</P>
+	<LI><P><A HREF="#par_6">Help</A> 
+	</P>
+</UL>
+<HR SIZE=1>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_1"></A><i>&nbsp; &nbsp; 5.1.
+Configuration of Rainbow</i></H3>
+<P>The file config.xml, inside the folder config/, contains the
+configurations of the software Rainbow. By editing this file, the
+user can change default values. The default configuration of Rainbow
+is the following: 
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE BORDER=2 CELLPADDING=2 CELLSPACING=2 BGCOLOR="#aefcbc">
+		<TR BGCOLOR="#90baea">
+			<TD>
+				<P ALIGN=CENTER>Entry</P>
+			</TD>
+			<TD>
+				<P ALIGN=CENTER>Default value</P>
+			</TD>
+			<TD>
+				<P ALIGN=CENTER>Limit</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum number of processes</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>100</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>10000</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum number of resources</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>100</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>10000</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum number of accesses</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>200</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>20000</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum activation time</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>14997</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>14997</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum execution time</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>14998</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>14998</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Minimum priority</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>-50</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>-200</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum priority</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>50</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>200</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Minimum ceiling priority</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>-50</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>-200</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum ceiling priority</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>50</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>200</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum multiplicity</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>99</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>99</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Maximum quantum</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>99</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>200</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Number of levels in Multilevel Feedback policies</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>10</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>100</P>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<P>Language</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>GB</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>----</P>
+			</TD>
+		</TR>
+				<TR>
+			<TD>
+				<P>Theme</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>Soft Blue Ice Theme</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>----</P>
+			</TD>
+		</TR>
+				<TR>
+			<TD>
+				<P>Look And Feel</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>JGoodies</P>
+			</TD>
+			<TD>
+				<P ALIGN=RIGHT>----</P>
+			</TD>
+		</TR>		
+	</TABLE>
+</CENTER>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_2"></A><i>&nbsp; &nbsp; 5.2.
+Configuration of a simulation</i></H3>
+<P>Before starting a <A HREF="chapter_6.html#simulation">simulation</A>,
+the user must create a configuration by using the standard panel of
+Rainbow.</P>
+<P><A NAME="processes_tab"></A><BR>The panel used to configure a
+simulation is made of four tabs: <BR><BR><B>Processes:</B> 
+</P>
+<P>By using a form module, the user can specify all data about
+processes. Moreover tool-tips shows all input limits.</P>
+<P><A NAME="resources_tab"></A><BR><B>Resources:</B> 
+</P>
+<P>By using a form module, the user can specify all data about
+resources. Moreover tool-tips shows all input limits.</P>
+<P><A NAME="accesses_tab"></A><BR><B>Accesses to resources:</B> 
+</P>
+<P>By using a form module, the user can specify all data about
+accesses to resources by processes. Moreover tool-tips shows all
+input limits.</P>
+<P><A NAME="policies_tab"></A><BR><B>Policies:</B> 
+</P>
+<P>By using a form module, the user can specify all data about
+scheduling and assignment policies.</P>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_3"></A><i>&nbsp; &nbsp; 5.3. Simulation</i></H3>
+<P>After having completed the configuration, the user can start the
+simulation in automatic or manual mode. The graphical user interface,
+is subdivided in several views which allow to analyze the most
+relevant details.</P>
+<P><BR>The views in Rainbow concern: 
+</P>
+<UL TYPE=DISC>
+	<LI><P STYLE="margin-bottom: 0in">The graph of running processes 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">The graph of the current
+	allocation of resources 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">The ready queue. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">The list of processes terminated 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">The states of processes 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">The resources and lists of blocked
+	processes 
+	</P>
+	<LI><P>The statistics 
+	</P>
+</UL>
+<P><A NAME="advancement"></A><BR><B>The graph of running processes</B>
+</P>
+<P>This window illustrates the scheduling function. So it shows the
+order of execution of processes. The time of context switch is null.
+If the selected process cannot execute because it must to access to a
+non-free resource, then it becomes blocked and the CPU runs nothing
+for an unit of time.</P>
+<P><A NAME="assignment_resources"></A><BR><B>The graph of the current
+allocation of resources</B> 
+</P>
+<P>Here it is shows the current allocation of resources to processes.
+Processes are represented with a colored circle with their name
+reported inside. Instead, resources are pictured with a square with
+their name and multiplicity reported inside. The white color notifies
+that it is preemptive, the gray one if the resource is
+non-preemptive. The relation between a process and a resource is
+identified by an arrow. If a process asks a non-free resource, an
+arrow is directed from the process to the resource. If a process
+detains a resource, an arrow is directed from the resource to the
+process.</P>
+<P><A NAME="ready_queue"></A><BR><B>The ready queue</B> 
+</P>
+<P>In this window, the ready queue is represented. Processes are
+sorted by the scheduling policy adopted. In general, the first
+process in the queue is the highest in the list.</P>
+<P><A NAME="terminated"></A><BR><B>The list of processes terminated</B>
+</P>
+<P>In this window, all processes terminated are reported in temporal
+order of termination. The first process terminated is the highest in
+the list.</P>
+<P><A NAME="processes"></A><BR><B>The states of processes</B> 
+</P>
+<P>In this window, all processes are listed with their current state
+(running, ready, terminated, blocked, to activate).</P>
+<P><A NAME="resources"></A><BR><B>The resources and lists of blocked
+processes</B> 
+</P>
+<P>This window reports all resources with the list of processes to
+whom it is allocated and the queue of processes blocked, sorted by
+the assignment policy (if the resource is non-preemptive).</P>
+<P><A NAME="statistics"></A><BR><B>The statistics</B> 
+</P>
+<P>This window shows the main statistics of the simulation and
+processes until the current time. It is possible to see the
+statistics only in the manual advancement by clicking the button
+&quot;Show statistics&quot;.</P>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_4"></A><i>&nbsp; &nbsp; 5.4. Multi
+language</i></H3>
+<P>From the third version, this software supports multi language.
+Available languages are English (GB), Italian (I), German (D), French
+(F), Spanish (ES), Portuguese (P), Dutch (NL), Danish (DK), Swedish
+(S), Norwegian (N), Finnish (FIN), Russian (RUS), Ukrainian (UA),
+Polish (Pol), Greek (GR), Japanese (J), Korean (ROK), Chinese (Simple
+and Traditional) (CN), Arabic (ARABIC), Hungarian (H), Indonesian
+(RI), Persian (IR), and Esperanto (EO).</P>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_5"></A><i>&nbsp; &nbsp; 5.5. Menu bar</i></H3>
+<P>The complete list of menus is the following:</P>
+<P><BR><B>File</B></P>
+<UL TYPE=DISC>
+	<LI><P STYLE="margin-bottom: 0in">New (it creates a new
+	configuration) 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Open (it opens the current
+	configuration) 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Save (it saves the current
+	configuration) 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Modify (it modifies the current
+	configuration) 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Export (html) (it exports the current
+	configuration in html format) 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Import (fcs) (it imports the current
+	configuration in fcs format (retro-compatibility) 
+	</P>		
+	<LI><P>Exit (it exits from Rainbow) 
+	</P>
+</UL>
+<P><BR><B>Simulation</B></P>
+<P>It contains all buttons to surf the simulation. These are present
+also in the tool bar. There is a button to visualize the current
+configuration inserted.</P>
+<P><BR><B>Views</B></P>
+<P>The default layout button allows to return to the standard layout
+of Rainbow. The maximum layout button allows to maximize views adopting 
+the tab visualization. So it is possible to see the simulation of 
+configurations with a lots of data in a comfortable way. All other 
+buttons turn on or off the respective views.</P>
+<P><BR><B>Language</B></P>
+<P>The list of the available languages with their flags.</P>
+<P><BR><B>Help</B></P>
+<P>Used to recall the help and the about functionalities.</P>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_6"></A><i>&nbsp; &nbsp; 5.6. Help</i></H3>
+<P>In every moment, the user can call the main or context sensitive
+help, by clicking in the help menu, or in the question mark of a
+view.</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<HR>
+<P STYLE="margin-bottom: 0in">[<A HREF="chapter_4.html">Minimal
+requirements</A>] &nbsp; &nbsp; [<A HREF="index.html">index</A>] &nbsp;
+&nbsp; [<A HREF="chapter_6.html">Appendix</A>] 
+</P>
+<HR>
+</BODY>
+</HTML>

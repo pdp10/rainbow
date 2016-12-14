@@ -1,6 +1,3 @@
-Rainbow 3.2.14
-07 May 2015
-
 Current designer/programmers: 
 Piero Dalle Pezze (Rainbow)
 

@@ -1,0 +1,7 @@
+
+
+LOGO LICENSE:
+http://www.adam-hart-davis.org/ 
+
+Icons LICENSE:
+They are icons of the "nuvola" theme of KDE.
