@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+                     "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+	<mapID target="index" url="index.html"/>
+	<mapID target="introduction" url="chapter_1.html"/>
+	<mapID target="how_to_report_a_bug" url="chapter_2.html"/>
+	<mapID target="general_description" url="chapter_3.html"/>
+	<mapID target="minimal_requirements" url="chapter_4.html"/>
+
+	<mapID target="functional_description" url="chapter_5.html"/>
+	<mapID target="configuration_of_rainbow" url="chapter_5.html#par_1"/>
+	<mapID target="configuration_of_a_simulation" url="chapter_5.html#par_2"/>
+	<mapID target="processes_tab" url="chapter_5.html#processes_tab"/>
+	<mapID target="resources_tab" url="chapter_5.html#resources_tab"/>
+	<mapID target="accesses_tab" url="chapter_5.html#accesses_tab"/>
+	<mapID target="policies_tab" url="chapter_5.html#policies_tab"/>
+	<mapID target="simulation" url="chapter_5.html#par_3"/>	
+	<mapID target="assignment_resources" url="chapter_5.html#assignment_resources"/>	
+	<mapID target="processes" url="chapter_5.html#processes"/>
+	<mapID target="resources" url="chapter_5.html#resources"/>
+	<mapID target="terminated" url="chapter_5.html#terminated"/>
+	<mapID target="statistics" url="chapter_5.html#statistics"/>
+	<mapID target="ready_queue" url="chapter_5.html#ready_queue"/>
+	<mapID target="advancement" url="chapter_5.html#advancement"/>
+	<mapID target="multilanguage" url="chapter_5.html#par_4"/>
+	<mapID target="menubar" url="chapter_5.html#par_5"/>
+	<mapID target="help" url="chapter_5.html#par_6"/>
+
+	<mapID target="appendix" url="chapter_6.html"/>
+	<mapID target="glossary" url="chapter_6.html#par_1"/>
+	<mapID target="scheduling_policies" url="chapter_6.html#par_2"/>
+	<mapID target="assignment_policies" url="chapter_6.html#par_3"/>
+	<mapID target="references" url="chapter_6.html#par_4"/>
+	
+</map>

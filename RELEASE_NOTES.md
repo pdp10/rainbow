@@ -8,8 +8,6 @@ view of the scheduler of processes. The main changes are reported below.
  
 Iced-features:
 
-- Fix bug in Ant build.xml to create distribution
-- Link MANIFEST.MF to build.xml
 - Add junit tests
 - Simulation of a multi-core system
 - Simulation of Linux / Unix system
@@ -17,11 +15,11 @@ Iced-features:
 - Generalise this software for simulating business processes and resources (and not just computer processes and resources)
 - other ideas? :)
 
-Trunk
+3.2.16
 
+ - removed import function for old binary CFC configuration files
  - Re-packaging of classes using org.rainbow
- - Use of Ant instead of Make.
- - Use of Git for version control.
+ - Use of Maven instead of Ant.
 
 3.2.14
 
@@ -38,7 +36,7 @@ Trunk
 
 3.2.8
 
- - Simplified the multilanguage management by integrating the language configuration in 1 place. 
+ - Simplified the multi-language management by integrating the language configuration in 1 place. 
 
 3.2.6
 
@@ -46,12 +44,12 @@ Trunk
 
 3.2.4 
 
- - Redisign of the Scheduler package in order to enable the development of alternative Schedulers. This aims to generalise this Simulator to a scenary outside Operating Systems.
+ - Re-design of the Scheduler package in order to enable the development of alternative Schedulers. This aims to broaden the uses of this Simulator.
 
 
 Before v3.2: 
 
- - Support of internationalization;
+ - Support of internationalisation;
  - New design and implementation of the modules:
    Scheduler, SimulatedProcess, AssignmentPolicy, Resource, DataInput;
  - Support of the mechanism ICPP (Immediate Ceiling Priority Protocol);

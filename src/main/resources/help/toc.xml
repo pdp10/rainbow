@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN"
+                     "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+
+<toc version="2.0">
+	<tocitem text="index" target="index" />
+	<tocitem text="1. Introduction" target="introduction" />
+	<tocitem text="2. How to report a bug" target="how_to_report_a_bug" />
+	<tocitem text="3. General description" target="general_description" />
+	<tocitem text="4. Minimal requirements" target="minimal_requirements" />
+	<tocitem text="5. Functional description" target="functional_description">
+		<tocitem text="5.1. Configuration of Rainbow" target="configuration_of_rainbow" />
+		<tocitem text="5.2. Configuration of a simulation" target="configuration_of_a_simulation">
+			<tocitem text="processes_tab" target="processes_tab" />
+			<tocitem text="resources_tab" target="resources_tab" />
+			<tocitem text="accesses_tab" target="accesses_tab" />
+			<tocitem text="policies_tab" target="policies_tab" />
+		</tocitem>
+		<tocitem text="5.3. Simulation" target="simulation">
+			<tocitem text="advancement" target="advancement" />
+			<tocitem text="assignment_resources" target="assignment_resources" />
+			<tocitem text="ready_queue" target="ready_queue" />
+			<tocitem text="terminated" target="terminated" />
+			<tocitem text="processes" target="processes" />
+			<tocitem text="resources" target="resources" />
+			<tocitem text="statistics" target="statistics" />
+		</tocitem>
+		<tocitem text="5.4. Multilanguage" target="multilanguage" />
+		<tocitem text="5.5. Menubar" target="menubar" />
+		<tocitem text="5.6. Help" target="help" />
+	</tocitem>
+	<tocitem text="6. Appendix" target="appendix">
+		<tocitem text="6.1. Glossary" target="glossary" />
+		<tocitem text="6.2. Scheduling policies" target="scheduling_policies" />
+		<tocitem text="6.3. Assignment policies" target="assignment_policies" />
+		<tocitem text="6.4. References" target="references" />
+	</tocitem>
+</toc>

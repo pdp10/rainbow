@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 2.0//EN"
+                       "http://java.sun.com/products/javahelp/index_2_0.dtd">
+
+<index version="2.0">
+	<indexitem text="index" target="index" />
+	<indexitem text="1. Introduction" target="introduction" />
+	<indexitem text="2. How to report a bug" target="how_to_report_a_bug" />
+	<indexitem text="3. General description" target="general_description" />
+	<indexitem text="4. Minimal requirements" target="minimal_requirements" />
+	<indexitem text="5. Functional description" target="functional_description">
+		<indexitem text="5.1. Configuration of Rainbow" target="configuration_of_rainbow" />
+		<indexitem text="5.2. Configuration of a simulation" target="configuration_of_a_simulation">
+			<indexitem text="processes_tab" target="processes_tab" />
+			<indexitem text="resources_tab" target="resources_tab" />
+			<indexitem text="accesses_tab" target="accesses_tab" />
+			<indexitem text="policies_tab" target="policies_tab" />
+		</indexitem>
+		<indexitem text="5.3. Simulation" target="simulation">
+			<indexitem text="advancement" target="advancement" />
+			<indexitem text="assignment_resources" target="assignment_resources" />
+			<indexitem text="ready_queue" target="ready_queue" />
+			<indexitem text="terminated" target="terminated" />
+			<indexitem text="processes" target="processes" />
+			<indexitem text="resources" target="resources" />
+			<indexitem text="statistics" target="statistics" />
+		</indexitem>
+		<indexitem text="5.4. Multilanguage" target="multilanguage" />
+		<indexitem text="5.5. Menubar" target="menubar" />
+		<indexitem text="5.6. Help" target="help" />
+	</indexitem>
+	<indexitem text="6. Appendix" target="appendix">
+		<indexitem text="6.1. Glossary" target="glossary" />
+		<indexitem text="6.2. Scheduling policies" target="scheduling_policies" />
+		<indexitem text="6.3. Assignment policies" target="assignment_policies" />
+		<indexitem text="6.4. References" target="references" />
+	</indexitem>
+</index>

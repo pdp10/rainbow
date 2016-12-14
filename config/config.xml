@@ -2,7 +2,7 @@
 
 <!--
     Document   : config.xml
-    Created on : Fri 2016.01.08 at 09:50:46 PM GMT
+    Created on : Wed 2016.12.14 at 03:42:33 PM GMT
     Author     : auto-generated
     Description:
         This is the configuration file of Rainbow.
@@ -11,7 +11,7 @@
 
 <!DOCTYPE words SYSTEM "config.dtd">
 <configuration>
-    <config application_name = "Rainbow 3.2.14"/>
+    <config application_name = "Rainbow 3.2.16"/>
     <config max_number_processes = "100"/>
     <config max_number_resources = "100"/>
     <config max_number_accesses = "500"/>

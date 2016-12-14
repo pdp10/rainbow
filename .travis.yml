@@ -3,5 +3,4 @@ jdk:
   - oraclejdk8
   - oraclejdk7
 install: 
-  - ant test
-
+  - mvn package

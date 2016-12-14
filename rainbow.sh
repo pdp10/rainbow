@@ -1,5 +1,5 @@
 #
-# Rainbow - A simulator of processes and resources in a multitasking computer.
+# Rainbow - A simulator of computer processes and resources.
 # Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
 #
 # This program is free software; you can redistribute it and/or modify
@@ -17,4 +17,7 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
 
-java -jar rainbow-*.jar 
+java -cp "lib/*:target/rainbow-devel-jar-with-dependencies.jar" org.rainbow.main.Rainbow
+
+
+# java -jar target/rainbow-*-with-dependencies.jar 

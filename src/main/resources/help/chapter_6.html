@@ -1,0 +1,308 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>Chapter 6. Appendix</TITLE>
+	<meta name="generator" content="Bluefish 1.0.7">
+	<meta name="author" content="Piero Dalle Pezze">
+	<META NAME="CREATED" CONTENT="20070512;15210500">
+	<META NAME="CHANGEDBY" CONTENT="Piero Dalle Pezze">
+	<META NAME="CHANGED" CONTENT="20070512;15233200">
+	<LINK href="style.css" rel="stylesheet" type="text/css">
+</HEAD>
+<BODY LANG="en-US" DIR="LTR" CLASS="ELEGANT">
+<H2 CLASS="western"><i>Chapter 6. Appendix</i></H2>
+<HR>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="#par_1">Glossary</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="#par_2">Scheduling
+	policies</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="#par_3">Assignment
+	policies</A> 
+	</P>
+	<LI><P><A HREF="#par_4">References</A> 
+	</P>
+</UL>
+<HR>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_1"></A><i>&nbsp; &nbsp; 6.1. Glossary</i></H3>
+<P><BR><B>Attribution</B>:</P>
+<P>It shows processes to whom the resource is attributed.</P>
+<P><A NAME="Deadlock"></A><BR><B>Deadlock</B>: 
+</P>
+<P>A set of processes is in a deadlock state if every process waits
+an event that only another process in the same set can throw. There
+are four conditions to rise a deadlock: 
+</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0in">Mutual exclusion: every resource
+	can be accessed by only a process. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">Hold and wait: processes, that
+	obtain resources, can ask other ones. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in">No preemption: A resource assigned
+	to a process cannot be subtracted to it until the voluntary release
+	of the process. 
+	</P>
+	<LI><P>Circular waiting: there is a circular chains of requests
+	among processes to resources. 
+	</P>
+</OL>
+<P><BR><B>Multiplicity</B>: 
+</P>
+<P>It is the maximum number of processes that a resource can be
+attributed in the same time. A resource with multiplicity 1 and no
+preemptive, is said to be accessed in mutual exclusion way.</P>
+<P><A NAME="ap"></A><BR><B>Assignment policy</B>: 
+</P>
+<P>An assignment policy sorts the queue of blocked processes. It
+determines how blocked processes wake up when the resource waited
+becomes available.</P>
+<P><A NAME="sp"></A><BR><B>Scheduling policy</B>: 
+</P>
+<P>A scheduling policy sorts the ready queue. It determines how ready
+processes are dispatched to the CPU.</P>
+<P><A NAME="processes"></A><BR><B>Process</B>: 
+</P>
+<P>A process is a program in execution. Inside an operating system, a
+process control block (PCB) manages current values of program counter
+registers and other variables. A PCB is an entry of the process
+table, which is manages by the scheduler. In this application
+processes are abstraction of real ones.</P>
+<P><A NAME="resources"></A><BR><B>Resource</B>: 
+</P>
+<P>A resource is everything can be accessed and used. P.E. a file, a
+device, a function etc. A resource can be preemptive or not
+preemptive.</P>
+<P><BR><B>No preemptive resource</B>: 
+</P>
+<P>It is a resource that cannot be subtracted to a process that is
+using it.</P>
+<P><BR><B>Preemptive resource</B>: 
+</P>
+<P>It is a resource that can be subtracted to a process that is using
+it.</P>
+<P><A NAME="simulation"></A><BR><B>Simulation</B>: 
+</P>
+<P>It is the temporal evolution of the process management.</P>
+<P><A NAME="Batch"></A><BR><B>Batch system</B>: 
+</P>
+<P>A batch system is characterized by a determined sorting, no
+preemptive, long execution jobs. This approach reduces context switch
+among processes, improving performances.</P>
+<P><A NAME="Interactive"></A><BR><B>Interactive system</B>: 
+</P>
+<P>An interactive system is characterized by a great variety of
+activities. Preemption is needed.</P>
+<P><A NAME="RealTime"></A><BR><B>Real time system</B>: 
+</P>
+<P>A real time system is characterized by short execution processes,
+often with deadline.</P>
+<P><A NAME="state"></A><BR><B>State of a process</B>: 
+</P>
+<P>The states of a process are: to activate, ready, running, blocked,
+terminated.</P>
+<P><A NAME="waitingTime"></A><BR><B>Waiting time</B>: 
+</P>
+<P>It is the time when the process is waiting for execution.</P>
+<P><A NAME="responseTime"></A><BR><B>Response time</B>: 
+</P>
+<P>It is the time perceived by the end user is the interval between
+the instant at which an operator at a terminal enters a request for a
+response from a computer and the instant at which the first character
+of the response is received at a terminal.</P>
+<P><A NAME="TurnaroundTime"></A><BR><B>Turnaround time</B>: 
+</P>
+<P>It is the time between the placement of an order and its delivery.</P>
+<P><A NAME="Throughput"></A><BR><B>Throughput</B>: 
+</P>
+<P>It is the number of job per hour that the system is able to
+complete.</P>
+<P><A NAME="Time slice"></A><BR><B>Time slice</B>: 
+</P>
+<P>The period of time for which a process is allowed to run in a
+preemptive multitasking system is generally called the &quot;time
+slice&quot;. The scheduler is run once every time slice to choose the
+next process to run. If the time slice is too short then the
+scheduler will consume too much processing time but if it is too long
+then processes may not be able to respond to external events quickly
+enough.</P>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_2"></A><i>&nbsp; &nbsp; 6.2. Scheduling
+policies</i></H3>
+<P>In this paragraph, all available scheduling policies are
+described: 
+</P>
+<UL TYPE=DISC>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="FIFO"></A><B>FIFO</B>:
+	(First In First Out) This is a policy for batch system. It holds the
+	ready queue sorted by FIFO. So the first process added to the queue
+	is the first to be extracted by the dispatcher. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="SJF"></A><B>SJF</B>:
+	(Shortest Job First) This is a policy for batch system. It holds the
+	ready queue sorted by execution time increasing. So it will extract
+	always the process with minimum execution time. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="SRTF"></A><B>SRTF</B>:
+	(Shortest Remain Time First) This is a policy for batch system. It
+	is a variant of SJF policy because it apply the preemption of the
+	running process when a process with a minor execution time is
+	inserted in the queue. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="RoundRobin"></A><B>Round
+	Robin</B>: This is a policy for interactive system. It holds the
+	ready queue sorted by FIFO, but executes the running process per a
+	quantum of time. When the quantum expires, the running process is
+	put to the tail of the queue. The quantum is also called time slice.
+		</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="PriorityRoundRobin"></A><B>Round
+	Robin with Priority</B>: This is a policy for interactive system. It
+	is a variant of the classic round robin policy. On details, it holds
+	the ready queue sorted by priority decreasing. So it will extract
+	always the process with the highest priority. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="PreemptiveOnPriorityRoundRobin"></A>
+	<B>Preemptive on Priority Round Robin</B>: This is a policy for
+	interactive system. It is a variant of the round robin with priority
+	policy. On details, it applies the preemption of the running process
+	when a process with higher priority is inserted in the queue. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="HPF"></A><B>HPF</B>:
+	(Highest Priority First) This is a policy for interactive system. It
+	holds the ready queue sorted by priority decreasing. So it will
+	extract always the process with the highest priority. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="PreemptiveHPF"></A><B>Preemptive
+	HPF</B>: (Preemptive Highest Priority First) This is a policy for
+	interactive system. It is a variant of the HPF policy. It applies
+	the preemption of the running process when a process with higher
+	priority is inserted in the queue. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="HRRN"></A><B>HRRN</B>:
+	(Highest Response Ratio Next) This is a policy for interactive
+	system. The response ratio of a process is so defined:
+	response_ratio = (expected_execution_time + waiting_time) /
+	expected_execution_time . It will extract always the process with
+	the highest response ratio. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="MF"></A><B>MF</B>:
+	(Multilevel Feedback) This is a policy for interactive system. The
+	ready queue is made of several queues sorted by FIFO policy. An
+	activated process is inserted on the tail of the queue Q0. As Round
+	Robin, it executes the running process, which was before ready in
+	the queue Qi, only for a quantum of time. Then the process is
+	inserted in a queue Q(i+1). It always extracts, if exists, the
+	process in the queue of lower level. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="PreemptiveMF"></A><B>Preemptive
+	MF</B>: (Preemptive Multilevel Feedback) This is a policy for
+	interactive system. It is a variant of the classic Multilevel
+	Feedback policy. It applies the preemption of the running process
+	when a new process is inserted in a queue of lower level than the
+	level of the queue of the running process. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="MFDQ"></A><B>MFDQ</B>:
+	(Multilevel Feedback with Dynamic Quantum) This is a policy for
+	interactive system. It is a variant of the classic Multilevel
+	Feedback policy. The quantum value depends on the level of the
+	queue. On details: 
+	</P>
+	<UL TYPE=SQUARE>
+		<LI><P STYLE="margin-bottom: 0in">queue of level 0 :
+		dynamic_time_slice = time_slice 
+		</P>
+		<LI><P STYLE="margin-bottom: 0in">queue of level i-th:
+		dynamic_time_slice(i) = 2 * dynamic_time_slice(i-1) 
+		</P>
+	</UL>
+	<P STYLE="margin-bottom: 0in">So a process executes for a quantum of
+	time as longer as the level of queue is higher. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="PreemptiveMFDQ"></A><B>Preemptive
+	MFDQ</B>: (Preemptive Multilevel Feedback with Dynamic Quantum) This
+	is a policy for interactive system. This is a variant of the
+	Multilevel Feedback with Dynamic Quantum policy. It applies the
+	preemption of the running process when a new process is inserted in
+	a queue of lower level than the level of the queue of the running
+	process. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="Linux"></A><B>Linux</B>:
+	This is a policy for interactive system. It is the Linux scheduling
+	policy. See <A HREF="#par_5">references</A> for details. (Not supported yet!)
+	</P>
+	<LI><P><A NAME="UNIX"></A><B>UNIX</B>: This is a policy for
+	interactive system. It is the UNIX scheduling policy. See <A HREF="#par_5">references</A>
+	for details. (Not supported yet!)
+	</P>
+</UL>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_3"></A><i>&nbsp; &nbsp; 6.3. Assignment
+policies</i></H3>
+<P>In this paragraph, all available assignment policies are
+described: 
+</P>
+<UL TYPE=DISC>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="FIFOAssign"></A><B>First In
+	First Out:</B> This policy holds the queue of requests of processes
+	to a resource sorted by FIFO. So the first process blocked in the
+	queue is the first signaled in the queue when the non-preemptive
+	resource will become available. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="HPFAssign"></A><B>Highest
+	Priority First:</B> This policy holds the queue of requests of
+	processes to a resource sorted by HPF. So the first process signaled
+	when the non-preemptive resource will become available is the
+	process with the highest dynamic priority in the queue. 
+	</P>
+	<LI><P><A NAME="RandomAssign"></A><B>Random:</B> This policy holds the
+	queue of requests of processes to a resource sorted by FIFO.
+	However, the process signaled when the non-preemptive resource will
+	become available is chosen in a random way. This policy simulates
+	the behavior of the notify() method in Java. (By assuming in this
+	context, processes instead of threads) 
+	</P>
+</UL>
+<P><BR><BR>
+</P>
+<H3 CLASS="western"><A NAME="par_4"></A><i>&nbsp; &nbsp; 6.4. References</i></H3>
+<P>A list of useful references is: 
+</P>
+<UL TYPE=DISC>
+	<LI><P STYLE="margin-bottom: 0in"><I>Modern Operating System</I> by
+	Andrew S. Tanenbaum 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><I>Operating System Concepts</I>
+	by Silberschatz, Galvin, Gagne 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><I>Concurrency in Ada</I> by
+	Burns, Wellings 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><I>Thinking in Java</I> by Bruce
+	Eckel 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><I>Software Engineering</I> by Ian
+	Sommerville 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><I>SWEBOK - Guide to the Software
+	Engineering Body of Knowledge</I> by IEEE 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="http://www.gnu.org/"><I>GNU</I></A></P>
+	<LI><P><A HREF="http://en.wikipedia.org/wiki/Main_Page"><I>Wikipedia</I></A>
+		</P>
+</UL>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<HR>
+<P STYLE="margin-bottom: 0in">[<A HREF="chapter_5.html">Functional
+description</A>] &nbsp; &nbsp; [<A HREF="index.html">index</A>] 
+</P>
+<HR>
+</BODY>
+</HTML>

@@ -1,5 +1,5 @@
 @echo off
-rem Rainbow - A simulator of processes and resources in a multitasking computer.
+rem Rainbow - A simulator of computer processes and resources.
 rem Copyright (C) 2006. E-mail: piero.dallepezze@gmail.com
 rem
 rem This program is free software; you can redistribute it and/or modify
@@ -17,4 +17,7 @@ rem with this program; if not, write to the Free Software Foundation, Inc.,
 rem 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 @echo on
-java -jar rainbow-*.jar
+
+java -cp "lib/*;target/rainbow-devel-jar-with-dependencies.jar" org.rainbow.main.Rainbow
+
+rem java -jar target\rainbow-*-with-dependencies.jar 
