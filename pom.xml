@@ -120,8 +120,8 @@ http://randomizedsort.blogspot.co.uk/2011/10/configuring-maven-to-use-local-libr
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.3</version>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
 	
